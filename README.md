@@ -8,3 +8,8 @@ Well Logged organizes well logs that are collected during the drilling for oil a
 # The tools
 
 # The mockup
+
+
+# NOTES
+
+Weld Co. CO 1-12N 56-68W
