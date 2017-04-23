@@ -1,0 +1,116 @@
+
+
+<html>
+
+
+<head>
+<script src="/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+urchinTracker();
+</script>
+
+
+<meta name="GENERATOR" content="Microsoft Visual Studio 6.0">
+<title>COGIS - Query Process</title>
+</head>
+<body >
+
+
+
+<font face=Arial>
+<!--
+<img SRC="images/s_cogcc_head.jpg" width="513" height="51" alt="Colorado Oil & Gas Conservation Commission"><br>
+<img SRC="images/s_head_fill.jpg" width="123" height="22">
+ -->
+
+<p><font size="5" color="#000080" face="Arial"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  COGIS - Facility Query Results</b></font></p>
+
+
+
+<!-- CREATE HEADER FOR PRODUCTION LIST -->
+
+<br>
+<blockquote>
+<table border=1 cellspacing=0 cellpadding=1>
+
+	<tr>
+		<td>You requested facilities by:</td>
+		<td>'WELL'</td>
+	</tr>
+
+	<tr>
+		<td>You requested county codes:</td>
+		<td>123</td>
+	</tr>
+
+	
+	<tr>
+		<td>Maximum records are limited to:</td>
+		<td>1</td>
+	</tr>
+	
+	<tr>
+		<td>For detail information:</td>
+		<td>Click on facility type.</td>
+	</tr>
+</table>
+
+	
+			<table border=1 cellspacing=0 cellpadding=1>
+			<tr  bgcolor=silver >
+				<th colspan="8"><font size="2" face=Arial>Search Results - 1 record(s) returned.</font></th>
+			</tr>
+			<tr  bgcolor=Silver>
+				<th nowrap><font size="2" face=Arial>Facility Type</font></th>
+				<th nowrap><font size="2" face=Arial>Facility ID/<br>API</font></th>
+				<th><font size="2" face=Arial>Facility Name/<br>Number</font></th>
+				<th nowrap><font size="2" face=Arial>Operator Name/<br>Number</font></th>
+				<th nowrap><font size="2" face=Arial>Status</font></th>
+				<th nowrap><font size="2" face=Arial>Field Name/<br>Number</font></th>
+				<th><font size="2" face=Arial>Location</font></th>
+				<th><font size="2" face=Arial>Related Facilities</font></th>
+				
+			</tr>
+			
+		
+			<tr>
+				
+				
+					<!--td nowrap align="center"><font size="2" face=Arial><a href="FacilityDetail.asp?facid=12305800&operator_num=96710&type=WELL">WELL</a></font></td-->
+					<td nowrap align="center"><font size="2" face=Arial><a href="FacilityDetail.asp?facid=12305800&type=WELL">WELL</a></font></td>
+					<td nowrap align="center"><font size="2" face=Arial>05-123-05800</font></td>
+					
+					
+
+				<td nowrap align="center"><font size="2" face=Arial>REAGAN                             <br>1              </font></td>
+				<td nowrap align="center"><font size="2" face=Arial>WILLIAMSON INC* LOWELL                            <br>96710</font></td>
+				<td align="center"><font size="2" face=Arial>DA<br>7/28/1957</font>&nbsp;</td>
+				<td nowrap align="center"><font size="2" face=Arial>WILDCAT                       <br>99999</font></td>
+				<td nowrap align="center"><font size="2" face=Arial>WELD                               &nbsp;123<br>NENE  &nbsp;1 &nbsp;10N   56W    &nbsp;6&nbsp;</font></td>
+				
+				
+				<td nowrap align="center"><font size="2" face=Arial><a href="FacilityRelated.asp?facid=238922"><img src="images/related.gif" border="0" width="37" height="16"></a>&nbsp;</font></td>
+				
+			
+			</tr>
+
+		
+		</table>
+</blockquote>
+
+
+	
+<p>
+<!-- 
+<p><map name="FPMap0">
+<area href="http://oil-gas.state.co.us/" shape="rect" coords="25, 2, 79, 56">
+<area href="default.asp" shape="rect" coords="169, 25, 224, 56">
+<area href="javascript:history.back()" shape="rect" coords="82, 26, 169, 54"></map><img border="0" src="images/cogis_footer.gif" usemap="#FPMap0"></p>
+ -->
+
+</p>
+
+</font>
+</body>
+</html>
