@@ -1,13 +1,13 @@
 'use strict'
 
 var http = require("http")
-const { writeFile, appendFile } = require('fs')
+const { readFile, writeFile, appendFile } = require('fs')
 
 // http://stackoverflow.com/questions/6158933/how-to-make-an-http-post-request-in-node-js
 // An object of options to indicate where to POST
 // Weld Co. CO 1-12N 56-68W
-for (let i = 1; i < 13; i++) {
-  for (let j = 56; j < 69; j++) {
+for (let i = 10; i < 11; i++) {
+  for (let j = 60; j < 61; j++) {
     var options = {
       hostname: 'cogcc.state.co.us',
       port: 80,
@@ -19,6 +19,7 @@ for (let i = 1; i < 13; i++) {
     }
 
     let chunk_merged = ''
+      // read in the local apis.json file
 
     // Set up the request
     var req = http.request(options, function(res) {
@@ -30,12 +31,16 @@ for (let i = 1; i < 13; i++) {
       res.on('end', function() {
         const regex = /\d{2}-\d{3}-\d{5}/g
         let chunk_match = chunk_merged.match(regex)
-        console.log('chunk_match', chunk_match)
+          // chunk_match returns an array
+          // TODO if API exists, don't save it to the file
         if (chunk_match !== null) {
-          // Push the APIs into database
-          appendFile('forms/apis.txt', `, ${chunk_match}`, (err) => {
-            if (err) throw err
-          })
+          for (let i = 0; i < chunk_match.length; i++) {
+            console.log(i, { 'api': chunk_match[i] })
+              // Push the APIs into database
+            appendFile('forms/apis.txt', `{ 'api': ${chunk_match[i]} },`, (err) => {
+              if (err) throw err
+            })
+          }
         }
       })
     })
@@ -44,9 +49,8 @@ for (let i = 1; i < 13; i++) {
       console.log('problem with request: ' + e.message)
     })
 
-    // post the form data
-    // console.log('running through loop', `${i}N, ${j}W`)
-    req.write(`factype=%27WELL%27&county=123&twp${i}N=&rng=${j}W&maxrec=1&Button1=Submit`)
+    // post the form
+    req.write(`factype=%27WELL%27&county=123&twp${i}N=&rng=${j}W&maxrec=10&Button1=Submit`)
     req.end()
   }
 }
