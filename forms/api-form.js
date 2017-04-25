@@ -33,7 +33,7 @@ for (let i = 1; i < 13; i++) {
         console.log('chunk_match', chunk_match)
         if (chunk_match !== null) {
           // Push the APIs into database
-          appendFile('forms/response-apis.txt', `, ${chunk_match}`, (err) => {
+          appendFile('forms/apis.txt', `, ${chunk_match}`, (err) => {
             if (err) throw err
           })
         }
@@ -50,10 +50,3 @@ for (let i = 1; i < 13; i++) {
     req.end()
   }
 }
-
-
-
-
-
-// POST to http://cogcc.state.co.us/weblink/results.aspx?id=12305800
-// Use each API to get log data
