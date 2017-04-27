@@ -6,6 +6,8 @@ const { readFile, writeFile, appendFile } = require('fs')
 // http://stackoverflow.com/questions/6158933/how-to-make-an-http-post-request-in-node-js
 // An object of options to indicate where to POST
 // Weld Co. CO 1-12N 56-68W
+// TODO if you want more counties, change the i and j iteration for the T&Rs of interest
+// and change req.write to remove or change the county
 for (let i = 10; i < 11; i++) {
   for (let j = 60; j < 61; j++) {
     var options = {
@@ -18,26 +20,26 @@ for (let i = 10; i < 11; i++) {
       }
     }
 
-    let chunk_merged = ''
-      // read in the local apis.json file
+    let merge_chunk = '';
+    // read in the local apis.json file
 
     // Set up the request
     var req = http.request(options, function(res) {
       res.setEncoding('utf8')
       res.on('data', function(chunk) {
-          chunk_merged += chunk
-        })
-        // when the request is complete, log the entire response
+        merge_chunk += chunk
+      });
+      // when the request is complete, log the entire response
       res.on('end', function() {
         const regex = /\d{2}-\d{3}-\d{5}/g
-        let chunk_match = chunk_merged.match(regex)
-          // chunk_match returns an array
+        let chunk_APIs = merge_chunk.match(regex)
+          // chunk_APIs returns an array
           // TODO if API exists, don't save it to the file
-        if (chunk_match !== null) {
-          for (let i = 0; i < chunk_match.length; i++) {
-            console.log(i, { 'api': chunk_match[i] })
+        if (chunk_APIs !== null) {
+          for (let i = 0; i < chunk_APIs.length; i++) {
+            console.log(i, { 'api': chunk_APIs[i] })
               // Push the APIs into database
-            appendFile('forms/apis.txt', `{ 'api': ${chunk_match[i]} },`, (err) => {
+            appendFile('req_forms/temp_files/apis.txt', `{ 'api': ${chunk_APIs[i]} },`, (err) => {
               if (err) throw err
             })
           }

@@ -3,10 +3,13 @@
 var http = require("http")
 var path = require('path')
 const { readFile, writeFile, appendFile } = require('fs')
+const cheerio = require('cheerio');
+const $ = require('cheerio');
 
-// loop through APIs to make a POST to http://cogcc.state.co.us/weblink/results.aspx?id=12305800
+// read in the APIs from local file
+// TODO change to database
 let api_array = [];
-readFile(path.join(__dirname, 'apis.txt'), 'utf8', (err, data) => {
+readFile(path.join(__dirname, 'temp_files/apis.txt'), 'utf8', (err, data) => {
   if (err) throw err
   // split data on ,
   let api_array = data.split(', ')
@@ -15,6 +18,7 @@ readFile(path.join(__dirname, 'apis.txt'), 'utf8', (err, data) => {
   }
 })
 
+// TODO loop through APIs to make a POST to http://cogcc.state.co.us/weblink/results.aspx?id=12305800
 // and pull out the well logs and directional data if present
 http.get('http://cogcc.state.co.us/weblink/results.aspx?id=12305800', (res) => {
   const { statusCode } = res;
@@ -37,8 +41,11 @@ http.get('http://cogcc.state.co.us/weblink/results.aspx?id=12305800', (res) => {
 
   res.setEncoding('utf8');
   let rawData = '';
+  // when data chunks are recieved, combine them
   res.on('data', (chunk) => { rawData += chunk; });
+  // when the chunks stop coming in parse the html and pull out the data
   res.on('end', () => {
+    // $ parse html with cheerio
     try {
       console.log(rawData);
     } catch (e) {
