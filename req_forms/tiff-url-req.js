@@ -1,4 +1,5 @@
 'use strict'
+// to run: 'node req_forms/tiff-url-req'
 
 var http = require("http")
 var path = require('path')
@@ -7,7 +8,7 @@ const cheerio = require('cheerio');
 
 
 // read in the APIs from local file
-// TODO change to database
+// TO DO change to database
 // let api_array = [];
 // readFile(path.join(__dirname, 'temp_files/apis.txt'), 'utf8', (err, data) => {
 //   if (err) throw err
@@ -18,9 +19,8 @@ const cheerio = require('cheerio');
 //   }
 // })
 
-// TODO loop through APIs to make a POST to http://cogcc.state.co.us/weblink/results.aspx?id=12305800
-// and pull out the well logs and directional data if present
-http.get('http://cogcc.state.co.us/weblink/results.aspx?id=12305801', (res) => {
+// TO DO loop through APIs to GET well logs and directional data if present
+http.get(`http://cogcc.state.co.us/weblink/results.aspx?id=12305801`, (res) => {
   const { statusCode } = res;
   const contentType = res.headers['content-type'];
 
@@ -45,26 +45,22 @@ http.get('http://cogcc.state.co.us/weblink/results.aspx?id=12305801', (res) => {
   res.on('data', (chunk) => { rawData += chunk; });
   // when the chunks stop coming in parse the html and pull out the data
   res.on('end', () => {
-    rawData.replace(/(?:\n|\t|\r)/g, "")
-      // $ parse html with cheerio
-    var $ = cheerio.load(rawData)
-    // this gets an array of <span>...</span>
-    $('td span').each(function(i, el) {
-      if ($(el).text().toLowerCase() === 'well logs') {
-        console.log('first', $(el).text())
-        // returns the name of the logs
-        console.log('second', $(el).parent().parent().next().next().text())
-        console.log('third', $(el).parent().parent().next().next().next().next().next().children().children().attr('href'))
-        // console.log('third', i, $(el).next().text())
-        console.log('it\'s a match!')
-      }
-    })
-
-    // try {
-    //   console.log(rawData);
-    // } catch (e) {
-    //   console.error(e.message);
-    // }
+    try {
+      rawData.replace(/(?:\n|\t|\r)/g, "")
+        // $ parse html with cheerio
+      var $ = cheerio.load(rawData)
+        // this gets an array of <span>...</span>
+      $('td span').each((i, el) => {
+        if ($(el).text().toLowerCase() === 'well logs') {
+          let well_logs = $(el).text()
+          let log_description = $(el).parent().parent().next().next().text()
+          let log_href = $(el).parent().parent().next().next().next().next().next().children().children().attr('href')
+          console.log(well_logs, log_description, log_href);
+        }
+      })
+    } catch (e) {
+      console.error(e.message)
+    }
   });
 }).on('error', (e) => {
   console.error(`Got error: ${e.message}`);
