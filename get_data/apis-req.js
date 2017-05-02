@@ -26,7 +26,7 @@ for (let i = 10; i < 11; i++) {
     readFile(path.join(__dirname, 'temp_files/apis.json'), 'utf8', (err, data) => {
       if (err) throw err
       apiArray = JSON.parse(data);
-      console.log(apiArray, typeof(apiArray))
+      console.log(apiArray, apiArray.length, typeof(apiArray))
       reqFunction();
     })
     let merge_chunk = '';
@@ -44,21 +44,23 @@ for (let i = 10; i < 11; i++) {
             // TO DO if API exists, don't save it to the file
             // loop through the chunk_APIs array to get each API
           if (chunk_APIs !== null) {
-            for (let k = 0; k < chunk_APIs.length; k++) {
-              console.log('chunk api', chunk_APIs[k])
-              if (apiArray.length === 0) {
-                apiArray.push({ api: `${chunk_APIs[k]}` })
-              } else {
-                for (let l = 0; l < apiArray.length; l++) {
-                  console.log('apiArray', apiArray[l]);
-                  if (chunk_APIs[k] === apiArray[l].api) {
-                    console.log(chunk_APIs[k], 'already exists')
-                  } else {
-                    apiArray.push({ api: `${chunk_APIs[k]}` })
-                  }
-                }
-              }
-            }
+            console.log('chunk_api length', chunk_APIs.length)
+            // for (let k = 0; k < chunk_APIs.length; k++) {
+            //   if (apiArray.length === 0) {
+            //     console.log('length is 0', chunk_APIs[k])
+            //     apiArray.push({ api: `${chunk_APIs[k]}` })
+            //   } else {
+            //     for (let l = 0; l < apiArray.length; l++) {
+            //       console.log('chunk api', chunk_APIs[k])
+            //       console.log('apiArray', apiArray[l].api);
+            //       if (chunk_APIs[k] === apiArray[l].api) {
+            //         console.log(chunk_APIs[k], 'already exists')
+            //       } else {
+            //         apiArray.push({ api: `${chunk_APIs[k]}` })
+            //       }
+            //     }
+            //   }
+            // }
             writeFile('get_data/temp_files/apis.json', JSON.stringify(apiArray), (err) => {
               if (err) throw err
             })
