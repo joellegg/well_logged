@@ -3,10 +3,9 @@
 const { Router } = require('express')
 const router = Router()
 
-const { getAllAPI, getSingleAPI, addOneAPI } = require('../controllers/apiCtrl')
+const { getAllApi, getSingleApi } = require('../controllers/apiCtrl')
 
-router.get('/api', getAllAPI)
-router.get('/api/:api', getSingleAPI)
-router.post('/api/new', addOneAPI)
+router.get('/api', getAllApi)
+router.get('/api/:api', getSingleApi)
 
 module.exports = router

@@ -7,7 +7,7 @@ router.use(require('./routes'))
 
 router.get('/', function(req, res) {
   res.json({
-    "title": "Menagerie API data",
+    "title": "API data",
     // "animal-tricks": "<name>.herokuapp.com/api/v1/animals/:id/tricks",
   })
 })
