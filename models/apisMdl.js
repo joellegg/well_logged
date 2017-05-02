@@ -3,7 +3,7 @@
 const { bookshelf } = require('../db/database')
 
 const Api = bookshelf.Model.extend({
-  tableName: 'logs'
+  tableName: 'api_data'
 }, {
   getAllApi: function() {
     console.log("Get all called from Api model")
@@ -14,7 +14,7 @@ const Api = bookshelf.Model.extend({
   },
   getSingleApi: function(api) {
     console.log("Get single api called from Api model")
-    return this.forge(api)
+    return this.forge({well_id: api})
     .fetchAll()
     .then(res => res)
     .catch(err => err)
