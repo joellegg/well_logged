@@ -13,20 +13,20 @@ for (let i = 10; i < 11; i++) {
   for (let j = 60; j < 61; j++) {
     // An object of options to indicate where to POST
     var options = {
-        hostname: 'cogcc.state.co.us',
-        port: 80,
-        path: '/cogis/facilitysearch2.asp',
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        }
+      hostname: 'cogcc.state.co.us',
+      port: 80,
+      path: '/cogis/facilitysearch2.asp',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
       }
-      // read in the apis from temp_files/apis.json
+    }
+
     let apiArray = [];
+    // read in the apis from temp_files/apis.json
     readFile(path.join(__dirname, 'temp_files/apis.json'), 'utf8', (err, data) => {
       if (err) throw err
       apiArray = JSON.parse(data);
-      console.log(apiArray, apiArray.length, typeof(apiArray))
       reqFunction();
     })
     let merge_chunk = '';
@@ -44,30 +44,35 @@ for (let i = 10; i < 11; i++) {
             // TO DO if API exists, don't save it to the file
             // loop through the chunk_APIs array to get each API
           if (chunk_APIs !== null) {
-            console.log('chunk_api length', chunk_APIs.length)
-            // for (let k = 0; k < chunk_APIs.length; k++) {
-            //   if (apiArray.length === 0) {
-            //     console.log('length is 0', chunk_APIs[k])
-            //     apiArray.push({ api: `${chunk_APIs[k]}` })
-            //   } else {
-            //     for (let l = 0; l < apiArray.length; l++) {
-            //       console.log('chunk api', chunk_APIs[k])
-            //       console.log('apiArray', apiArray[l].api);
-            //       if (chunk_APIs[k] === apiArray[l].api) {
-            //         console.log(chunk_APIs[k], 'already exists')
-            //       } else {
-            //         apiArray.push({ api: `${chunk_APIs[k]}` })
-            //       }
-            //     }
-            //   }
-            // }
+            // console.log('chunk_api length', chunk_APIs.length)
+            // console.log('apiArray length', apiArray.length);
+            // if the apiArrary length is zero then just add just the new data
+            if (apiArray.length === 0) {
+              for (let k = 0; k < chunk_APIs.length; k++) {
+                // console.log('length is 0', chunk_APIs[k])
+                apiArray.push({ api: `${chunk_APIs[k]}` })
+              }
+            }
+            // exclude duplicates
+            else if (apiArray.length > 0) {
+              // loop through the chunk apis to see if they exist in the apiArray from apis.json
+              for (let k = 0; k < chunk_APIs.length; k++) {
+                let well_id = { api: chunk_APIs[k] }
+                let pos = apiArray.map(function(res) {
+                  return res.api
+                }).indexOf(chunk_APIs[k])
+                if (pos === -1) {
+                  apiArray.push({ api: `${chunk_APIs[k]}` })
+                }
+              }
+            }
+            // push array to file
             writeFile('get_data/temp_files/apis.json', JSON.stringify(apiArray), (err) => {
               if (err) throw err
             })
           }
         })
       })
-
       req.on('error', (e) => console.log('problem with request: ' + e.message))
 
       // post the form
