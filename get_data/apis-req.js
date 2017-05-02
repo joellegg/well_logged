@@ -44,16 +44,14 @@ for (let i = 10; i < 11; i++) {
             // TO DO if API exists, don't save it to the file
             // loop through the chunk_APIs array to get each API
           if (chunk_APIs !== null) {
-            // console.log('chunk_api length', chunk_APIs.length)
-            // console.log('apiArray length', apiArray.length);
-            // if the apiArrary length is zero then just add just the new data
+            // if the apiArray is empty, add just the new data
             if (apiArray.length === 0) {
               for (let k = 0; k < chunk_APIs.length; k++) {
                 // console.log('length is 0', chunk_APIs[k])
                 apiArray.push({ api: `${chunk_APIs[k]}` })
               }
             }
-            // exclude duplicates
+            // loop to exclude duplicates
             else if (apiArray.length > 0) {
               // loop through the chunk apis to see if they exist in the apiArray from apis.json
               for (let k = 0; k < chunk_APIs.length; k++) {
