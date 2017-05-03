@@ -16,7 +16,7 @@ readFile(path.join(__dirname, 'temp_files/apis.json'), 'utf8', (err, data) => {
 })
 
 function getApiData() {
-  readFile(path.join(__dirname, 'temp_files/log_data.json'), 'utf8', (err, data) => {
+  readFile(path.join(__dirname, '../db/seeds/log_data.json'), 'utf8', (err, data) => {
     if (err) throw err
     api_data = JSON.parse(data)
     makeUrlReq()
@@ -61,14 +61,30 @@ function makeUrlReq() {
           $('td span').each((j, el) => {
             // if well logs exist
             if ($(el).text().toLowerCase() === 'well logs') {
-              let well_logs = $(el).text()
               let log_description = $(el).parent().parent().next().next().text()
               let log_href = $(el).parent().parent().next().next().next().next().next().children().children().attr('href')
-              console.log(apis[i].api_abv, well_logs, log_description, log_href);
-              // push data to file
-              // writeFile('get_data/temp_files/apis.json', JSON.stringify(apiArray), (err) => {
-              //   if (err) throw err
-              // })
+
+              let dataObj = {
+                api: apis[i].api,
+                api_abv: apis[i].api_abv,
+                doc_type: log_description,
+                doc_link: log_href
+              }
+
+
+              // see if the doc_link is already in the database
+              let linkPos = api_data.map(function(res) {
+                return res.doc_link
+              }).indexOf(log_href)
+
+              console.log('link position', linkPos)
+
+              if (linkPos === -1) {
+                api_data.push(dataObj)
+                writeFile('db/seeds/log_data.json', JSON.stringify(api_data), (err) => {
+                  if (err) throw err
+                })
+              }
             }
           })
         } catch (e) {
@@ -80,3 +96,9 @@ function makeUrlReq() {
     });
   }
 }
+
+// loop through apis to make req for each
+// if the req returns an obj
+// see if it already exists in the log_data file
+// if it does skip it
+// if not then add it

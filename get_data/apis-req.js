@@ -74,7 +74,7 @@ for (let i = 10; i < 11; i++) {
       req.on('error', (e) => console.log('problem with request: ' + e.message))
 
       // post the form
-      req.write(`factype=%27WELL%27&county=123&twp${i}N=&rng=${j}W&maxrec=10&Button1=Submit`)
+      req.write(`factype=%27WELL%27&county=123&twp${i}N=&rng=${j}W&maxrec=100&Button1=Submit`)
       req.end()
     }
   }
