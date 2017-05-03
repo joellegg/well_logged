@@ -1,17 +1,5 @@
 [
   {
-    "api": "05-123-05800",
-    "api_abv": "12305800",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2274708",
-    "doc_type": "IES, MICROLOG"
-  },
-  {
-    "api": "05-123-05800",
-    "api_abv": "12305800",
-    "doc_type": "INDUCTION LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2368349"
-  },
-  {
     "api": "05-123-31036",
     "api_abv": "12331036",
     "doc_type": "LAS-TRIPLE COMBINATION",
@@ -36,58 +24,160 @@
     "doc_link": "DownloadDocument1.aspx?DocumentId=2786985"
   },
   {
-    "api": "05-123-35755",
-    "api_abv": "12335755",
-    "doc_type": "DIRECTIONAL LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3061454"
+    "api": "05-123-31036",
+    "api_abv": "12331036",
+    "doc_type": "PDF-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2786989"
   },
   {
-    "api": "05-123-35755",
-    "api_abv": "12335755",
-    "doc_type": "DIRECTIONAL LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3061455"
-  },
-  {
-    "api": "05-123-35755",
-    "api_abv": "12335755",
-    "doc_type": "NEUTRON DENSITY RESISTIVITY LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3387906"
-  },
-  {
-    "api": "05-123-35755",
-    "api_abv": "12335755",
-    "doc_type": "COMBINATION OPEN HOLE",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3670484"
-  },
-  {
-    "api": "05-123-35755",
-    "api_abv": "12335755",
-    "doc_type": "CEMENT BOND",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3670485"
-  },
-  {
-    "api": "05-123-07685",
-    "api_abv": "12307685",
+    "api": "05-123-07200",
+    "api_abv": "12307200",
     "doc_type": "INDUCTION LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2245796"
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2367902"
   },
   {
-    "api": "05-123-07685",
-    "api_abv": "12307685",
-    "doc_type": "DENSITY LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2369897"
+    "api": "05-123-05891",
+    "api_abv": "12305891",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2253397"
   },
   {
-    "api": "05-123-20185",
-    "api_abv": "12320185",
-    "doc_type": "COMPENSATED DENSITY NEUTRON GAMMA RAY",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2290509"
+    "api": "05-123-05891",
+    "api_abv": "12305891",
+    "doc_type": "MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2318127"
   },
   {
-    "api": "05-123-20185",
-    "api_abv": "12320185",
-    "doc_type": "DUAL INDUCTION/GUARD LOG/GAMMA RAY",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2311821"
+    "api": "05-123-36053",
+    "api_abv": "12336053",
+    "doc_type": "CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3156038"
+  },
+  {
+    "api": "05-123-36053",
+    "api_abv": "12336053",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3587861"
+  },
+  {
+    "api": "05-123-36053",
+    "api_abv": "12336053",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3587862"
+  },
+  {
+    "api": "05-123-36053",
+    "api_abv": "12336053",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3587863"
+  },
+  {
+    "api": "05-123-36053",
+    "api_abv": "12336053",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3587864"
+  },
+  {
+    "api": "05-123-36053",
+    "api_abv": "12336053",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3587865"
+  },
+  {
+    "api": "05-123-36053",
+    "api_abv": "12336053",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3587866"
+  },
+  {
+    "api": "05-123-05900",
+    "api_abv": "12305900",
+    "doc_type": "ELECTRIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2246822"
+  },
+  {
+    "api": "05-123-05814",
+    "api_abv": "12305814",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2323500"
+  },
+  {
+    "api": "05-123-05814",
+    "api_abv": "12305814",
+    "doc_type": "MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2336580"
+  },
+  {
+    "api": "05-123-05814",
+    "api_abv": "12305814",
+    "doc_type": "OTHER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2344777"
+  },
+  {
+    "api": "05-123-35887",
+    "api_abv": "12335887",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3130948"
+  },
+  {
+    "api": "05-123-35887",
+    "api_abv": "12335887",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3130949"
+  },
+  {
+    "api": "05-123-35887",
+    "api_abv": "12335887",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3130950"
+  },
+  {
+    "api": "05-123-35887",
+    "api_abv": "12335887",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3130951"
+  },
+  {
+    "api": "05-123-35887",
+    "api_abv": "12335887",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3130952"
+  },
+  {
+    "api": "05-123-35887",
+    "api_abv": "12335887",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3130953"
+  },
+  {
+    "api": "05-123-35887",
+    "api_abv": "12335887",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3140997"
+  },
+  {
+    "api": "05-123-35887",
+    "api_abv": "12335887",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3141150"
+  },
+  {
+    "api": "05-123-35887",
+    "api_abv": "12335887",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3141190"
+  },
+  {
+    "api": "05-123-35887",
+    "api_abv": "12335887",
+    "doc_type": "PDF-GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3146203"
+  },
+  {
+    "api": "05-123-35887",
+    "api_abv": "12335887",
+    "doc_type": "PDF-GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3146204"
   },
   {
     "api": "05-123-26575",
@@ -114,40 +204,10 @@
     "doc_link": "DownloadDocument1.aspx?DocumentId=2762980"
   },
   {
-    "api": "05-123-19709",
-    "api_abv": "12319709",
-    "doc_type": "INDUCTION LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2341272"
-  },
-  {
-    "api": "05-123-19709",
-    "api_abv": "12319709",
-    "doc_type": "DENSITY LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2349684"
-  },
-  {
-    "api": "05-123-34880",
-    "api_abv": "12334880",
-    "doc_type": "MUD",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2933692"
-  },
-  {
-    "api": "05-123-34880",
-    "api_abv": "12334880",
-    "doc_type": "CEMENT BOND",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2933693"
-  },
-  {
-    "api": "05-123-34880",
-    "api_abv": "12334880",
-    "doc_type": "CEMENT BOND LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2945062"
-  },
-  {
-    "api": "05-123-34880",
-    "api_abv": "12334880",
-    "doc_type": "MUD LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2946244"
+    "api": "05-123-26575",
+    "api_abv": "12326575",
+    "doc_type": "CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=4109479"
   },
   {
     "api": "05-123-30761",
@@ -198,22 +258,160 @@
     "doc_link": "DownloadDocument1.aspx?DocumentId=2617246"
   },
   {
-    "api": "05-123-05814",
-    "api_abv": "12305814",
+    "api": "05-123-35755",
+    "api_abv": "12335755",
+    "doc_type": "DIRECTIONAL LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3061454"
+  },
+  {
+    "api": "05-123-35755",
+    "api_abv": "12335755",
+    "doc_type": "DIRECTIONAL LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3061455"
+  },
+  {
+    "api": "05-123-35755",
+    "api_abv": "12335755",
+    "doc_type": "NEUTRON DENSITY RESISTIVITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3387906"
+  },
+  {
+    "api": "05-123-35755",
+    "api_abv": "12335755",
+    "doc_type": "COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3670484"
+  },
+  {
+    "api": "05-123-35755",
+    "api_abv": "12335755",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3670485"
+  },
+  {
+    "api": "05-123-35755",
+    "api_abv": "12335755",
+    "doc_type": "COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3673880"
+  },
+  {
+    "api": "05-123-20185",
+    "api_abv": "12320185",
+    "doc_type": "COMPENSATED DENSITY NEUTRON GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2290509"
+  },
+  {
+    "api": "05-123-20185",
+    "api_abv": "12320185",
+    "doc_type": "DUAL INDUCTION/GUARD LOG/GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2311821"
+  },
+  {
+    "api": "05-123-07685",
+    "api_abv": "12307685",
     "doc_type": "INDUCTION LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2323500"
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2245796"
   },
   {
-    "api": "05-123-05814",
-    "api_abv": "12305814",
+    "api": "05-123-07685",
+    "api_abv": "12307685",
+    "doc_type": "DENSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2369897"
+  },
+  {
+    "api": "05-123-34880",
+    "api_abv": "12334880",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2933692"
+  },
+  {
+    "api": "05-123-34880",
+    "api_abv": "12334880",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2933693"
+  },
+  {
+    "api": "05-123-34880",
+    "api_abv": "12334880",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2945062"
+  },
+  {
+    "api": "05-123-34880",
+    "api_abv": "12334880",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2946244"
+  },
+  {
+    "api": "05-123-32488",
+    "api_abv": "12332488",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2778619"
+  },
+  {
+    "api": "05-123-32488",
+    "api_abv": "12332488",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2778849"
+  },
+  {
+    "api": "05-123-32488",
+    "api_abv": "12332488",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2783674"
+  },
+  {
+    "api": "05-123-32488",
+    "api_abv": "12332488",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3221134"
+  },
+  {
+    "api": "05-123-32488",
+    "api_abv": "12332488",
+    "doc_type": "PLATFORM EXPRESS",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3221135"
+  },
+  {
+    "api": "05-123-32488",
+    "api_abv": "12332488",
+    "doc_type": "CALIPER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3221136"
+  },
+  {
+    "api": "05-123-32488",
+    "api_abv": "12332488",
+    "doc_type": "INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3221137"
+  },
+  {
+    "api": "05-123-32488",
+    "api_abv": "12332488",
     "doc_type": "MICROLOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2336580"
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3221138"
   },
   {
-    "api": "05-123-05814",
-    "api_abv": "12305814",
-    "doc_type": "OTHER",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2344777"
+    "api": "05-123-32488",
+    "api_abv": "12332488",
+    "doc_type": "DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3221139"
+  },
+  {
+    "api": "05-123-32488",
+    "api_abv": "12332488",
+    "doc_type": "TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3221140"
+  },
+  {
+    "api": "05-123-32488",
+    "api_abv": "12332488",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3221141"
+  },
+  {
+    "api": "05-123-32488",
+    "api_abv": "12332488",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3919124"
   },
   {
     "api": "05-123-09394",
@@ -228,76 +426,16 @@
     "doc_link": "DownloadDocument1.aspx?DocumentId=2381409"
   },
   {
-    "api": "05-123-35887",
-    "api_abv": "12335887",
-    "doc_type": "MUD",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3130948"
+    "api": "05-123-05800",
+    "api_abv": "12305800",
+    "doc_type": "IES, MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2274708"
   },
   {
-    "api": "05-123-35887",
-    "api_abv": "12335887",
-    "doc_type": "MUD",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3130949"
-  },
-  {
-    "api": "05-123-35887",
-    "api_abv": "12335887",
-    "doc_type": "MUD",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3130950"
-  },
-  {
-    "api": "05-123-35887",
-    "api_abv": "12335887",
-    "doc_type": "MUD",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3130951"
-  },
-  {
-    "api": "05-123-35887",
-    "api_abv": "12335887",
-    "doc_type": "GAMMA RAY",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3130952"
-  },
-  {
-    "api": "05-123-35887",
-    "api_abv": "12335887",
-    "doc_type": "GAMMA RAY",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3130953"
-  },
-  {
-    "api": "05-123-05900",
-    "api_abv": "12305900",
-    "doc_type": "ELECTRIC LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2246822"
-  },
-  {
-    "api": "05-123-05891",
-    "api_abv": "12305891",
+    "api": "05-123-05800",
+    "api_abv": "12305800",
     "doc_type": "INDUCTION LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2253397"
-  },
-  {
-    "api": "05-123-05891",
-    "api_abv": "12305891",
-    "doc_type": "MICROLOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2318127"
-  },
-  {
-    "api": "05-123-07200",
-    "api_abv": "12307200",
-    "doc_type": "INDUCTION LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2367902"
-  },
-  {
-    "api": "05-123-07375",
-    "api_abv": "12307375",
-    "doc_type": "INDUCTION LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2269637"
-  },
-  {
-    "api": "05-123-07375",
-    "api_abv": "12307375",
-    "doc_type": "log",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2305174"
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2368349"
   },
   {
     "api": "05-123-14635",
@@ -324,16 +462,364 @@
     "doc_link": "DownloadDocument1.aspx?DocumentId=2416852"
   },
   {
-    "api": "05-123-36053",
-    "api_abv": "12336053",
-    "doc_type": "CBL 1ST RUN",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3156038"
+    "api": "05-123-07375",
+    "api_abv": "12307375",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2269637"
   },
   {
-    "api": "05-123-36053",
-    "api_abv": "12336053",
+    "api": "05-123-07375",
+    "api_abv": "12307375",
+    "doc_type": "log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2305174"
+  },
+  {
+    "api": "05-123-25626",
+    "api_abv": "12325626",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2250568"
+  },
+  {
+    "api": "05-123-25626",
+    "api_abv": "12325626",
+    "doc_type": "DUAL INDUCTION GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2357417"
+  },
+  {
+    "api": "05-123-25626",
+    "api_abv": "12325626",
+    "doc_type": "COMPENSATED DENSITY COMPENSATED NEUTRON GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2365767"
+  },
+  {
+    "api": "05-123-07588",
+    "api_abv": "12307588",
+    "doc_type": "DENSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2263856"
+  },
+  {
+    "api": "05-123-07588",
+    "api_abv": "12307588",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2325326"
+  },
+  {
+    "api": "05-123-34093",
+    "api_abv": "12334093",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2876490"
+  },
+  {
+    "api": "05-123-07101",
+    "api_abv": "12307101",
+    "doc_type": "DENSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2262976"
+  },
+  {
+    "api": "05-123-07101",
+    "api_abv": "12307101",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2280102"
+  },
+  {
+    "api": "05-123-07079",
+    "api_abv": "12307079",
+    "doc_type": "DENSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2321748"
+  },
+  {
+    "api": "05-123-07079",
+    "api_abv": "12307079",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2403915"
+  },
+  {
+    "api": "05-123-36337",
+    "api_abv": "12336337",
     "doc_type": "GAMMA RAY",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3587861"
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3148819"
+  },
+  {
+    "api": "05-123-36337",
+    "api_abv": "12336337",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3148820"
+  },
+  {
+    "api": "05-123-36337",
+    "api_abv": "12336337",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3148821"
+  },
+  {
+    "api": "05-123-36337",
+    "api_abv": "12336337",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3148822"
+  },
+  {
+    "api": "05-123-36337",
+    "api_abv": "12336337",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3148823"
+  },
+  {
+    "api": "05-123-19709",
+    "api_abv": "12319709",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2341272"
+  },
+  {
+    "api": "05-123-19709",
+    "api_abv": "12319709",
+    "doc_type": "DENSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2349684"
+  },
+  {
+    "api": "05-123-34825",
+    "api_abv": "12334825",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2933752"
+  },
+  {
+    "api": "05-123-34825",
+    "api_abv": "12334825",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2933753"
+  },
+  {
+    "api": "05-123-34825",
+    "api_abv": "12334825",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2945060"
+  },
+  {
+    "api": "05-123-34825",
+    "api_abv": "12334825",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2945137"
+  },
+  {
+    "api": "05-123-34825",
+    "api_abv": "12334825",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2946223"
+  },
+  {
+    "api": "05-123-36703",
+    "api_abv": "12336703",
+    "doc_type": "CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3111134"
+  },
+  {
+    "api": "05-123-36703",
+    "api_abv": "12336703",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3136957"
+  },
+  {
+    "api": "05-123-36703",
+    "api_abv": "12336703",
+    "doc_type": "CALIPER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3136958"
+  },
+  {
+    "api": "05-123-35685",
+    "api_abv": "12335685",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3071579"
+  },
+  {
+    "api": "05-123-35685",
+    "api_abv": "12335685",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3071581"
+  },
+  {
+    "api": "05-123-35685",
+    "api_abv": "12335685",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3326375"
+  },
+  {
+    "api": "05-123-35685",
+    "api_abv": "12335685",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3326376"
+  },
+  {
+    "api": "05-123-35685",
+    "api_abv": "12335685",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3326377"
+  },
+  {
+    "api": "05-123-35685",
+    "api_abv": "12335685",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3326378"
+  },
+  {
+    "api": "05-123-35685",
+    "api_abv": "12335685",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3326379"
+  },
+  {
+    "api": "05-123-36336",
+    "api_abv": "12336336",
+    "doc_type": "GAMMA RAY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3071574"
+  },
+  {
+    "api": "05-123-36336",
+    "api_abv": "12336336",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3071575"
+  },
+  {
+    "api": "05-123-36336",
+    "api_abv": "12336336",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3144006"
+  },
+  {
+    "api": "05-123-36336",
+    "api_abv": "12336336",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3144007"
+  },
+  {
+    "api": "05-123-36336",
+    "api_abv": "12336336",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3144008"
+  },
+  {
+    "api": "05-123-36336",
+    "api_abv": "12336336",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3144009"
+  },
+  {
+    "api": "05-123-36336",
+    "api_abv": "12336336",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3144010"
+  },
+  {
+    "api": "05-123-14473",
+    "api_abv": "12314473",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2231847"
+  },
+  {
+    "api": "05-123-14473",
+    "api_abv": "12314473",
+    "doc_type": "MINI LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2253338"
+  },
+  {
+    "api": "05-123-14473",
+    "api_abv": "12314473",
+    "doc_type": "GAMMA RAY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2254960"
+  },
+  {
+    "api": "05-123-14473",
+    "api_abv": "12314473",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2266586"
+  },
+  {
+    "api": "05-123-14473",
+    "api_abv": "12314473",
+    "doc_type": "GAMMA RAY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2273914"
+  },
+  {
+    "api": "05-123-14473",
+    "api_abv": "12314473",
+    "doc_type": "DENSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2416552"
+  },
+  {
+    "api": "05-123-33955",
+    "api_abv": "12333955",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2866481"
+  },
+  {
+    "api": "05-123-33955",
+    "api_abv": "12333955",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2866482"
+  },
+  {
+    "api": "05-123-33955",
+    "api_abv": "12333955",
+    "doc_type": "TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2866485"
+  },
+  {
+    "api": "05-123-33955",
+    "api_abv": "12333955",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2959181"
+  },
+  {
+    "api": "05-123-33955",
+    "api_abv": "12333955",
+    "doc_type": "PDF-CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2959182"
+  },
+  {
+    "api": "05-123-33955",
+    "api_abv": "12333955",
+    "doc_type": "LAS-FORMATION MICRO SCAN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2959183"
+  },
+  {
+    "api": "05-123-33955",
+    "api_abv": "12333955",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2990103"
+  },
+  {
+    "api": "05-123-33955",
+    "api_abv": "12333955",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2996157"
+  },
+  {
+    "api": "05-123-33956",
+    "api_abv": "12333956",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2993051"
+  },
+  {
+    "api": "05-123-33956",
+    "api_abv": "12333956",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3745536"
+  },
+  {
+    "api": "05-123-33956",
+    "api_abv": "12333956",
+    "doc_type": "MWD/LWD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3745666"
+  },
+  {
+    "api": "05-123-33956",
+    "api_abv": "12333956",
+    "doc_type": "MWD/LWD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3745667"
+  },
+  {
+    "api": "05-123-33956",
+    "api_abv": "12333956",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3842964"
   },
   {
     "api": "05-123-36338",
@@ -354,28 +840,376 @@
     "doc_link": "DownloadDocument1.aspx?DocumentId=3714925"
   },
   {
-    "api": "05-123-07588",
-    "api_abv": "12307588",
-    "doc_type": "DENSITY LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2263856"
+    "api": "05-123-36338",
+    "api_abv": "12336338",
+    "doc_type": "MWD/LWD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3907781"
   },
   {
-    "api": "05-123-07588",
-    "api_abv": "12307588",
+    "api": "05-123-20532",
+    "api_abv": "12320532",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2333127"
+  },
+  {
+    "api": "05-123-20532",
+    "api_abv": "12320532",
+    "doc_type": "DUAL INDUCTION/GUARD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2349550"
+  },
+  {
+    "api": "05-123-33822",
+    "api_abv": "12333822",
+    "doc_type": "COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2992934"
+  },
+  {
+    "api": "05-123-33822",
+    "api_abv": "12333822",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2992935"
+  },
+  {
+    "api": "05-123-33822",
+    "api_abv": "12333822",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2992936"
+  },
+  {
+    "api": "05-123-33822",
+    "api_abv": "12333822",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2992937"
+  },
+  {
+    "api": "05-123-33822",
+    "api_abv": "12333822",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2993052"
+  },
+  {
+    "api": "05-123-33822",
+    "api_abv": "12333822",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2996164"
+  },
+  {
+    "api": "05-123-33822",
+    "api_abv": "12333822",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2996169"
+  },
+  {
+    "api": "05-123-33822",
+    "api_abv": "12333822",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3072347"
+  },
+  {
+    "api": "05-123-33822",
+    "api_abv": "12333822",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3072349"
+  },
+  {
+    "api": "05-123-35804",
+    "api_abv": "12335804",
+    "doc_type": "COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2990916"
+  },
+  {
+    "api": "05-123-35804",
+    "api_abv": "12335804",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2990917"
+  },
+  {
+    "api": "05-123-35804",
+    "api_abv": "12335804",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2990918"
+  },
+  {
+    "api": "05-123-35804",
+    "api_abv": "12335804",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2990919"
+  },
+  {
+    "api": "05-123-35804",
+    "api_abv": "12335804",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2993053"
+  },
+  {
+    "api": "05-123-35804",
+    "api_abv": "12335804",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2996165"
+  },
+  {
+    "api": "05-123-35804",
+    "api_abv": "12335804",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3061606"
+  },
+  {
+    "api": "05-123-35804",
+    "api_abv": "12335804",
+    "doc_type": "PDF-GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3061607"
+  },
+  {
+    "api": "05-123-35804",
+    "api_abv": "12335804",
+    "doc_type": "PDF-GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3061608"
+  },
+  {
+    "api": "05-123-35804",
+    "api_abv": "12335804",
+    "doc_type": "LAS-GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3061609"
+  },
+  {
+    "api": "05-123-20859",
+    "api_abv": "12320859",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2228722"
+  },
+  {
+    "api": "05-123-20859",
+    "api_abv": "12320859",
+    "doc_type": "COMPENSATED DENSITY/COMPENSATED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2365723"
+  },
+  {
+    "api": "05-123-20859",
+    "api_abv": "12320859",
+    "doc_type": "DUAL INDUCTION/GUARD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2401945"
+  },
+  {
+    "api": "05-123-35277",
+    "api_abv": "12335277",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3094427"
+  },
+  {
+    "api": "05-123-35277",
+    "api_abv": "12335277",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3094428"
+  },
+  {
+    "api": "05-123-35277",
+    "api_abv": "12335277",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3094437"
+  },
+  {
+    "api": "05-123-35277",
+    "api_abv": "12335277",
+    "doc_type": "MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3094438"
+  },
+  {
+    "api": "05-123-35277",
+    "api_abv": "12335277",
+    "doc_type": "CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3094439"
+  },
+  {
+    "api": "05-123-35277",
+    "api_abv": "12335277",
+    "doc_type": "DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3094440"
+  },
+  {
+    "api": "05-123-35277",
+    "api_abv": "12335277",
+    "doc_type": "INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3094441"
+  },
+  {
+    "api": "05-123-35277",
+    "api_abv": "12335277",
+    "doc_type": "SONIC",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3094442"
+  },
+  {
+    "api": "05-123-35277",
+    "api_abv": "12335277",
+    "doc_type": "TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3094443"
+  },
+  {
+    "api": "05-123-35277",
+    "api_abv": "12335277",
+    "doc_type": "TRIPLE COMBO",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3110262"
+  },
+  {
+    "api": "05-123-35277",
+    "api_abv": "12335277",
+    "doc_type": "NEUTRON DENSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3110266"
+  },
+  {
+    "api": "05-123-35277",
+    "api_abv": "12335277",
     "doc_type": "INDUCTION LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2325326"
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3110272"
   },
   {
-    "api": "05-123-07101",
-    "api_abv": "12307101",
+    "api": "05-123-35277",
+    "api_abv": "12335277",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3110276"
+  },
+  {
+    "api": "05-123-35277",
+    "api_abv": "12335277",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3110279"
+  },
+  {
+    "api": "05-123-19939",
+    "api_abv": "12319939",
+    "doc_type": "COMPENSATED DENSITY/COMPENSATED NEUTRON/GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2233442"
+  },
+  {
+    "api": "05-123-19939",
+    "api_abv": "12319939",
+    "doc_type": "DUAL INDUCTION/GUARD LOG/GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2390065"
+  },
+  {
+    "api": "05-123-19939",
+    "api_abv": "12319939",
+    "doc_type": "GR / CBL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2411453"
+  },
+  {
+    "api": "05-123-20169",
+    "api_abv": "12320169",
+    "doc_type": "Lithology Strip Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2416788"
+  },
+  {
+    "api": "05-123-20169",
+    "api_abv": "12320169",
+    "doc_type": "DENISTY / NEUTRON / GR LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2417194"
+  },
+  {
+    "api": "05-123-20978",
+    "api_abv": "12320978",
+    "doc_type": "COMPENSATED DENSITY/COMPENSATED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2290246"
+  },
+  {
+    "api": "05-123-20978",
+    "api_abv": "12320978",
+    "doc_type": "DUAL INDUCTION/GUARD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2300991"
+  },
+  {
+    "api": "05-123-20978",
+    "api_abv": "12320978",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2391291"
+  },
+  {
+    "api": "05-123-07471",
+    "api_abv": "12307471",
     "doc_type": "DENSITY LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2262976"
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2308536"
   },
   {
-    "api": "05-123-07101",
-    "api_abv": "12307101",
+    "api": "05-123-07471",
+    "api_abv": "12307471",
     "doc_type": "INDUCTION LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2280102"
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2312511"
+  },
+  {
+    "api": "05-123-35424",
+    "api_abv": "12335424",
+    "doc_type": "TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2967657"
+  },
+  {
+    "api": "05-123-35424",
+    "api_abv": "12335424",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2967658"
+  },
+  {
+    "api": "05-123-35424",
+    "api_abv": "12335424",
+    "doc_type": "GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2967659"
+  },
+  {
+    "api": "05-123-35424",
+    "api_abv": "12335424",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2967660"
+  },
+  {
+    "api": "05-123-35424",
+    "api_abv": "12335424",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2993048"
+  },
+  {
+    "api": "05-123-35424",
+    "api_abv": "12335424",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2996160"
+  },
+  {
+    "api": "05-123-10675",
+    "api_abv": "12310675",
+    "doc_type": "OTHER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2259669"
+  },
+  {
+    "api": "05-123-10675",
+    "api_abv": "12310675",
+    "doc_type": "OTHER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2282692"
+  },
+  {
+    "api": "05-123-10675",
+    "api_abv": "12310675",
+    "doc_type": "OTHER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2304745"
+  },
+  {
+    "api": "05-123-10675",
+    "api_abv": "12310675",
+    "doc_type": "FOCUSED LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2385523"
+  },
+  {
+    "api": "05-123-10675",
+    "api_abv": "12310675",
+    "doc_type": "GAMMA RAY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2386556"
+  },
+  {
+    "api": "05-123-07066",
+    "api_abv": "12307066",
+    "doc_type": "MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2225662"
+  },
+  {
+    "api": "05-123-07066",
+    "api_abv": "12307066",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2348686"
   },
   {
     "api": "05-123-08771",
@@ -414,195 +1248,21 @@
     "doc_link": "DownloadDocument1.aspx?DocumentId=2411846"
   },
   {
-    "api": "05-123-19939",
-    "api_abv": "12319939",
+    "api": "05-123-21392",
+    "api_abv": "12321392",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2240974"
+  },
+  {
+    "api": "05-123-21392",
+    "api_abv": "12321392",
     "doc_type": "COMPENSATED DENSITY/COMPENSATED NEUTRON/GAMMA RAY",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2233442"
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2287102"
   },
   {
-    "api": "05-123-19939",
-    "api_abv": "12319939",
-    "doc_type": "DUAL INDUCTION/GUARD LOG/GAMMA RAY",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2390065"
-  },
-  {
-    "api": "05-123-19939",
-    "api_abv": "12319939",
-    "doc_type": "GR / CBL",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2411453"
-  },
-  {
-    "api": "05-123-20169",
-    "api_abv": "12320169",
-    "doc_type": "Lithology Strip Log",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2416788"
-  },
-  {
-    "api": "05-123-20169",
-    "api_abv": "12320169",
-    "doc_type": "DENISTY / NEUTRON / GR LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2417194"
-  },
-  {
-    "api": "05-123-33956",
-    "api_abv": "12333956",
-    "doc_type": "CEMENT BOND LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2993051"
-  },
-  {
-    "api": "05-123-35277",
-    "api_abv": "12335277",
-    "doc_type": "MUD",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=3094427"
-  },
-  {
-    "api": "05-123-35424",
-    "api_abv": "12335424",
-    "doc_type": "TRIPLE COMBINATION",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2967657"
-  },
-  {
-    "api": "05-123-35424",
-    "api_abv": "12335424",
-    "doc_type": "GAMMA RAY",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2967658"
-  },
-  {
-    "api": "05-123-35424",
-    "api_abv": "12335424",
-    "doc_type": "GAMMA RAY",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2967659"
-  },
-  {
-    "api": "05-123-35424",
-    "api_abv": "12335424",
-    "doc_type": "CEMENT BOND",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2967660"
-  },
-  {
-    "api": "05-123-20532",
-    "api_abv": "12320532",
-    "doc_type": "MUD LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2333127"
-  },
-  {
-    "api": "05-123-20532",
-    "api_abv": "12320532",
-    "doc_type": "DUAL INDUCTION/GUARD LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2349550"
-  },
-  {
-    "api": "05-123-33955",
-    "api_abv": "12333955",
-    "doc_type": "GAMMA RAY",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2866481"
-  },
-  {
-    "api": "05-123-33955",
-    "api_abv": "12333955",
-    "doc_type": "GAMMA RAY",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2866482"
-  },
-  {
-    "api": "05-123-33955",
-    "api_abv": "12333955",
-    "doc_type": "TRIPLE COMBINATION",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2866485"
-  },
-  {
-    "api": "05-123-20859",
-    "api_abv": "12320859",
-    "doc_type": "Mud Log",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2228722"
-  },
-  {
-    "api": "05-123-20859",
-    "api_abv": "12320859",
-    "doc_type": "COMPENSATED DENSITY/COMPENSATED NEUTRON",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2365723"
-  },
-  {
-    "api": "05-123-20859",
-    "api_abv": "12320859",
-    "doc_type": "DUAL INDUCTION/GUARD LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2401945"
-  },
-  {
-    "api": "05-123-34093",
-    "api_abv": "12334093",
-    "doc_type": "CEMENT BOND LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2876490"
-  },
-  {
-    "api": "05-123-07079",
-    "api_abv": "12307079",
-    "doc_type": "DENSITY LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2321748"
-  },
-  {
-    "api": "05-123-07079",
-    "api_abv": "12307079",
-    "doc_type": "INDUCTION LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2403915"
-  },
-  {
-    "api": "05-123-10675",
-    "api_abv": "12310675",
-    "doc_type": "OTHER",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2259669"
-  },
-  {
-    "api": "05-123-10675",
-    "api_abv": "12310675",
-    "doc_type": "OTHER",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2282692"
-  },
-  {
-    "api": "05-123-10675",
-    "api_abv": "12310675",
-    "doc_type": "OTHER",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2304745"
-  },
-  {
-    "api": "05-123-10675",
-    "api_abv": "12310675",
-    "doc_type": "FOCUSED LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2385523"
-  },
-  {
-    "api": "05-123-10675",
-    "api_abv": "12310675",
-    "doc_type": "GAMMA RAY LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2386556"
-  },
-  {
-    "api": "05-123-20978",
-    "api_abv": "12320978",
-    "doc_type": "COMPENSATED DENSITY/COMPENSATED NEUTRON",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2290246"
-  },
-  {
-    "api": "05-123-20978",
-    "api_abv": "12320978",
-    "doc_type": "DUAL INDUCTION/GUARD LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2300991"
-  },
-  {
-    "api": "05-123-20978",
-    "api_abv": "12320978",
-    "doc_type": "MUD LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2391291"
-  },
-  {
-    "api": "05-123-07471",
-    "api_abv": "12307471",
-    "doc_type": "DENSITY LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2308536"
-  },
-  {
-    "api": "05-123-07471",
-    "api_abv": "12307471",
-    "doc_type": "INDUCTION LOG",
-    "doc_link": "DownloadDocument1.aspx?DocumentId=2312511"
+    "api": "05-123-21392",
+    "api_abv": "12321392",
+    "doc_type": "DUAL INDUCTION/GUARD/GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2332292"
   }
 ]
