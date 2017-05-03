@@ -10,8 +10,8 @@ const cheerio = require('cheerio');
 let api_array = [];
 readFile(path.join(__dirname, 'temp_files/apis.json'), 'utf8', (err, data) => {
   if (err) throw err
-  api_array = JSON.parse(data);
-  makeUrlReq();
+  api_array = JSON.parse(data)
+  makeUrlReq()
 })
 
 // TO DO loop through APIs to GET well logs and directional data if present
@@ -19,7 +19,7 @@ function makeUrlReq() {
   for (let i = 0; i < api_array.length; i++) {
     http.get(`http://cogcc.state.co.us/weblink/results.aspx?id=${api_array[i].api}`, (res) => {
       const { statusCode } = res;
-      const contentType = res.headers['content-type'];
+      const contentType = res.headers['content-type']
 
       let error;
       if (statusCode !== 200) {

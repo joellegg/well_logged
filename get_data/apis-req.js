@@ -47,20 +47,20 @@ for (let i = 10; i < 11; i++) {
             // if the apiArray is empty, add just the new data
             if (apiArray.length === 0) {
               for (let k = 0; k < chunk_APIs.length; k++) {
-                // console.log('length is 0', chunk_APIs[k])
-                apiArray.push({ api: `${chunk_APIs[k]}` })
+                let abbv_api = chunk_APIs[k].replace(/(^.{2})*(-)/g, '')
+                apiArray.push({ api: `${chunk_APIs[k]}`, api_abbv: `${abbv_api}` })
               }
             }
             // loop to exclude duplicates
             else if (apiArray.length > 0) {
               // loop through the chunk apis to see if they exist in the apiArray from apis.json
               for (let k = 0; k < chunk_APIs.length; k++) {
-                let well_id = { api: chunk_APIs[k] }
+                let abbv_api = chunk_APIs[k].replace(/(^.{2})*(-)/g, '')
                 let pos = apiArray.map(function(res) {
                   return res.api
                 }).indexOf(chunk_APIs[k])
                 if (pos === -1) {
-                  apiArray.push({ api: `${chunk_APIs[k]}` })
+                  apiArray.push({ api: `${chunk_APIs[k]}`, api_abbv: `${abbv_api}` })
                 }
               }
             }
