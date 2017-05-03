@@ -8,16 +8,12 @@ const cheerio = require('cheerio');
 
 
 // read in the APIs from local file
-// TO DO change to database
-// let api_array = [];
-// readFile(path.join(__dirname, 'temp_files/apis.txt'), 'utf8', (err, data) => {
-//   if (err) throw err
-//   // split data on ,
-//   let api_array = data.split(', ')
-//   for (let i = 0; i < api_array.length; i++) {
-//     console.log('data', i, api_array[i])
-//   }
-// })
+let api_array = [];
+readFile(path.join(__dirname, 'temp_files/apis.json'), 'utf8', (err, data) => {
+  if (err) throw err
+  api_array = data;
+  console.log('api_array', api_array)
+})
 
 // TO DO loop through APIs to GET well logs and directional data if present
 http.get(`http://cogcc.state.co.us/weblink/results.aspx?id=12305801`, (res) => {
