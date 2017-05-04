@@ -19,7 +19,7 @@ function readNext() {
   })
 }
 
-function writeFunction(apis) {
+function writeFunction() {
   const regex = /\d{2}-\d{3}-\d{5}/g
   let chunk_APIs = apis.match(regex)
 
