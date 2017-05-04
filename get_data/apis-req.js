@@ -7,13 +7,6 @@ var path = require('path')
 
 // Weld Co. CO 1-12N 56-68W
 // TODO if you want more counties, change the i and j iteration for the T&Rs of interest
-let countyArray = ["001", "003", "005", "007", "009", "011", "013", "014", "015", "017", "019", "021", "023", "025", "027", "029", "031", "033", "035", "037", "041", "039", "043", "045", "047", "049", "051", "053", "055", "057", "059", "061", "063", "067", "065", "069", "071", "073", "075", "077", "079", "081", "083", "085", "087", "089", "091", "093", "095", "097", "099", "101", "103", "105", "107", "109", "111", "113", "115", "117", "119", "121", "123", "125"]
-
-// console.log(countyArray.length)
-// for (let i = 0; i < countyArray.length; i++) {
-//   console.log(i, 'county array', countyArray[i], typeof(countyArray[i]))
-//   // console.log('url', `factype=%27WELL%27&county=${countyArray[i]}&maxrec=10000&Button1=Submit`);
-// }
 // and change req.write to remove or change the county
 // http://stackoverflow.com/questions/6158933/how-to-make-an-http-post-request-in-node-js
 for (let i = 0; i < countyArray.length; i++) {
