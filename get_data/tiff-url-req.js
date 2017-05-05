@@ -9,6 +9,7 @@ const cheerio = require('cheerio');
 let apis = []
 let existingApiData = []
 let dataArray = []
+let fileCount = 0;
 
 // read in the APIs from local files and merge into one Array
 function readApiFiles() {
@@ -33,7 +34,6 @@ readApiFiles()
 
 // read in the log_data that already exists locally
 function readExistingData() {
-  let fileCount = 0;
   for (let i = 0; i < apis.length; i++) {
     if (i % 5000 === 0) {
       // console.log('file #s', fileCount)
@@ -43,12 +43,13 @@ function readExistingData() {
         let dataLength = (JSON.parse(data).length)
         if (dataLength < 5000) {
           console.log('file length is only', dataLength)
-          // push to array to add data to
+            // push to array to add data to
           dataArray = JSON.parse(data)
         }
         existingApiData.push.apply(existingApiData, JSON.parse(data))
       } catch (err) {
         if (err.code === 'ENOENT') {
+          fileCount--
           // return console.log('File not found, but moving on!');
         } else {
           throw err;
@@ -59,14 +60,16 @@ function readExistingData() {
   }
   console.log('# of data files', fileCount);
   console.log('# of data entries', existingApiData.length)
-  // makeUrlReq()
+  makeUrlReq()
 }
 
 // make the request for new data, passing in the 111k apis
 function makeUrlReq() {
   // to do: swap 10 for api.length
-  for (let i = 0; i < 10; i++) {
-    // console.log(`api abv request ${i} with ${apis[i].api_abv}`)
+  let fileNumber = (fileCount - 1);
+  console.log(fileNumber)
+  for (let i = 0; i < 41; i++) {
+    console.log(`api abv request ${i} with ${apis[i].api_abv}`)
 
     var options = {
       hostname: 'cogcc.state.co.us',
@@ -91,11 +94,14 @@ function makeUrlReq() {
             // $ parse html with cheerio
           var $ = cheerio.load(rawData)
             // this gets an array of <span>...</span>
-          $('td span').each((j, el) => {
-            // if well logs exist
-            if ($(el).text().toLowerCase() === 'well logs') {
-              let log_description = $(el).parent().parent().next().next().text()
-              let log_href = $(el).parent().parent().next().next().next().next().next().children().children().attr('href')
+          let $trArray = $('tr')
+          $trArray.each((j, el) => {
+            let $wellLogs = $(el).find('span:contains("Well Logs")')
+              // if well log exists
+            if ($wellLogs.text().toLowerCase() === 'well logs') {
+              console.log('length?', j)
+              let log_description = $wellLogs.parent().parent().next().next().text()
+              let log_href = $wellLogs.parent().parent().next().next().next().next().next().children().children().attr('href')
 
               let dataObj = {
                 api: apis[i].api,
@@ -111,9 +117,14 @@ function makeUrlReq() {
 
               if (linkPos === -1) {
                 dataArray.push(dataObj)
-                writeFileSync('db/seeds/log_data.json', JSON.stringify(dataArray), (err) => {
-                  if (err) throw err
-                })
+                console.log('new length', dataArray.length)
+                if (dataArray.length > 5000 || (i === 40 && j === ($trArray.length - 1))) {
+                  console.log(dataArray.length)
+                  console.log('j', j)
+                  writeFileSync(`db/seeds/log_data_${fileNumber}.json`, JSON.stringify(dataArray))
+                  dataArray = []
+                  fileNumber++
+                }
               }
             }
           })

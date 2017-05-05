@@ -56,9 +56,7 @@ function writeFunction() {
     }
 
     if (api9000.length !== 0 && ((k % 9000 === 0 && k !== 0) || k === (chunk_APIs.length-1))) {
-      writeFileSync(`get_data/temp_files/apis_${j}.json`, JSON.stringify(api9000), (err) => {
-        if (err) throw err
-      })
+      writeFileSync(`get_data/temp_files/apis_${j}.json`, JSON.stringify(api9000))
       api9000 = []
       j++
     }
