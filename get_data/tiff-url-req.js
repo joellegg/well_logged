@@ -3,29 +3,70 @@
 
 var http = require("http")
 var path = require('path')
-const { readFile, writeFile, appendFile } = require('fs')
+const { readFileSync, writeFileSync, appendFile } = require('fs')
 const cheerio = require('cheerio');
 
 let apis = []
-let api_data = []
-  // read in the APIs from local file
-readFile(path.join(__dirname, 'temp_files/apis.json'), 'utf8', (err, data) => {
-    if (err) throw err
-    apis = JSON.parse(data)
-    getApiData()
-  })
-  // read in the log_data
-function getApiData() {
-  readFile(path.join(__dirname, '../db/seeds/log_data.json'), 'utf8', (err, data) => {
-    if (err) throw err
-    api_data = JSON.parse(data)
-    makeUrlReq()
-  })
+let existingApiData = []
+let dataArray = []
+
+// read in the APIs from local files and merge into one Array
+function readApiFiles() {
+  let apiCount = 0
+  for (let j = 0; j < 13; j++) {
+    try {
+      let data = readFileSync(path.join(__dirname, `temp_files/apis_${j}.json`))
+        // concat the different api files
+      apis.push.apply(apis, JSON.parse(data))
+    } catch (err) {
+      if (err.code === 'ENOENT') {
+        // return console.log('File not found, but moving on!');
+      } else {
+        throw err;
+      }
+    }
+  }
+  console.log('# of wells', apis.length)
+  readExistingData()
+}
+readApiFiles()
+
+// read in the log_data that already exists locally
+function readExistingData() {
+  let fileCount = 0;
+  for (let i = 0; i < apis.length; i++) {
+    if (i % 5000 === 0) {
+      // console.log('file #s', fileCount)
+      try {
+        let data = readFileSync(path.join(__dirname, `../db/seeds/log_data_${fileCount}.json`))
+          // concat the different data files
+        let dataLength = (JSON.parse(data).length)
+        if (dataLength < 5000) {
+          console.log('file length is only', dataLength)
+          // push to array to add data to
+          dataArray = JSON.parse(data)
+        }
+        existingApiData.push.apply(existingApiData, JSON.parse(data))
+      } catch (err) {
+        if (err.code === 'ENOENT') {
+          // return console.log('File not found, but moving on!');
+        } else {
+          throw err;
+        }
+      }
+      fileCount++
+    }
+  }
+  console.log('# of data files', fileCount);
+  console.log('# of data entries', existingApiData.length)
+  // makeUrlReq()
 }
 
+// make the request for new data, passing in the 111k apis
 function makeUrlReq() {
-  for (let i = 0; i < apis.length; i++) {
-    console.log('api abv request', apis[i].api_abv)
+  // to do: swap 10 for api.length
+  for (let i = 0; i < 10; i++) {
+    // console.log(`api abv request ${i} with ${apis[i].api_abv}`)
 
     var options = {
       hostname: 'cogcc.state.co.us',
@@ -41,7 +82,7 @@ function makeUrlReq() {
       res.setEncoding('utf8');
 
       let rawData = '';
-      // when data chunks are recieved, combine them
+      // combine data chunks
       res.on('data', (chunk) => { rawData += chunk; });
       // when the chunks stop coming in parse the html and pull out the data
       res.on('end', () => {
@@ -64,15 +105,13 @@ function makeUrlReq() {
               }
 
               // see if the doc_link is already in the database
-              let linkPos = api_data.map(function(res) {
+              let linkPos = existingApiData.map(function(res) {
                 return res.doc_link
               }).indexOf(log_href)
 
-              console.log(apis[i].api, 'link position', linkPos)
-
               if (linkPos === -1) {
-                api_data.push(dataObj)
-                writeFile('db/seeds/log_data.json', JSON.stringify(api_data), (err) => {
+                dataArray.push(dataObj)
+                writeFileSync('db/seeds/log_data.json', JSON.stringify(dataArray), (err) => {
                   if (err) throw err
                 })
               }
@@ -92,8 +131,7 @@ function makeUrlReq() {
   }
 }
 
-// loop through apis to make req for each
-// if the req returns an obj
-// see if it already exists in the log_data file
-// if it does skip it
-// if not then add it
+
+// read in the existing log files
+// read in the apis
+// for every 9k logs make a new file
