@@ -55,12 +55,11 @@ function writeFunction() {
       api9000.push(dataObj)
     }
 
-    if (k % 9000 === 0 && k !== 0 && api9000.length !== 0 || k === (chunk_APIs.length - 1) && api9000.length !== 0) {
+    if (api9000.length !== 0 && ((k % 9000 === 0 && k !== 0) || k === (chunk_APIs.length-1))) {
       writeFileSync(`get_data/temp_files/apis_${j}.json`, JSON.stringify(api9000), (err) => {
         if (err) throw err
       })
       api9000 = []
-      console.log(j, k, chunk_APIs[k])
       j++
     }
   }
