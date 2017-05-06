@@ -11,9 +11,9 @@ let existingApiData = []
 let dataArray = []
 let fileCount = 0;
 
+// to do: remove apis that have already been scraped
 // read in the APIs from local files and merge into one Array
 function readApiFiles() {
-  let apiCount = 0
   for (let j = 0; j < 13; j++) {
     try {
       let data = readFileSync(path.join(__dirname, `temp_files/apis_${j}.json`))
@@ -27,7 +27,8 @@ function readApiFiles() {
       }
     }
   }
-  console.log('# of wells', apis.length)
+
+  // console.log('total # of wells', apis.length)
   readExistingData()
 }
 readApiFiles()
@@ -42,7 +43,7 @@ function readExistingData() {
           // concat the different data files
         let dataLength = (JSON.parse(data).length)
         if (dataLength < 5000) {
-          console.log('file length is only', dataLength)
+          console.log(`file length is only ${dataLength} in file # ${fileCount}`)
             // push to array to add data to
           dataArray = JSON.parse(data)
         }
@@ -58,8 +59,26 @@ function readExistingData() {
       fileCount++
     }
   }
-  console.log('# of data files', fileCount);
-  console.log('# of data entries', existingApiData.length)
+  // see if the api is already in the database
+  // if present - remove so you don't scrape for the same data
+  // loop through backwards b/c array get's reindexed when you remove an item,
+  // thus consecutive items will be skipped going forward
+  for (let i = apis.length - 1; i >= 0; i--) {
+    // apiPos returns the position of the api in the api data files
+    let apiPos = existingApiData.map(function(res) {
+        return res.api
+      }).indexOf(apis[i].api)
+      // -1 means it's not there, any other number means the api# has already been scraped so remove from array
+    if (apiPos !== -1) {
+      // console.log('api already scraped', apiPos, apis[i].api)
+
+      // splice to move existing well id from array
+      apis.splice(i, 1)
+    }
+  }
+  console.log('# of data files', fileCount)
+  console.log(`# of wells to scrape for ${apis.length}`)
+  console.log('total # of data entries', existingApiData.length)
   makeUrlReq()
 }
 
@@ -68,8 +87,8 @@ function makeUrlReq() {
   // to do: swap 10 for api.length
   let fileNumber = (fileCount - 1);
   console.log(fileNumber)
-  for (let i = 0; i < 41; i++) {
-    console.log(`api abv request ${i} with ${apis[i].api_abv}`)
+  for (let i = 0; i < 10; i++) {
+    console.log(`api request #${i} with ${apis[i].api_abv}`)
 
     var options = {
       hostname: 'cogcc.state.co.us',
@@ -91,15 +110,30 @@ function makeUrlReq() {
       res.on('end', () => {
         try {
           rawData.replace(/(?:\n|\t|\r)/g, "")
-            // $ parse html with cheerio
+
+          // $ parse html with cheerio
           var $ = cheerio.load(rawData)
-            // this gets an array of <span>...</span>
+
+          // this gets an array of <span>...</span>
           let $trArray = $('tr')
           $trArray.each((j, el) => {
             let $wellLogs = $(el).find('span:contains("Well Logs")')
-              // if well log exists
-            if ($wellLogs.text().toLowerCase() === 'well logs') {
-              console.log('length?', j)
+
+            // if no logs exist
+            if ($trArray.length < 3 && $wellLogs.text().toLowerCase() !== 'well logs' && j === 1) {
+              console.log('no logs exist for this well', apis[i].api_abv)
+              let dataObj = {
+                api: apis[i].api,
+                api_abv: apis[i].api_abv,
+                doc_type: "n/a",
+                doc_link: "n/a"
+              }
+
+              dataArray.push(dataObj)
+            }
+
+            // if well log exists
+            else if ($wellLogs.text().toLowerCase() === 'well logs') {
               let log_description = $wellLogs.parent().parent().next().next().text()
               let log_href = $wellLogs.parent().parent().next().next().next().next().next().children().children().attr('href')
 
@@ -111,21 +145,21 @@ function makeUrlReq() {
               }
 
               // see if the doc_link is already in the database
+              // extra check
               let linkPos = existingApiData.map(function(res) {
                 return res.doc_link
               }).indexOf(log_href)
 
               if (linkPos === -1) {
                 dataArray.push(dataObj)
-                console.log('new length', dataArray.length)
-                if (dataArray.length > 5000 || (i === 40 && j === ($trArray.length - 1))) {
-                  console.log(dataArray.length)
-                  console.log('j', j)
-                  writeFileSync(`db/seeds/log_data_${fileNumber}.json`, JSON.stringify(dataArray))
-                  dataArray = []
-                  fileNumber++
-                }
               }
+            }
+
+            if (dataArray.length > 5000 || (i === 9 && j === ($trArray.length - 1))) {
+              console.log('new # of files', dataArray.length)
+              writeFileSync(`db/seeds/log_data_${fileNumber}.json`, JSON.stringify(dataArray))
+              dataArray = []
+              fileNumber++
             }
           })
         } catch (e) {
@@ -141,8 +175,3 @@ function makeUrlReq() {
     req.end()
   }
 }
-
-
-// read in the existing log files
-// read in the apis
-// for every 9k logs make a new file
