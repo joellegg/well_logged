@@ -1756,5 +1756,6761 @@
     "api_abv": "12325414",
     "doc_type": "CEMENT BOND LOG",
     "doc_link": "DownloadDocument1.aspx?DocumentId=2683102"
+  },
+  {
+    "api": "05-123-25413",
+    "api_abv": "12325413",
+    "doc_type": "GR/CCL CEMENT BOND VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557539"
+  },
+  {
+    "api": "05-123-25413",
+    "api_abv": "12325413",
+    "doc_type": "Compensated Density Compensated Neutron Dual Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557831"
+  },
+  {
+    "api": "05-123-25413",
+    "api_abv": "12325413",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578887"
+  },
+  {
+    "api": "05-123-25413",
+    "api_abv": "12325413",
+    "doc_type": "LAS-COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579028"
+  },
+  {
+    "api": "05-123-25415",
+    "api_abv": "12325415",
+    "doc_type": "CEMENT BOND LOG GAMMA RAY CCL VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549260"
+  },
+  {
+    "api": "05-123-25415",
+    "api_abv": "12325415",
+    "doc_type": "Compensated Density Compensated Neutron Dual Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2565738"
+  },
+  {
+    "api": "05-123-25415",
+    "api_abv": "12325415",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589905"
+  },
+  {
+    "api": "05-123-25416",
+    "api_abv": "12325416",
+    "doc_type": "CEMENT BOND LOG GAMMA RAY CCL VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549259"
+  },
+  {
+    "api": "05-123-25416",
+    "api_abv": "12325416",
+    "doc_type": "Compensated Density Compensated Neutron Dual Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2565737"
+  },
+  {
+    "api": "05-123-25416",
+    "api_abv": "12325416",
+    "doc_type": "LAS-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589426"
+  },
+  {
+    "api": "05-123-25412",
+    "api_abv": "12325412",
+    "doc_type": "Cement Bond GR Collar Correlation Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556726"
+  },
+  {
+    "api": "05-123-25412",
+    "api_abv": "12325412",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556727"
+  },
+  {
+    "api": "05-123-25412",
+    "api_abv": "12325412",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556728"
+  },
+  {
+    "api": "05-123-25412",
+    "api_abv": "12325412",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577758"
+  },
+  {
+    "api": "05-123-25412",
+    "api_abv": "12325412",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577759"
+  },
+  {
+    "api": "05-123-25417",
+    "api_abv": "12325417",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-045-15436",
+    "api_abv": "04515436",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562460"
+  },
+  {
+    "api": "05-045-15436",
+    "api_abv": "04515436",
+    "doc_type": "RESERVOIR MONITOR TOOL ELITE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562461"
+  },
+  {
+    "api": "05-045-15436",
+    "api_abv": "04515436",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580734"
+  },
+  {
+    "api": "05-045-15436",
+    "api_abv": "04515436",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580735"
+  },
+  {
+    "api": "05-045-15236",
+    "api_abv": "04515236",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559155"
+  },
+  {
+    "api": "05-045-15236",
+    "api_abv": "04515236",
+    "doc_type": "RMTE Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572097"
+  },
+  {
+    "api": "05-045-15236",
+    "api_abv": "04515236",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572098"
+  },
+  {
+    "api": "05-045-15236",
+    "api_abv": "04515236",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580934"
+  },
+  {
+    "api": "05-045-15236",
+    "api_abv": "04515236",
+    "doc_type": "LAS-PULSED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580935"
+  },
+  {
+    "api": "05-045-15238",
+    "api_abv": "04515238",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550111"
+  },
+  {
+    "api": "05-045-15238",
+    "api_abv": "04515238",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558931"
+  },
+  {
+    "api": "05-045-15238",
+    "api_abv": "04515238",
+    "doc_type": "Reservoir Monitor Tool Elite",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562542"
+  },
+  {
+    "api": "05-045-15238",
+    "api_abv": "04515238",
+    "doc_type": "LAS-PULSED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578667"
+  },
+  {
+    "api": "05-045-15238",
+    "api_abv": "04515238",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578668"
+  },
+  {
+    "api": "05-045-15234",
+    "api_abv": "04515234",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562543"
+  },
+  {
+    "api": "05-045-15234",
+    "api_abv": "04515234",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562547"
+  },
+  {
+    "api": "05-045-15234",
+    "api_abv": "04515234",
+    "doc_type": "RMTE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2571733"
+  },
+  {
+    "api": "05-045-15234",
+    "api_abv": "04515234",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580651"
+  },
+  {
+    "api": "05-045-15237",
+    "api_abv": "04515237",
+    "doc_type": "CBL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559560"
+  },
+  {
+    "api": "05-045-15237",
+    "api_abv": "04515237",
+    "doc_type": "ARRAY COMP. RESISTIVITY SPECTRAL DENSITY DUAL SPACED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559604"
+  },
+  {
+    "api": "05-045-15237",
+    "api_abv": "04515237",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563694"
+  },
+  {
+    "api": "05-045-15237",
+    "api_abv": "04515237",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580643"
+  },
+  {
+    "api": "05-045-15237",
+    "api_abv": "04515237",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580644"
+  },
+  {
+    "api": "05-045-15237",
+    "api_abv": "04515237",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580645"
+  },
+  {
+    "api": "05-045-15241",
+    "api_abv": "04515241",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558924"
+  },
+  {
+    "api": "05-045-15241",
+    "api_abv": "04515241",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558932"
+  },
+  {
+    "api": "05-045-15241",
+    "api_abv": "04515241",
+    "doc_type": "RMTE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562541"
+  },
+  {
+    "api": "05-045-15241",
+    "api_abv": "04515241",
+    "doc_type": "LAS-PULSED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578677"
+  },
+  {
+    "api": "05-045-15241",
+    "api_abv": "04515241",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578678"
+  },
+  {
+    "api": "05-045-15437",
+    "api_abv": "04515437",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2564008"
+  },
+  {
+    "api": "05-045-15437",
+    "api_abv": "04515437",
+    "doc_type": "RESERVOIR MONITOR TOOL ELITE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2564567"
+  },
+  {
+    "api": "05-045-15435",
+    "api_abv": "04515435",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-045-15239",
+    "api_abv": "04515239",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561080"
+  },
+  {
+    "api": "05-045-15239",
+    "api_abv": "04515239",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561084"
+  },
+  {
+    "api": "05-045-15239",
+    "api_abv": "04515239",
+    "doc_type": "RESERVOIR MONITOR TOOL ELITE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561468"
+  },
+  {
+    "api": "05-045-15239",
+    "api_abv": "04515239",
+    "doc_type": "LAS-PULSED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580641"
+  },
+  {
+    "api": "05-045-15239",
+    "api_abv": "04515239",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580642"
+  },
+  {
+    "api": "05-045-15438",
+    "api_abv": "04515438",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549406"
+  },
+  {
+    "api": "05-045-15438",
+    "api_abv": "04515438",
+    "doc_type": "RMTE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549407"
+  },
+  {
+    "api": "05-045-15438",
+    "api_abv": "04515438",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580736"
+  },
+  {
+    "api": "05-045-15438",
+    "api_abv": "04515438",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580737"
+  },
+  {
+    "api": "05-045-15235",
+    "api_abv": "04515235",
+    "doc_type": "Spectral Density, Dual Spaced Neutron, Hi Res Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558929"
+  },
+  {
+    "api": "05-045-15235",
+    "api_abv": "04515235",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559042"
+  },
+  {
+    "api": "05-045-15235",
+    "api_abv": "04515235",
+    "doc_type": "Acoustic CBL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2571816"
+  },
+  {
+    "api": "05-045-15235",
+    "api_abv": "04515235",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578681"
+  },
+  {
+    "api": "05-045-15235",
+    "api_abv": "04515235",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578682"
+  },
+  {
+    "api": "05-045-15235",
+    "api_abv": "04515235",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578683"
+  },
+  {
+    "api": "05-045-15434",
+    "api_abv": "04515434",
+    "doc_type": "Reservoir Monitor Tool Elite",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549821"
+  },
+  {
+    "api": "05-045-15434",
+    "api_abv": "04515434",
+    "doc_type": "Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549822"
+  },
+  {
+    "api": "05-045-15434",
+    "api_abv": "04515434",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2766800"
+  },
+  {
+    "api": "05-045-15434",
+    "api_abv": "04515434",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2766801"
+  },
+  {
+    "api": "05-045-15439",
+    "api_abv": "04515439",
+    "doc_type": "RMTE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549404"
+  },
+  {
+    "api": "05-045-15439",
+    "api_abv": "04515439",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549405"
+  },
+  {
+    "api": "05-045-15439",
+    "api_abv": "04515439",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580730"
+  },
+  {
+    "api": "05-045-15439",
+    "api_abv": "04515439",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580731"
+  },
+  {
+    "api": "05-123-26261",
+    "api_abv": "12326261",
+    "doc_type": "CBL / GAMMA RAY / CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554201"
+  },
+  {
+    "api": "05-123-26261",
+    "api_abv": "12326261",
+    "doc_type": "Platform Express Compensated Neutron Litho Density Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554202"
+  },
+  {
+    "api": "05-123-26261",
+    "api_abv": "12326261",
+    "doc_type": "PLATFORM EXPRESS MICRO LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556032"
+  },
+  {
+    "api": "05-123-26261",
+    "api_abv": "12326261",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2575615"
+  },
+  {
+    "api": "05-123-26261",
+    "api_abv": "12326261",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583063"
+  },
+  {
+    "api": "05-007-40031",
+    "api_abv": "00740031",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-123-26161",
+    "api_abv": "12326161",
+    "doc_type": "PDF-CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2366502"
+  },
+  {
+    "api": "05-123-26161",
+    "api_abv": "12326161",
+    "doc_type": "CEMENT BOND GAMMA RAY COLLAR CORRELATION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2379151"
+  },
+  {
+    "api": "05-123-26161",
+    "api_abv": "12326161",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2416283"
+  },
+  {
+    "api": "05-045-15440",
+    "api_abv": "04515440",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558788"
+  },
+  {
+    "api": "05-045-15440",
+    "api_abv": "04515440",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558811"
+  },
+  {
+    "api": "05-045-15440",
+    "api_abv": "04515440",
+    "doc_type": "Dual Spaced Neutron Spectral Density Hi Res Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562272"
+  },
+  {
+    "api": "05-045-15440",
+    "api_abv": "04515440",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579972"
+  },
+  {
+    "api": "05-045-15440",
+    "api_abv": "04515440",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579973"
+  },
+  {
+    "api": "05-045-15440",
+    "api_abv": "04515440",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579974"
+  },
+  {
+    "api": "05-045-15240",
+    "api_abv": "04515240",
+    "doc_type": "Hi Res Induction Spectral Density Log Dual Spaced Neutron",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557938"
+  },
+  {
+    "api": "05-045-15240",
+    "api_abv": "04515240",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557947"
+  },
+  {
+    "api": "05-045-15240",
+    "api_abv": "04515240",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560828"
+  },
+  {
+    "api": "05-045-15240",
+    "api_abv": "04515240",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578679"
+  },
+  {
+    "api": "05-045-15441",
+    "api_abv": "04515441",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556666"
+  },
+  {
+    "api": "05-045-15441",
+    "api_abv": "04515441",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560462"
+  },
+  {
+    "api": "05-045-15441",
+    "api_abv": "04515441",
+    "doc_type": "Reservoir Monitor Tool Elite",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560463"
+  },
+  {
+    "api": "05-045-15441",
+    "api_abv": "04515441",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579673"
+  },
+  {
+    "api": "05-045-15441",
+    "api_abv": "04515441",
+    "doc_type": "LAS-PULSED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579674"
+  },
+  {
+    "api": "05-045-15442",
+    "api_abv": "04515442",
+    "doc_type": "Spectral Density Dual Spcd. Neutron High Res. Ind.",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559035"
+  },
+  {
+    "api": "05-045-15442",
+    "api_abv": "04515442",
+    "doc_type": "ACOUSTIC CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559039"
+  },
+  {
+    "api": "05-045-15442",
+    "api_abv": "04515442",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579675"
+  },
+  {
+    "api": "05-045-15442",
+    "api_abv": "04515442",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579676"
+  },
+  {
+    "api": "05-045-15443",
+    "api_abv": "04515443",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556514"
+  },
+  {
+    "api": "05-045-15443",
+    "api_abv": "04515443",
+    "doc_type": "Dual Spaced Neutro Spectral Density Array Comp.Resistivity",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556693"
+  },
+  {
+    "api": "05-045-15443",
+    "api_abv": "04515443",
+    "doc_type": "ACOUSTIC CBL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566550"
+  },
+  {
+    "api": "05-045-15443",
+    "api_abv": "04515443",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580873"
+  },
+  {
+    "api": "05-045-15443",
+    "api_abv": "04515443",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580874"
+  },
+  {
+    "api": "05-045-15443",
+    "api_abv": "04515443",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580875"
+  },
+  {
+    "api": "05-123-25418",
+    "api_abv": "12325418",
+    "doc_type": "Cement Bond GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557553"
+  },
+  {
+    "api": "05-123-25418",
+    "api_abv": "12325418",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557839"
+  },
+  {
+    "api": "05-123-25418",
+    "api_abv": "12325418",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557840"
+  },
+  {
+    "api": "05-123-25418",
+    "api_abv": "12325418",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578666"
+  },
+  {
+    "api": "05-123-25418",
+    "api_abv": "12325418",
+    "doc_type": "CEMENT BOND GAMMA RAY CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2623831"
+  },
+  {
+    "api": "05-123-25418",
+    "api_abv": "12325418",
+    "doc_type": "GYRO SURVEY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3483134"
+  },
+  {
+    "api": "05-123-25419",
+    "api_abv": "12325419",
+    "doc_type": "Cement Bond GR Collar Correlation Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556708"
+  },
+  {
+    "api": "05-123-25419",
+    "api_abv": "12325419",
+    "doc_type": "DUAL IND GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557029"
+  },
+  {
+    "api": "05-123-25419",
+    "api_abv": "12325419",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578167"
+  },
+  {
+    "api": "05-123-25419",
+    "api_abv": "12325419",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580631"
+  },
+  {
+    "api": "05-123-25419",
+    "api_abv": "12325419",
+    "doc_type": "GYRO SURVEY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3920166"
+  },
+  {
+    "api": "05-077-09477",
+    "api_abv": "07709477",
+    "doc_type": "Sector Bond Log GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558032"
+  },
+  {
+    "api": "05-077-09477",
+    "api_abv": "07709477",
+    "doc_type": "Dual Induction Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558629"
+  },
+  {
+    "api": "05-077-09477",
+    "api_abv": "07709477",
+    "doc_type": "ARRAY COMP. RESISTIVITYSPECTRAL DENSITY DUAL SPACED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560852"
+  },
+  {
+    "api": "05-077-09477",
+    "api_abv": "07709477",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2768912"
+  },
+  {
+    "api": "05-123-25420",
+    "api_abv": "12325420",
+    "doc_type": "Cement Bond GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548779"
+  },
+  {
+    "api": "05-123-25420",
+    "api_abv": "12325420",
+    "doc_type": "COMPENSATED DENSITY COMPENSATED NEUTRON MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549006"
+  },
+  {
+    "api": "05-123-25420",
+    "api_abv": "12325420",
+    "doc_type": "DUAL INDUCTION GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549007"
+  },
+  {
+    "api": "05-123-25420",
+    "api_abv": "12325420",
+    "doc_type": "LAS-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581958"
+  },
+  {
+    "api": "05-123-25420",
+    "api_abv": "12325420",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589130"
+  },
+  {
+    "api": "05-123-25420",
+    "api_abv": "12325420",
+    "doc_type": "GYRO SURVEY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3483136"
+  },
+  {
+    "api": "05-077-09478",
+    "api_abv": "07709478",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554342"
+  },
+  {
+    "api": "05-077-09478",
+    "api_abv": "07709478",
+    "doc_type": "Sector Bond Log GR / CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554779"
+  },
+  {
+    "api": "05-077-09478",
+    "api_abv": "07709478",
+    "doc_type": "DSN SD ARRAY COMP RESISITIVITY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556004"
+  },
+  {
+    "api": "05-077-09478",
+    "api_abv": "07709478",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2768913"
+  },
+  {
+    "api": "05-077-09479",
+    "api_abv": "07709479",
+    "doc_type": "Sector Bond Log GR / CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554778"
+  },
+  {
+    "api": "05-077-09479",
+    "api_abv": "07709479",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554924"
+  },
+  {
+    "api": "05-077-09479",
+    "api_abv": "07709479",
+    "doc_type": "DSN SD ARRAY COMP RESISTIVITY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560162"
+  },
+  {
+    "api": "05-077-09479",
+    "api_abv": "07709479",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577327"
+  },
+  {
+    "api": "05-077-09479",
+    "api_abv": "07709479",
+    "doc_type": "PDF-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577328"
+  },
+  {
+    "api": "05-077-09479",
+    "api_abv": "07709479",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577329"
+  },
+  {
+    "api": "05-123-25421",
+    "api_abv": "12325421",
+    "doc_type": "CERTIFICATE OF CLEARANCE CHANGE TRANSPORTER GATHERER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2034546"
+  },
+  {
+    "api": "05-123-25421",
+    "api_abv": "12325421",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2291654"
+  },
+  {
+    "api": "05-123-25421",
+    "api_abv": "12325421",
+    "doc_type": "PDF-COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2316841"
+  },
+  {
+    "api": "05-123-25421",
+    "api_abv": "12325421",
+    "doc_type": "LAS-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2317563"
+  },
+  {
+    "api": "05-123-25421",
+    "api_abv": "12325421",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553820"
+  },
+  {
+    "api": "05-123-25421",
+    "api_abv": "12325421",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553821"
+  },
+  {
+    "api": "05-123-25421",
+    "api_abv": "12325421",
+    "doc_type": "Compensated Density Compensated Neutron GR Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553822"
+  },
+  {
+    "api": "05-123-25422",
+    "api_abv": "12325422",
+    "doc_type": "CERTIFICATE OF CLEARANCE CHANGE TRANSPORTER GATHERER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2034546"
+  },
+  {
+    "api": "05-123-25422",
+    "api_abv": "12325422",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2225175"
+  },
+  {
+    "api": "05-123-25422",
+    "api_abv": "12325422",
+    "doc_type": "LAS-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2245181"
+  },
+  {
+    "api": "05-123-25422",
+    "api_abv": "12325422",
+    "doc_type": "PDF-INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2252415"
+  },
+  {
+    "api": "05-123-25422",
+    "api_abv": "12325422",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553823"
+  },
+  {
+    "api": "05-123-25422",
+    "api_abv": "12325422",
+    "doc_type": "Compensated Density Compensated Neutron GR Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553824"
+  },
+  {
+    "api": "05-123-25422",
+    "api_abv": "12325422",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553825"
+  },
+  {
+    "api": "05-123-25423",
+    "api_abv": "12325423",
+    "doc_type": "CERTIFICATE OF CLEARANCE CHANGE TRANSPORTER GATHERER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2034546"
+  },
+  {
+    "api": "05-123-25423",
+    "api_abv": "12325423",
+    "doc_type": "PDF-COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2305077"
+  },
+  {
+    "api": "05-123-25423",
+    "api_abv": "12325423",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2414912"
+  },
+  {
+    "api": "05-123-25423",
+    "api_abv": "12325423",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556481"
+  },
+  {
+    "api": "05-123-25423",
+    "api_abv": "12325423",
+    "doc_type": "Compensated Density Compensated Neutron GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556482"
+  },
+  {
+    "api": "05-123-25423",
+    "api_abv": "12325423",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556483"
+  },
+  {
+    "api": "05-123-25423",
+    "api_abv": "12325423",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560465"
+  },
+  {
+    "api": "05-123-25423",
+    "api_abv": "12325423",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2765674"
+  },
+  {
+    "api": "05-123-25423",
+    "api_abv": "12325423",
+    "doc_type": "LAS-COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2765675"
+  },
+  {
+    "api": "05-123-25424",
+    "api_abv": "12325424",
+    "doc_type": "CERTIFICATE OF CLEARANCE CHANGE TRANSPORTER GATHERER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2034546"
+  },
+  {
+    "api": "05-123-25424",
+    "api_abv": "12325424",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2307556"
+  },
+  {
+    "api": "05-123-25424",
+    "api_abv": "12325424",
+    "doc_type": "PDF-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2409267"
+  },
+  {
+    "api": "05-123-25424",
+    "api_abv": "12325424",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553893"
+  },
+  {
+    "api": "05-123-25424",
+    "api_abv": "12325424",
+    "doc_type": "Comp Density Comp Neutron GR Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553897"
+  },
+  {
+    "api": "05-123-25424",
+    "api_abv": "12325424",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553898"
+  },
+  {
+    "api": "05-007-40027",
+    "api_abv": "00740027",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-045-15444",
+    "api_abv": "04515444",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559474"
+  },
+  {
+    "api": "05-045-15444",
+    "api_abv": "04515444",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559491"
+  },
+  {
+    "api": "05-045-15444",
+    "api_abv": "04515444",
+    "doc_type": "Hi Res Induction, Spectral Density, Dual Spaced Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563519"
+  },
+  {
+    "api": "05-045-15444",
+    "api_abv": "04515444",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2659879"
+  },
+  {
+    "api": "05-045-15444",
+    "api_abv": "04515444",
+    "doc_type": "LAS-PULSED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2659880"
+  },
+  {
+    "api": "05-045-15444",
+    "api_abv": "04515444",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2659881"
+  },
+  {
+    "api": "05-045-15445",
+    "api_abv": "04515445",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559473"
+  },
+  {
+    "api": "05-045-15445",
+    "api_abv": "04515445",
+    "doc_type": "Hi Res Induction, Spectral Density, Dual Spaced Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559488"
+  },
+  {
+    "api": "05-045-15445",
+    "api_abv": "04515445",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559512"
+  },
+  {
+    "api": "05-045-15445",
+    "api_abv": "04515445",
+    "doc_type": "HIGH DEF INDUCT COMPEN Z-DENSILOG COMPEN NEUTRON  GAMMA RAY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2569482"
+  },
+  {
+    "api": "05-045-15445",
+    "api_abv": "04515445",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583130"
+  },
+  {
+    "api": "05-045-15445",
+    "api_abv": "04515445",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583131"
+  },
+  {
+    "api": "05-045-15445",
+    "api_abv": "04515445",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583132"
+  },
+  {
+    "api": "05-045-15446",
+    "api_abv": "04515446",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559475"
+  },
+  {
+    "api": "05-045-15446",
+    "api_abv": "04515446",
+    "doc_type": "Hi Res Induction, Spectral Density, Dual Spaced Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572531"
+  },
+  {
+    "api": "05-045-15446",
+    "api_abv": "04515446",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572537"
+  },
+  {
+    "api": "05-045-15446",
+    "api_abv": "04515446",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583138"
+  },
+  {
+    "api": "05-045-15446",
+    "api_abv": "04515446",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583139"
+  },
+  {
+    "api": "05-045-15446",
+    "api_abv": "04515446",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583140"
+  },
+  {
+    "api": "05-123-25425",
+    "api_abv": "12325425",
+    "doc_type": "COMP DENS COMP NEUTRON GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557505"
+  },
+  {
+    "api": "05-123-25425",
+    "api_abv": "12325425",
+    "doc_type": "DUAL IND GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557506"
+  },
+  {
+    "api": "05-123-25425",
+    "api_abv": "12325425",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577561"
+  },
+  {
+    "api": "05-123-25425",
+    "api_abv": "12325425",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578094"
+  },
+  {
+    "api": "05-123-25425",
+    "api_abv": "12325425",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578095"
+  },
+  {
+    "api": "05-123-25425",
+    "api_abv": "12325425",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2835657"
+  },
+  {
+    "api": "05-123-25425",
+    "api_abv": "12325425",
+    "doc_type": "GYRO SURVEY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3421437"
+  },
+  {
+    "api": "05-123-25426",
+    "api_abv": "12325426",
+    "doc_type": "CEMENT BOND GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548640"
+  },
+  {
+    "api": "05-123-25426",
+    "api_abv": "12325426",
+    "doc_type": "DUAL INDUCTION GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557902"
+  },
+  {
+    "api": "05-123-25426",
+    "api_abv": "12325426",
+    "doc_type": "COMP DENS COMP NEUTRON MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557903"
+  },
+  {
+    "api": "05-123-25426",
+    "api_abv": "12325426",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2582805"
+  },
+  {
+    "api": "05-123-25426",
+    "api_abv": "12325426",
+    "doc_type": "GYRO SURVEY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3483132"
+  },
+  {
+    "api": "05-123-25428",
+    "api_abv": "12325428",
+    "doc_type": "Cement Bond GR Collar Correlation Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548736"
+  },
+  {
+    "api": "05-123-25428",
+    "api_abv": "12325428",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548737"
+  },
+  {
+    "api": "05-123-25428",
+    "api_abv": "12325428",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548738"
+  },
+  {
+    "api": "05-123-25428",
+    "api_abv": "12325428",
+    "doc_type": "LAS-CEMENT BOND                                             ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580831"
+  },
+  {
+    "api": "05-123-25428",
+    "api_abv": "12325428",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580832"
+  },
+  {
+    "api": "05-045-15448",
+    "api_abv": "04515448",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2587257"
+  },
+  {
+    "api": "05-045-15448",
+    "api_abv": "04515448",
+    "doc_type": "PDS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2587262"
+  },
+  {
+    "api": "05-045-15448",
+    "api_abv": "04515448",
+    "doc_type": "RESERVOIR SATURATION TOOL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2819384"
+  },
+  {
+    "api": "05-045-15448",
+    "api_abv": "04515448",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2819385"
+  },
+  {
+    "api": "05-045-15448",
+    "api_abv": "04515448",
+    "doc_type": "RESERVOIR SATURATION TOOL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2819388"
+  },
+  {
+    "api": "05-045-15448",
+    "api_abv": "04515448",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2819389"
+  },
+  {
+    "api": "05-045-15449",
+    "api_abv": "04515449",
+    "doc_type": "RESEVOIR SATURATION TOOL IC MODE RST YIELDS",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2568307"
+  },
+  {
+    "api": "05-045-15449",
+    "api_abv": "04515449",
+    "doc_type": "RESERVOIR SATURATION TOOL SIGMA MODE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2568308"
+  },
+  {
+    "api": "05-045-15449",
+    "api_abv": "04515449",
+    "doc_type": "CEMENT BOND LOG CBL-VDL GAMMA RAY-CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2568310"
+  },
+  {
+    "api": "05-045-15449",
+    "api_abv": "04515449",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2582993"
+  },
+  {
+    "api": "05-045-15450",
+    "api_abv": "04515450",
+    "doc_type": "CEMENT BOND LOG CBL/VDL GAMMA RAY-CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567751"
+  },
+  {
+    "api": "05-045-15450",
+    "api_abv": "04515450",
+    "doc_type": "RESERVOIR SATURATION TOOL SIGMA MODE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567752"
+  },
+  {
+    "api": "05-045-15450",
+    "api_abv": "04515450",
+    "doc_type": "RESERVOIR SATURATION TOOL INELASTIC CAPTURE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567753"
+  },
+  {
+    "api": "05-045-15450",
+    "api_abv": "04515450",
+    "doc_type": "PROCESSED DATA SSLT-B",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567754"
+  },
+  {
+    "api": "05-045-15450",
+    "api_abv": "04515450",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2582989"
+  },
+  {
+    "api": "05-123-25427",
+    "api_abv": "12325427",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2225033"
+  },
+  {
+    "api": "05-123-25427",
+    "api_abv": "12325427",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2309186"
+  },
+  {
+    "api": "05-123-25427",
+    "api_abv": "12325427",
+    "doc_type": "PDF-INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2368082"
+  },
+  {
+    "api": "05-123-25427",
+    "api_abv": "12325427",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553815"
+  },
+  {
+    "api": "05-123-25427",
+    "api_abv": "12325427",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553817"
+  },
+  {
+    "api": "05-123-25427",
+    "api_abv": "12325427",
+    "doc_type": "Compensated Density Compensated Neutron GR Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553819"
+  },
+  {
+    "api": "05-095-06184",
+    "api_abv": "09506184",
+    "doc_type": "COMPENSATED DENSITY COMPENSATED NEUTRON GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2677633"
+  },
+  {
+    "api": "05-095-06184",
+    "api_abv": "09506184",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2705762"
+  },
+  {
+    "api": "05-095-06184",
+    "api_abv": "09506184",
+    "doc_type": "IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2705763"
+  },
+  {
+    "api": "05-095-06184",
+    "api_abv": "09506184",
+    "doc_type": "TIF-DUAL INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2705764"
+  },
+  {
+    "api": "05-095-06184",
+    "api_abv": "09506184",
+    "doc_type": "TIF-GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2705765"
+  },
+  {
+    "api": "05-095-06184",
+    "api_abv": "09506184",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2754270"
+  },
+  {
+    "api": "05-125-11132",
+    "api_abv": "12511132",
+    "doc_type": "DUAL SPACED CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572362"
+  },
+  {
+    "api": "05-125-11132",
+    "api_abv": "12511132",
+    "doc_type": "PEX Triple Combo Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572363"
+  },
+  {
+    "api": "05-125-11132",
+    "api_abv": "12511132",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2776560"
+  },
+  {
+    "api": "05-125-11133",
+    "api_abv": "12511133",
+    "doc_type": "DUAL SPACED CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572366"
+  },
+  {
+    "api": "05-125-11133",
+    "api_abv": "12511133",
+    "doc_type": "PEX Triple Combo Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572367"
+  },
+  {
+    "api": "05-125-11133",
+    "api_abv": "12511133",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2776564"
+  },
+  {
+    "api": "05-125-11134",
+    "api_abv": "12511134",
+    "doc_type": "PEX Triple Combo Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563508"
+  },
+  {
+    "api": "05-125-11134",
+    "api_abv": "12511134",
+    "doc_type": "DUAL SPACED CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572361"
+  },
+  {
+    "api": "05-125-11134",
+    "api_abv": "12511134",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2776581"
+  },
+  {
+    "api": "05-125-11135",
+    "api_abv": "12511135",
+    "doc_type": "DUAL SPACED CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572357"
+  },
+  {
+    "api": "05-125-11135",
+    "api_abv": "12511135",
+    "doc_type": "PEX Triple Combo Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572358"
+  },
+  {
+    "api": "05-125-11135",
+    "api_abv": "12511135",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2776572"
+  },
+  {
+    "api": "05-045-15447",
+    "api_abv": "04515447",
+    "doc_type": "PROCESSED DATA SSLT-B",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567313"
+  },
+  {
+    "api": "05-045-15447",
+    "api_abv": "04515447",
+    "doc_type": "COMPENSATED PHOTO DENSITY COMPENSATED DUAL NEUTRON LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567314"
+  },
+  {
+    "api": "05-045-15447",
+    "api_abv": "04515447",
+    "doc_type": "RESERVOIR SATURATION TOOL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567315"
+  },
+  {
+    "api": "05-045-15447",
+    "api_abv": "04515447",
+    "doc_type": "RESERVOIR SATURATION TOOL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567316"
+  },
+  {
+    "api": "05-045-15447",
+    "api_abv": "04515447",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2568306"
+  },
+  {
+    "api": "05-045-15447",
+    "api_abv": "04515447",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583573"
+  },
+  {
+    "api": "05-125-11136",
+    "api_abv": "12511136",
+    "doc_type": "Compensated Density Compensated Neutron Dual Induction Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572368"
+  },
+  {
+    "api": "05-125-11136",
+    "api_abv": "12511136",
+    "doc_type": "DUAL SPACED CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572369"
+  },
+  {
+    "api": "05-125-11136",
+    "api_abv": "12511136",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2776584"
+  },
+  {
+    "api": "05-063-06323",
+    "api_abv": "06306323",
+    "doc_type": "TRIPLE COMBO",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2545078"
+  },
+  {
+    "api": "05-063-06323",
+    "api_abv": "06306323",
+    "doc_type": "PEX Triple Combo Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572375"
+  },
+  {
+    "api": "05-063-06323",
+    "api_abv": "06306323",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2776539"
+  },
+  {
+    "api": "05-063-06324",
+    "api_abv": "06306324",
+    "doc_type": "PEX Triple Combo Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572342"
+  },
+  {
+    "api": "05-063-06324",
+    "api_abv": "06306324",
+    "doc_type": "DUAL SPACED CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572343"
+  },
+  {
+    "api": "05-063-06324",
+    "api_abv": "06306324",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2776541"
+  },
+  {
+    "api": "05-063-06325",
+    "api_abv": "06306325",
+    "doc_type": "TRIPLE COMBO",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2545081"
+  },
+  {
+    "api": "05-063-06325",
+    "api_abv": "06306325",
+    "doc_type": "PEX Triple Combo Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563509"
+  },
+  {
+    "api": "05-063-06325",
+    "api_abv": "06306325",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2776515"
+  },
+  {
+    "api": "05-063-06326",
+    "api_abv": "06306326",
+    "doc_type": "TRIPLE COMBO",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2545079"
+  },
+  {
+    "api": "05-063-06326",
+    "api_abv": "06306326",
+    "doc_type": "TRIPLE COMBO",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2545083"
+  },
+  {
+    "api": "05-063-06326",
+    "api_abv": "06306326",
+    "doc_type": "PLATFORM EXPRESS CEMENT VOLUME CALIPER LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2616556"
+  },
+  {
+    "api": "05-063-06326",
+    "api_abv": "06306326",
+    "doc_type": "TRIPLE COMBO",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2673496"
+  },
+  {
+    "api": "05-063-06326",
+    "api_abv": "06306326",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2776522"
+  },
+  {
+    "api": "05-063-06327",
+    "api_abv": "06306327",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-071-09484",
+    "api_abv": "07109484",
+    "doc_type": "Compensated Density Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558261"
+  },
+  {
+    "api": "05-071-09484",
+    "api_abv": "07109484",
+    "doc_type": "Dual Induction Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558262"
+  },
+  {
+    "api": "05-071-09484",
+    "api_abv": "07109484",
+    "doc_type": "Cement Bond GR Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558263"
+  },
+  {
+    "api": "05-071-09484",
+    "api_abv": "07109484",
+    "doc_type": "LAS-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578377"
+  },
+  {
+    "api": "05-071-09484",
+    "api_abv": "07109484",
+    "doc_type": "PDF-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578378"
+  },
+  {
+    "api": "05-071-09484",
+    "api_abv": "07109484",
+    "doc_type": "LAS-DUAL INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578379"
+  },
+  {
+    "api": "05-071-09484",
+    "api_abv": "07109484",
+    "doc_type": "PDF-DUAL INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578380"
+  },
+  {
+    "api": "05-071-09484",
+    "api_abv": "07109484",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578381"
+  },
+  {
+    "api": "05-071-09484",
+    "api_abv": "07109484",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578382"
+  },
+  {
+    "api": "05-071-09485",
+    "api_abv": "07109485",
+    "doc_type": "Compensated Density/Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566755"
+  },
+  {
+    "api": "05-071-09485",
+    "api_abv": "07109485",
+    "doc_type": "Dual Induction Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566756"
+  },
+  {
+    "api": "05-071-09485",
+    "api_abv": "07109485",
+    "doc_type": "Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566757"
+  },
+  {
+    "api": "05-071-09485",
+    "api_abv": "07109485",
+    "doc_type": "LAS-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581158"
+  },
+  {
+    "api": "05-071-09485",
+    "api_abv": "07109485",
+    "doc_type": "PDF-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581159"
+  },
+  {
+    "api": "05-071-09485",
+    "api_abv": "07109485",
+    "doc_type": "LAS-DUAL INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581160"
+  },
+  {
+    "api": "05-071-09485",
+    "api_abv": "07109485",
+    "doc_type": "PDF-DUAL INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581161"
+  },
+  {
+    "api": "05-071-09485",
+    "api_abv": "07109485",
+    "doc_type": "PDF-CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581357"
+  },
+  {
+    "api": "05-071-09485",
+    "api_abv": "07109485",
+    "doc_type": "LAS-CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581358"
+  },
+  {
+    "api": "05-073-06310",
+    "api_abv": "07306310",
+    "doc_type": "ARRAY INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558682"
+  },
+  {
+    "api": "05-073-06310",
+    "api_abv": "07306310",
+    "doc_type": "HDI/CDL/CNL/C/GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558683"
+  },
+  {
+    "api": "05-073-06310",
+    "api_abv": "07306310",
+    "doc_type": "CDR/CNR/GR/HR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558684"
+  },
+  {
+    "api": "05-073-06310",
+    "api_abv": "07306310",
+    "doc_type": "ARRAY INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558685"
+  },
+  {
+    "api": "05-073-06310",
+    "api_abv": "07306310",
+    "doc_type": "CBL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561467"
+  },
+  {
+    "api": "05-073-06310",
+    "api_abv": "07306310",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590004"
+  },
+  {
+    "api": "05-073-06310",
+    "api_abv": "07306310",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3467759"
+  },
+  {
+    "api": "05-073-06311",
+    "api_abv": "07306311",
+    "doc_type": "Borehole Profile, Caliper Log, CVOL Calculated for 4.5\" casi",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562265"
+  },
+  {
+    "api": "05-073-06311",
+    "api_abv": "07306311",
+    "doc_type": "Comp Z-Densilog, Comp Neutron, GR Logs",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562266"
+  },
+  {
+    "api": "05-073-06311",
+    "api_abv": "07306311",
+    "doc_type": "X-Multipole Array Acoustilog, GR Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562267"
+  },
+  {
+    "api": "05-073-06311",
+    "api_abv": "07306311",
+    "doc_type": "Dual Spaced Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562268"
+  },
+  {
+    "api": "05-073-06311",
+    "api_abv": "07306311",
+    "doc_type": "Digital Spectralog, GR Log, Caliper Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562269"
+  },
+  {
+    "api": "05-073-06311",
+    "api_abv": "07306311",
+    "doc_type": "Hi Def Induction, Caliper, GR Logs",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562270"
+  },
+  {
+    "api": "05-073-06311",
+    "api_abv": "07306311",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590202"
+  },
+  {
+    "api": "05-073-06312",
+    "api_abv": "07306312",
+    "doc_type": "BHC Sonic Caliper GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549745"
+  },
+  {
+    "api": "05-073-06312",
+    "api_abv": "07306312",
+    "doc_type": "Dual Spaced Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549746"
+  },
+  {
+    "api": "05-073-06312",
+    "api_abv": "07306312",
+    "doc_type": "Dual Spaced Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549747"
+  },
+  {
+    "api": "05-073-06312",
+    "api_abv": "07306312",
+    "doc_type": "Compensated Density Compensated Neutron GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562373"
+  },
+  {
+    "api": "05-073-06312",
+    "api_abv": "07306312",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562374"
+  },
+  {
+    "api": "05-123-25429",
+    "api_abv": "12325429",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560973"
+  },
+  {
+    "api": "05-123-25429",
+    "api_abv": "12325429",
+    "doc_type": "Compensated Density Compensated Neutron GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560976"
+  },
+  {
+    "api": "05-123-25429",
+    "api_abv": "12325429",
+    "doc_type": "Sonic Bond Log GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561265"
+  },
+  {
+    "api": "05-123-25429",
+    "api_abv": "12325429",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579570"
+  },
+  {
+    "api": "05-123-25429",
+    "api_abv": "12325429",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579838"
+  },
+  {
+    "api": "05-123-25429",
+    "api_abv": "12325429",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579839"
+  },
+  {
+    "api": "05-123-25429",
+    "api_abv": "12325429",
+    "doc_type": "GYRO SURVEY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3443987"
+  },
+  {
+    "api": "05-123-25430",
+    "api_abv": "12325430",
+    "doc_type": "Compensated Density Compensated Neutron GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557575"
+  },
+  {
+    "api": "05-123-25430",
+    "api_abv": "12325430",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557576"
+  },
+  {
+    "api": "05-123-25430",
+    "api_abv": "12325430",
+    "doc_type": "Sonic Bond Log GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557577"
+  },
+  {
+    "api": "05-123-25430",
+    "api_abv": "12325430",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578490"
+  },
+  {
+    "api": "05-123-25430",
+    "api_abv": "12325430",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578975"
+  },
+  {
+    "api": "05-123-25430",
+    "api_abv": "12325430",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578976"
+  },
+  {
+    "api": "05-123-25430",
+    "api_abv": "12325430",
+    "doc_type": "GYRO SURVEY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3443916"
+  },
+  {
+    "api": "05-045-15451",
+    "api_abv": "04515451",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572910"
+  },
+  {
+    "api": "05-045-15451",
+    "api_abv": "04515451",
+    "doc_type": "Dual Spaced Neutron, Spectral Density, Array Comp Resistivity Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572921"
+  },
+  {
+    "api": "05-045-15451",
+    "api_abv": "04515451",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2574186"
+  },
+  {
+    "api": "05-045-15451",
+    "api_abv": "04515451",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586255"
+  },
+  {
+    "api": "05-045-15451",
+    "api_abv": "04515451",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586256"
+  },
+  {
+    "api": "05-045-15451",
+    "api_abv": "04515451",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586257"
+  },
+  {
+    "api": "05-045-15452",
+    "api_abv": "04515452",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572755"
+  },
+  {
+    "api": "05-045-15452",
+    "api_abv": "04515452",
+    "doc_type": "Array Comp Resistivity, Spectral Density, Dual Spaced Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572950"
+  },
+  {
+    "api": "05-045-15452",
+    "api_abv": "04515452",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572952"
+  },
+  {
+    "api": "05-045-15452",
+    "api_abv": "04515452",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2585883"
+  },
+  {
+    "api": "05-045-15452",
+    "api_abv": "04515452",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2585884"
+  },
+  {
+    "api": "05-045-15452",
+    "api_abv": "04515452",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2585885"
+  },
+  {
+    "api": "05-045-15453",
+    "api_abv": "04515453",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559863"
+  },
+  {
+    "api": "05-045-15453",
+    "api_abv": "04515453",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572721"
+  },
+  {
+    "api": "05-045-15453",
+    "api_abv": "04515453",
+    "doc_type": "ARRAY COMP. RESISTIVITY SPECTRAL DENSITY DUAL SPACED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572727"
+  },
+  {
+    "api": "05-045-15453",
+    "api_abv": "04515453",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586252"
+  },
+  {
+    "api": "05-045-15453",
+    "api_abv": "04515453",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586253"
+  },
+  {
+    "api": "05-045-15453",
+    "api_abv": "04515453",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586254"
+  },
+  {
+    "api": "05-045-15454",
+    "api_abv": "04515454",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559556"
+  },
+  {
+    "api": "05-045-15454",
+    "api_abv": "04515454",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559558"
+  },
+  {
+    "api": "05-045-15454",
+    "api_abv": "04515454",
+    "doc_type": "Dual Spaced Neutron, Spectral Density, Array Comp Resistivity Lo",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572915"
+  },
+  {
+    "api": "05-045-15454",
+    "api_abv": "04515454",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2585886"
+  },
+  {
+    "api": "05-045-15454",
+    "api_abv": "04515454",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2585887"
+  },
+  {
+    "api": "05-045-15454",
+    "api_abv": "04515454",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2585888"
+  },
+  {
+    "api": "05-123-25431",
+    "api_abv": "12325431",
+    "doc_type": "PEX Compensated Neutron Litho-Density",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549902"
+  },
+  {
+    "api": "05-123-25431",
+    "api_abv": "12325431",
+    "doc_type": "PEX Micro-Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549903"
+  },
+  {
+    "api": "05-123-25431",
+    "api_abv": "12325431",
+    "doc_type": "PEX Array Induction Linear Correlation",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549904"
+  },
+  {
+    "api": "05-123-25431",
+    "api_abv": "12325431",
+    "doc_type": "SONIC BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567343"
+  },
+  {
+    "api": "05-123-25431",
+    "api_abv": "12325431",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583427"
+  },
+  {
+    "api": "05-123-25431",
+    "api_abv": "12325431",
+    "doc_type": "LAS-SONIC",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583492"
+  },
+  {
+    "api": "05-123-25432",
+    "api_abv": "12325432",
+    "doc_type": "CEMENT BOND GAMMA RAY COLLAR CORRELATION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567987"
+  },
+  {
+    "api": "05-123-25432",
+    "api_abv": "12325432",
+    "doc_type": "COMPENSATED DENSITY COMPENSATED NEUTRON MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567988"
+  },
+  {
+    "api": "05-123-25432",
+    "api_abv": "12325432",
+    "doc_type": "DUAL INDUCTION GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567989"
+  },
+  {
+    "api": "05-123-25432",
+    "api_abv": "12325432",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2769123"
+  },
+  {
+    "api": "05-123-25432",
+    "api_abv": "12325432",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2769124"
+  },
+  {
+    "api": "05-123-25433",
+    "api_abv": "12325433",
+    "doc_type": "COMP. DENSITY COMP. NEUTRON MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548403"
+  },
+  {
+    "api": "05-123-25433",
+    "api_abv": "12325433",
+    "doc_type": "DUAL INDUCTION GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548404"
+  },
+  {
+    "api": "05-123-25433",
+    "api_abv": "12325433",
+    "doc_type": "CEMENT BOND GR COLLAR CORRELATION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548405"
+  },
+  {
+    "api": "05-123-25433",
+    "api_abv": "12325433",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579958"
+  },
+  {
+    "api": "05-123-25433",
+    "api_abv": "12325433",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579959"
+  },
+  {
+    "api": "05-123-25434",
+    "api_abv": "12325434",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560614"
+  },
+  {
+    "api": "05-123-25434",
+    "api_abv": "12325434",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560615"
+  },
+  {
+    "api": "05-123-25434",
+    "api_abv": "12325434",
+    "doc_type": "Cement Bond GR Collar Correlation Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560616"
+  },
+  {
+    "api": "05-123-25434",
+    "api_abv": "12325434",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578745"
+  },
+  {
+    "api": "05-123-25434",
+    "api_abv": "12325434",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578746"
+  },
+  {
+    "api": "05-123-25435",
+    "api_abv": "12325435",
+    "doc_type": "DUAL INDGUARD LOG GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557453"
+  },
+  {
+    "api": "05-123-25435",
+    "api_abv": "12325435",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557454"
+  },
+  {
+    "api": "05-123-25435",
+    "api_abv": "12325435",
+    "doc_type": "GR CCL Cement Bond Log VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557455"
+  },
+  {
+    "api": "05-123-25435",
+    "api_abv": "12325435",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578196"
+  },
+  {
+    "api": "05-123-25435",
+    "api_abv": "12325435",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578197"
+  },
+  {
+    "api": "05-123-25436",
+    "api_abv": "12325436",
+    "doc_type": "CEMENT BOND GAMMA RAY COLLAR CORRELATION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2570764"
+  },
+  {
+    "api": "05-123-25436",
+    "api_abv": "12325436",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2592926"
+  },
+  {
+    "api": "05-123-25436",
+    "api_abv": "12325436",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2592927"
+  },
+  {
+    "api": "05-123-25436",
+    "api_abv": "12325436",
+    "doc_type": "COMPENSATED DENSITY COMPENSATED NEUTRON MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2600746"
+  },
+  {
+    "api": "05-123-25436",
+    "api_abv": "12325436",
+    "doc_type": "DUAL INDUCTION GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2600782"
+  },
+  {
+    "api": "05-123-25437",
+    "api_abv": "12325437",
+    "doc_type": "Cement Bond GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554940"
+  },
+  {
+    "api": "05-123-25437",
+    "api_abv": "12325437",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554941"
+  },
+  {
+    "api": "05-123-25437",
+    "api_abv": "12325437",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554942"
+  },
+  {
+    "api": "05-123-25437",
+    "api_abv": "12325437",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578170"
+  },
+  {
+    "api": "05-123-25437",
+    "api_abv": "12325437",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578171"
+  },
+  {
+    "api": "05-123-25438",
+    "api_abv": "12325438",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2913711"
+  },
+  {
+    "api": "05-123-25438",
+    "api_abv": "12325438",
+    "doc_type": "TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2913712"
+  },
+  {
+    "api": "05-123-25438",
+    "api_abv": "12325438",
+    "doc_type": "COMPENSATED DENSITY/NEUTRON MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2919640"
+  },
+  {
+    "api": "05-123-25438",
+    "api_abv": "12325438",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2919644"
+  },
+  {
+    "api": "05-123-25438",
+    "api_abv": "12325438",
+    "doc_type": "DUAL INDUCTION GUARD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2919645"
+  },
+  {
+    "api": "05-123-25439",
+    "api_abv": "12325439",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560966"
+  },
+  {
+    "api": "05-123-25439",
+    "api_abv": "12325439",
+    "doc_type": "Compensated Density Compensated Neutron GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560967"
+  },
+  {
+    "api": "05-123-25439",
+    "api_abv": "12325439",
+    "doc_type": "Sonic Bond GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561258"
+  },
+  {
+    "api": "05-123-25439",
+    "api_abv": "12325439",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579997"
+  },
+  {
+    "api": "05-123-25439",
+    "api_abv": "12325439",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579998"
+  },
+  {
+    "api": "05-123-25439",
+    "api_abv": "12325439",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580687"
+  },
+  {
+    "api": "05-123-25439",
+    "api_abv": "12325439",
+    "doc_type": "GYRO SURVEY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3443959"
+  },
+  {
+    "api": "05-045-15455",
+    "api_abv": "04515455",
+    "doc_type": "Cement Bond Log, CBL/VDL, GR-CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566702"
+  },
+  {
+    "api": "05-045-15455",
+    "api_abv": "04515455",
+    "doc_type": "LAS-COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581503"
+  },
+  {
+    "api": "05-045-15455",
+    "api_abv": "04515455",
+    "doc_type": "RESERVOIR SATURATION TOOL SIGMA MODE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584378"
+  },
+  {
+    "api": "05-045-15456",
+    "api_abv": "04515456",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563062"
+  },
+  {
+    "api": "05-045-15456",
+    "api_abv": "04515456",
+    "doc_type": "Dual Spaced Neut/Spectral Dens/Array Comp True Resistivity",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563066"
+  },
+  {
+    "api": "05-045-15456",
+    "api_abv": "04515456",
+    "doc_type": "Cement Bond Log, CBL/VDL, GR-CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563068"
+  },
+  {
+    "api": "05-045-15456",
+    "api_abv": "04515456",
+    "doc_type": "LAS-PLATFORM EXPRESS",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581286"
+  },
+  {
+    "api": "05-045-15456",
+    "api_abv": "04515456",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581504"
+  },
+  {
+    "api": "05-045-15456",
+    "api_abv": "04515456",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589199"
+  },
+  {
+    "api": "05-045-15456",
+    "api_abv": "04515456",
+    "doc_type": "PDF-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589200"
+  },
+  {
+    "api": "05-045-15457",
+    "api_abv": "04515457",
+    "doc_type": "LAS-COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2765549"
+  },
+  {
+    "api": "05-045-15457",
+    "api_abv": "04515457",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2778415"
+  },
+  {
+    "api": "05-045-15457",
+    "api_abv": "04515457",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2782611"
+  },
+  {
+    "api": "05-045-15458",
+    "api_abv": "04515458",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563832"
+  },
+  {
+    "api": "05-045-15458",
+    "api_abv": "04515458",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563833"
+  },
+  {
+    "api": "05-045-15458",
+    "api_abv": "04515458",
+    "doc_type": "RESEVOIR SATURATION TOOL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563834"
+  },
+  {
+    "api": "05-045-15458",
+    "api_abv": "04515458",
+    "doc_type": "LAS-COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586720"
+  },
+  {
+    "api": "05-045-15459",
+    "api_abv": "04515459",
+    "doc_type": "PEX Array Induction Tool, GR-SP",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566914"
+  },
+  {
+    "api": "05-045-15459",
+    "api_abv": "04515459",
+    "doc_type": "Cement Bond Log, CBL/VDL, GR-CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566915"
+  },
+  {
+    "api": "05-045-15459",
+    "api_abv": "04515459",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581338"
+  },
+  {
+    "api": "05-045-15459",
+    "api_abv": "04515459",
+    "doc_type": "LAS-PLATFORM EXPRESS",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581339"
+  },
+  {
+    "api": "05-123-25440",
+    "api_abv": "12325440",
+    "doc_type": "Cement Bond GR Collar Correlation Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556331"
+  },
+  {
+    "api": "05-123-25440",
+    "api_abv": "12325440",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556332"
+  },
+  {
+    "api": "05-123-25440",
+    "api_abv": "12325440",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556333"
+  },
+  {
+    "api": "05-123-25440",
+    "api_abv": "12325440",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577760"
+  },
+  {
+    "api": "05-123-25440",
+    "api_abv": "12325440",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577761"
+  },
+  {
+    "api": "05-077-09482",
+    "api_abv": "07709482",
+    "doc_type": "Sector Bond Log, GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550723"
+  },
+  {
+    "api": "05-077-09482",
+    "api_abv": "07709482",
+    "doc_type": "Dual Spaced Neutron, Spectral Density, Hi Res Induction Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567264"
+  },
+  {
+    "api": "05-077-09482",
+    "api_abv": "07709482",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590269"
+  },
+  {
+    "api": "05-077-09482",
+    "api_abv": "07709482",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590270"
+  },
+  {
+    "api": "05-077-09482",
+    "api_abv": "07709482",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590271"
+  },
+  {
+    "api": "05-077-09480",
+    "api_abv": "07709480",
+    "doc_type": "Sector Bond Log GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572444"
+  },
+  {
+    "api": "05-077-09480",
+    "api_abv": "07709480",
+    "doc_type": "Hi Res Induction, Spectral Density, Dual Spaced Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572492"
+  },
+  {
+    "api": "05-077-09480",
+    "api_abv": "07709480",
+    "doc_type": "LAS-CEMENT BOND ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590403"
+  },
+  {
+    "api": "05-077-09480",
+    "api_abv": "07709480",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590404"
+  },
+  {
+    "api": "05-077-09480",
+    "api_abv": "07709480",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590405"
+  },
+  {
+    "api": "05-077-09481",
+    "api_abv": "07709481",
+    "doc_type": "Dual Spaced Neutron Spectral Density Array Comp. Resistivity",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558539"
+  },
+  {
+    "api": "05-077-09481",
+    "api_abv": "07709481",
+    "doc_type": "Sector Bond Log GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561508"
+  },
+  {
+    "api": "05-077-09481",
+    "api_abv": "07709481",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2768914"
+  },
+  {
+    "api": "05-071-09486",
+    "api_abv": "07109486",
+    "doc_type": "LAS-DENSITY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2227323"
+  },
+  {
+    "api": "05-071-09486",
+    "api_abv": "07109486",
+    "doc_type": "LAS-INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2246393"
+  },
+  {
+    "api": "05-071-09486",
+    "api_abv": "07109486",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2342688"
+  },
+  {
+    "api": "05-071-09486",
+    "api_abv": "07109486",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2392199"
+  },
+  {
+    "api": "05-071-09486",
+    "api_abv": "07109486",
+    "doc_type": "SECTOR CEMENT BOND GAMMA RAY 500 PSI",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554391"
+  },
+  {
+    "api": "05-071-09486",
+    "api_abv": "07109486",
+    "doc_type": "Compensated Density Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554392"
+  },
+  {
+    "api": "05-071-09486",
+    "api_abv": "07109486",
+    "doc_type": "Single Induction Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554393"
+  },
+  {
+    "api": "05-045-15471",
+    "api_abv": "04515471",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-045-15468",
+    "api_abv": "04515468",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563248"
+  },
+  {
+    "api": "05-045-15468",
+    "api_abv": "04515468",
+    "doc_type": "Reservoir Monitor Tool Elite",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563249"
+  },
+  {
+    "api": "05-045-15468",
+    "api_abv": "04515468",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589605"
+  },
+  {
+    "api": "05-045-15468",
+    "api_abv": "04515468",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589606"
+  },
+  {
+    "api": "05-045-15469",
+    "api_abv": "04515469",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562827"
+  },
+  {
+    "api": "05-045-15469",
+    "api_abv": "04515469",
+    "doc_type": "RESEVIOR MONITOR ELITE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584245"
+  },
+  {
+    "api": "05-045-15470",
+    "api_abv": "04515470",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-045-15460",
+    "api_abv": "04515460",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566965"
+  },
+  {
+    "api": "05-045-15460",
+    "api_abv": "04515460",
+    "doc_type": "Radial Analysis Bong Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566966"
+  },
+  {
+    "api": "05-045-15460",
+    "api_abv": "04515460",
+    "doc_type": "LOG-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2582892"
+  },
+  {
+    "api": "05-045-15460",
+    "api_abv": "04515460",
+    "doc_type": "LOG-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2582893"
+  },
+  {
+    "api": "05-045-15461",
+    "api_abv": "04515461",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563070"
+  },
+  {
+    "api": "05-045-15461",
+    "api_abv": "04515461",
+    "doc_type": "Cement Bond Log, Temp Log, GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572157"
+  },
+  {
+    "api": "05-045-15461",
+    "api_abv": "04515461",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581758"
+  },
+  {
+    "api": "05-045-15461",
+    "api_abv": "04515461",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581759"
+  },
+  {
+    "api": "05-045-15462",
+    "api_abv": "04515462",
+    "doc_type": "RESERVOIR SATURATION TOOL SIGMA MODE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586442"
+  },
+  {
+    "api": "05-045-15462",
+    "api_abv": "04515462",
+    "doc_type": "Cement Bond Log, CBL-VDL, GR-CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586443"
+  },
+  {
+    "api": "05-045-15462",
+    "api_abv": "04515462",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586444"
+  },
+  {
+    "api": "05-045-15462",
+    "api_abv": "04515462",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590616"
+  },
+  {
+    "api": "05-045-15462",
+    "api_abv": "04515462",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590617"
+  },
+  {
+    "api": "05-045-15463",
+    "api_abv": "04515463",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567249"
+  },
+  {
+    "api": "05-045-15463",
+    "api_abv": "04515463",
+    "doc_type": "Cement Bond Log, CBL-VDL, GR-CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567250"
+  },
+  {
+    "api": "05-045-15463",
+    "api_abv": "04515463",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590639"
+  },
+  {
+    "api": "05-045-15463",
+    "api_abv": "04515463",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590640"
+  },
+  {
+    "api": "05-045-15464",
+    "api_abv": "04515464",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550171"
+  },
+  {
+    "api": "05-045-15464",
+    "api_abv": "04515464",
+    "doc_type": "CBL Temperature Log GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559024"
+  },
+  {
+    "api": "05-045-15464",
+    "api_abv": "04515464",
+    "doc_type": "RESERVOIR SATURATION TOOL SIGMA MODE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566604"
+  },
+  {
+    "api": "05-045-15464",
+    "api_abv": "04515464",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581690"
+  },
+  {
+    "api": "05-045-15464",
+    "api_abv": "04515464",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581691"
+  },
+  {
+    "api": "05-045-15465",
+    "api_abv": "04515465",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2564908"
+  },
+  {
+    "api": "05-045-15465",
+    "api_abv": "04515465",
+    "doc_type": "Cement Bond Log, CBL-VDL, GR-CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566708"
+  },
+  {
+    "api": "05-045-15465",
+    "api_abv": "04515465",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581811"
+  },
+  {
+    "api": "05-045-15465",
+    "api_abv": "04515465",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581812"
+  },
+  {
+    "api": "05-045-15466",
+    "api_abv": "04515466",
+    "doc_type": "Radial Analysis Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567251"
+  },
+  {
+    "api": "05-045-15466",
+    "api_abv": "04515466",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567252"
+  },
+  {
+    "api": "05-045-15466",
+    "api_abv": "04515466",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590653"
+  },
+  {
+    "api": "05-045-15466",
+    "api_abv": "04515466",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590654"
+  },
+  {
+    "api": "05-045-15467",
+    "api_abv": "04515467",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566706"
+  },
+  {
+    "api": "05-045-15467",
+    "api_abv": "04515467",
+    "doc_type": "Cement Bond Log, CBL-VDL, GR-CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566707"
+  },
+  {
+    "api": "05-045-15467",
+    "api_abv": "04515467",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581806"
+  },
+  {
+    "api": "05-045-15467",
+    "api_abv": "04515467",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2581807"
+  },
+  {
+    "api": "05-009-06653",
+    "api_abv": "00906653",
+    "doc_type": "Dual Spaced Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560563"
+  },
+  {
+    "api": "05-009-06653",
+    "api_abv": "00906653",
+    "doc_type": "Compact Photo Density Compensated Neutron Micro Resistivity ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560723"
+  },
+  {
+    "api": "05-009-06653",
+    "api_abv": "00906653",
+    "doc_type": "Array Induction Shallow Focused Electric Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560724"
+  },
+  {
+    "api": "05-009-06653",
+    "api_abv": "00906653",
+    "doc_type": "LAS-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577701"
+  },
+  {
+    "api": "05-067-09493",
+    "api_abv": "06709493",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2349441"
+  },
+  {
+    "api": "05-067-09493",
+    "api_abv": "06709493",
+    "doc_type": "Cement Bond Log w/ GR, VDL, & Casing Collars",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548251"
+  },
+  {
+    "api": "05-067-09493",
+    "api_abv": "06709493",
+    "doc_type": "Platform Express Triple Lithology Density/GR/Caliper, MD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548253"
+  },
+  {
+    "api": "05-067-09493",
+    "api_abv": "06709493",
+    "doc_type": "LAS-CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577335"
+  },
+  {
+    "api": "05-007-06243",
+    "api_abv": "00706243",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556500"
+  },
+  {
+    "api": "05-007-06243",
+    "api_abv": "00706243",
+    "doc_type": "Cement Bond Log SCMT - CA/PMBS - B",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556502"
+  },
+  {
+    "api": "05-007-06243",
+    "api_abv": "00706243",
+    "doc_type": "Directional Logging Service 2\"/100' & 5\"/100' MD, Composite",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556641"
+  },
+  {
+    "api": "05-007-06243",
+    "api_abv": "00706243",
+    "doc_type": "Cement Bond Log SCMT - CA/PBMS - B",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560808"
+  },
+  {
+    "api": "05-123-25442",
+    "api_abv": "12325442",
+    "doc_type": "Cement Bond GR Collar Correlation Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560951"
+  },
+  {
+    "api": "05-123-25442",
+    "api_abv": "12325442",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561245"
+  },
+  {
+    "api": "05-123-25442",
+    "api_abv": "12325442",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561246"
+  },
+  {
+    "api": "05-123-25442",
+    "api_abv": "12325442",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577723"
+  },
+  {
+    "api": "05-123-25442",
+    "api_abv": "12325442",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577724"
+  },
+  {
+    "api": "05-123-25443",
+    "api_abv": "12325443",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566110"
+  },
+  {
+    "api": "05-123-25443",
+    "api_abv": "12325443",
+    "doc_type": "COMPENSATED DENSITY/NEUTRON MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584252"
+  },
+  {
+    "api": "05-123-25443",
+    "api_abv": "12325443",
+    "doc_type": "DUAL INDUCTION GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584253"
+  },
+  {
+    "api": "05-123-25443",
+    "api_abv": "12325443",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589968"
+  },
+  {
+    "api": "05-123-25443",
+    "api_abv": "12325443",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589969"
+  },
+  {
+    "api": "05-123-25444",
+    "api_abv": "12325444",
+    "doc_type": "GR CBL Collar Locator",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549753"
+  },
+  {
+    "api": "05-123-25444",
+    "api_abv": "12325444",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2571626"
+  },
+  {
+    "api": "05-123-25444",
+    "api_abv": "12325444",
+    "doc_type": "DUAL INDUCTION GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2571627"
+  },
+  {
+    "api": "05-123-25444",
+    "api_abv": "12325444",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577766"
+  },
+  {
+    "api": "05-071-09487",
+    "api_abv": "07109487",
+    "doc_type": "CEMENT BOND GR 1000 PSI",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558450"
+  },
+  {
+    "api": "05-071-09487",
+    "api_abv": "07109487",
+    "doc_type": "CEMENT BOND GR 1000 PSI",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558451"
+  },
+  {
+    "api": "05-071-09487",
+    "api_abv": "07109487",
+    "doc_type": "Gamma Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558633"
+  },
+  {
+    "api": "05-071-09487",
+    "api_abv": "07109487",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578386"
+  },
+  {
+    "api": "05-071-09487",
+    "api_abv": "07109487",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578387"
+  },
+  {
+    "api": "05-071-09487",
+    "api_abv": "07109487",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578388"
+  },
+  {
+    "api": "05-071-09487",
+    "api_abv": "07109487",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578389"
+  },
+  {
+    "api": "05-071-09487",
+    "api_abv": "07109487",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578390"
+  },
+  {
+    "api": "05-071-09487",
+    "api_abv": "07109487",
+    "doc_type": "PDF-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578391"
+  },
+  {
+    "api": "05-067-09491",
+    "api_abv": "06709491",
+    "doc_type": "Comp Photo Density Comp Dual Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566583"
+  },
+  {
+    "api": "05-067-09491",
+    "api_abv": "06709491",
+    "doc_type": "Array Induction Shallow Focused Electric Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566584"
+  },
+  {
+    "api": "05-067-09491",
+    "api_abv": "06709491",
+    "doc_type": "COMPENSATED PHOTO DENSITY COMPENSATED DUAL NEUTRON LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2654895"
+  },
+  {
+    "api": "05-067-09491",
+    "api_abv": "06709491",
+    "doc_type": "ARRAY INDUCTION SHALLOW FOCUSED ELECTRIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2654900"
+  },
+  {
+    "api": "05-067-09492",
+    "api_abv": "06709492",
+    "doc_type": "RESERVOIR SATURATION TOOL GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557807"
+  },
+  {
+    "api": "05-067-09492",
+    "api_abv": "06709492",
+    "doc_type": "Cement Bond Log GR/Collar Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557808"
+  },
+  {
+    "api": "05-067-09492",
+    "api_abv": "06709492",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577913"
+  },
+  {
+    "api": "05-067-09492",
+    "api_abv": "06709492",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577914"
+  },
+  {
+    "api": "05-123-25441",
+    "api_abv": "12325441",
+    "doc_type": "CEMENT BOND GAMMA RAY COLLAR CORRELATION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2570768"
+  },
+  {
+    "api": "05-123-25441",
+    "api_abv": "12325441",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2592924"
+  },
+  {
+    "api": "05-123-25441",
+    "api_abv": "12325441",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2592925"
+  },
+  {
+    "api": "05-123-25441",
+    "api_abv": "12325441",
+    "doc_type": "COMPENSATED DENSITY COMPENSATED NEUTRON MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2601300"
+  },
+  {
+    "api": "05-123-25441",
+    "api_abv": "12325441",
+    "doc_type": "DUAL INDUCTION GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2601520"
+  },
+  {
+    "api": "05-071-09488",
+    "api_abv": "07109488",
+    "doc_type": "Compensated Density Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2555398"
+  },
+  {
+    "api": "05-071-09488",
+    "api_abv": "07109488",
+    "doc_type": "Cement Bond GR Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560134"
+  },
+  {
+    "api": "05-071-09488",
+    "api_abv": "07109488",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576746"
+  },
+  {
+    "api": "05-071-09488",
+    "api_abv": "07109488",
+    "doc_type": "LAS-DENSITY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576747"
+  },
+  {
+    "api": "05-071-09488",
+    "api_abv": "07109488",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576748"
+  },
+  {
+    "api": "05-071-09488",
+    "api_abv": "07109488",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576749"
+  },
+  {
+    "api": "05-071-09488",
+    "api_abv": "07109488",
+    "doc_type": "LAS-INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576750"
+  },
+  {
+    "api": "05-125-11137",
+    "api_abv": "12511137",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2247275"
+  },
+  {
+    "api": "05-125-11137",
+    "api_abv": "12511137",
+    "doc_type": "LAS-PLATFORM EXPRESS",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2289199"
+  },
+  {
+    "api": "05-125-11137",
+    "api_abv": "12511137",
+    "doc_type": "CBL GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560209"
+  },
+  {
+    "api": "05-125-11137",
+    "api_abv": "12511137",
+    "doc_type": "Platform Express Triple Combo",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560297"
+  },
+  {
+    "api": "05-125-11138",
+    "api_abv": "12511138",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2255686"
+  },
+  {
+    "api": "05-125-11138",
+    "api_abv": "12511138",
+    "doc_type": "PDF-INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2290955"
+  },
+  {
+    "api": "05-125-11138",
+    "api_abv": "12511138",
+    "doc_type": "LAS-CALIPER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2338960"
+  },
+  {
+    "api": "05-125-11138",
+    "api_abv": "12511138",
+    "doc_type": "Platform Exp. Comp. Neutron Litho Density",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554890"
+  },
+  {
+    "api": "05-125-11138",
+    "api_abv": "12511138",
+    "doc_type": "PLATFORM EXPRESS ARRAY INDUCTION W/LINER CORRELATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554891"
+  },
+  {
+    "api": "05-125-11138",
+    "api_abv": "12511138",
+    "doc_type": "PLATFORM EXPRESS TRIPLE COMBO",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554892"
+  },
+  {
+    "api": "05-103-11168",
+    "api_abv": "10311168",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567455"
+  },
+  {
+    "api": "05-103-11168",
+    "api_abv": "10311168",
+    "doc_type": "Acoustic Cement Bond Log, corrected copy",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567457"
+  },
+  {
+    "api": "05-103-11168",
+    "api_abv": "10311168",
+    "doc_type": "Spectral Density/Dual Spaced Neutron/Array Comp True Resistivity",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2573093"
+  },
+  {
+    "api": "05-103-11168",
+    "api_abv": "10311168",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2573097"
+  },
+  {
+    "api": "05-103-11168",
+    "api_abv": "10311168",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2591721"
+  },
+  {
+    "api": "05-103-11168",
+    "api_abv": "10311168",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2591722"
+  },
+  {
+    "api": "05-103-11168",
+    "api_abv": "10311168",
+    "doc_type": "LAS-GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2591723"
+  },
+  {
+    "api": "05-103-11168",
+    "api_abv": "10311168",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2591724"
+  },
+  {
+    "api": "05-103-11169",
+    "api_abv": "10311169",
+    "doc_type": "RESERVOIR MONITOR TOOL ELITE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563792"
+  },
+  {
+    "api": "05-103-11169",
+    "api_abv": "10311169",
+    "doc_type": "ACOUSTIC CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567830"
+  },
+  {
+    "api": "05-103-11169",
+    "api_abv": "10311169",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2573302"
+  },
+  {
+    "api": "05-103-11169",
+    "api_abv": "10311169",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2768742"
+  },
+  {
+    "api": "05-103-11169",
+    "api_abv": "10311169",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2768743"
+  },
+  {
+    "api": "05-103-11169",
+    "api_abv": "10311169",
+    "doc_type": "LAS-PULSED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2768744"
+  },
+  {
+    "api": "05-103-11169",
+    "api_abv": "10311169",
+    "doc_type": "LAS-GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2768745"
+  },
+  {
+    "api": "05-103-11170",
+    "api_abv": "10311170",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-103-11171",
+    "api_abv": "10311171",
+    "doc_type": "ACOUSTIC CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2551291"
+  },
+  {
+    "api": "05-103-11171",
+    "api_abv": "10311171",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2564048"
+  },
+  {
+    "api": "05-103-11171",
+    "api_abv": "10311171",
+    "doc_type": "SPECTRAL DENSITY DUAL SPACED NEUTRON ARRAY COMPENSATED LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2564617"
+  },
+  {
+    "api": "05-103-11171",
+    "api_abv": "10311171",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2768732"
+  },
+  {
+    "api": "05-103-11171",
+    "api_abv": "10311171",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2768733"
+  },
+  {
+    "api": "05-103-11171",
+    "api_abv": "10311171",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2768734"
+  },
+  {
+    "api": "05-103-11171",
+    "api_abv": "10311171",
+    "doc_type": "LAS-GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2768735"
+  },
+  {
+    "api": "05-103-11172",
+    "api_abv": "10311172",
+    "doc_type": "Hi Res Induction, Spectral Density, Dual Spaced Neutron",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550380"
+  },
+  {
+    "api": "05-103-11172",
+    "api_abv": "10311172",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550385"
+  },
+  {
+    "api": "05-103-11172",
+    "api_abv": "10311172",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550420"
+  },
+  {
+    "api": "05-103-11172",
+    "api_abv": "10311172",
+    "doc_type": "Reservoir Monitor Tool Elite",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550421"
+  },
+  {
+    "api": "05-103-11172",
+    "api_abv": "10311172",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2871645"
+  },
+  {
+    "api": "05-103-11172",
+    "api_abv": "10311172",
+    "doc_type": "LAS-PULSED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2874459"
+  },
+  {
+    "api": "05-103-11172",
+    "api_abv": "10311172",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2874460"
+  },
+  {
+    "api": "05-103-11172",
+    "api_abv": "10311172",
+    "doc_type": "LAS-COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2874461"
+  },
+  {
+    "api": "05-103-11173",
+    "api_abv": "10311173",
+    "doc_type": "Reservoir Monitor Tool Elite",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550418"
+  },
+  {
+    "api": "05-103-11173",
+    "api_abv": "10311173",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550419"
+  },
+  {
+    "api": "05-103-11173",
+    "api_abv": "10311173",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563334"
+  },
+  {
+    "api": "05-103-11173",
+    "api_abv": "10311173",
+    "doc_type": "LAS-PULSED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589633"
+  },
+  {
+    "api": "05-103-11173",
+    "api_abv": "10311173",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589634"
+  },
+  {
+    "api": "05-103-11173",
+    "api_abv": "10311173",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589635"
+  },
+  {
+    "api": "05-103-11174",
+    "api_abv": "10311174",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563386"
+  },
+  {
+    "api": "05-103-11174",
+    "api_abv": "10311174",
+    "doc_type": "Spectral Density, Dual Spaced Neutron, Hi Res Induction Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563387"
+  },
+  {
+    "api": "05-103-11174",
+    "api_abv": "10311174",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563409"
+  },
+  {
+    "api": "05-103-11174",
+    "api_abv": "10311174",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589638"
+  },
+  {
+    "api": "05-103-11174",
+    "api_abv": "10311174",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589639"
+  },
+  {
+    "api": "05-103-11174",
+    "api_abv": "10311174",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589640"
+  },
+  {
+    "api": "05-103-11175",
+    "api_abv": "10311175",
+    "doc_type": "Acoustic Cement Bond Log, corrected copy",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550429"
+  },
+  {
+    "api": "05-103-11175",
+    "api_abv": "10311175",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559413"
+  },
+  {
+    "api": "05-103-11175",
+    "api_abv": "10311175",
+    "doc_type": "RMTE Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563408"
+  },
+  {
+    "api": "05-103-11175",
+    "api_abv": "10311175",
+    "doc_type": "LAS-PULSED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589636"
+  },
+  {
+    "api": "05-103-11175",
+    "api_abv": "10311175",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589637"
+  },
+  {
+    "api": "05-071-09489",
+    "api_abv": "07109489",
+    "doc_type": "Cement Bond GR Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2223567"
+  },
+  {
+    "api": "05-071-09489",
+    "api_abv": "07109489",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2228657"
+  },
+  {
+    "api": "05-071-09489",
+    "api_abv": "07109489",
+    "doc_type": "LAS-DENSITY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2320246"
+  },
+  {
+    "api": "05-071-09489",
+    "api_abv": "07109489",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2338131"
+  },
+  {
+    "api": "05-071-09489",
+    "api_abv": "07109489",
+    "doc_type": "LAS-INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2405675"
+  },
+  {
+    "api": "05-071-09489",
+    "api_abv": "07109489",
+    "doc_type": "SINGLE INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2570961"
+  },
+  {
+    "api": "05-071-09489",
+    "api_abv": "07109489",
+    "doc_type": "COMP DENSITY NEUTRON LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2570962"
+  },
+  {
+    "api": "05-071-09490",
+    "api_abv": "07109490",
+    "doc_type": "LAS-INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2227594"
+  },
+  {
+    "api": "05-071-09490",
+    "api_abv": "07109490",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2322001"
+  },
+  {
+    "api": "05-071-09490",
+    "api_abv": "07109490",
+    "doc_type": "cement bond/gamma ray",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2328387"
+  },
+  {
+    "api": "05-071-09490",
+    "api_abv": "07109490",
+    "doc_type": "cement bond log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2329422"
+  },
+  {
+    "api": "05-071-09490",
+    "api_abv": "07109490",
+    "doc_type": "LAS-DENSITY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2329555"
+  },
+  {
+    "api": "05-071-09490",
+    "api_abv": "07109490",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2377104"
+  },
+  {
+    "api": "05-071-09490",
+    "api_abv": "07109490",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2388004"
+  },
+  {
+    "api": "05-071-09490",
+    "api_abv": "07109490",
+    "doc_type": "SINGLE INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2570959"
+  },
+  {
+    "api": "05-071-09490",
+    "api_abv": "07109490",
+    "doc_type": "COMPENSATED DENSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2570960"
+  },
+  {
+    "api": "05-083-06639",
+    "api_abv": "08306639",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-045-15472",
+    "api_abv": "04515472",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550156"
+  },
+  {
+    "api": "05-045-15472",
+    "api_abv": "04515472",
+    "doc_type": "Array Comp Resist/Spect Dens/Dual Spaced Neut, header correc",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550256"
+  },
+  {
+    "api": "05-045-15472",
+    "api_abv": "04515472",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559055"
+  },
+  {
+    "api": "05-045-15472",
+    "api_abv": "04515472",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579944"
+  },
+  {
+    "api": "05-045-15472",
+    "api_abv": "04515472",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579945"
+  },
+  {
+    "api": "05-045-15472",
+    "api_abv": "04515472",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579946"
+  },
+  {
+    "api": "05-083-40041",
+    "api_abv": "08340041",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-045-15473",
+    "api_abv": "04515473",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550150"
+  },
+  {
+    "api": "05-045-15473",
+    "api_abv": "04515473",
+    "doc_type": "Acoustic CBL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550244"
+  },
+  {
+    "api": "05-045-15473",
+    "api_abv": "04515473",
+    "doc_type": "Hi Res Induction/Spectral Density/Dual Spaced Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559204"
+  },
+  {
+    "api": "05-045-15473",
+    "api_abv": "04515473",
+    "doc_type": "Compensated Spectral Natural GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2559205"
+  },
+  {
+    "api": "05-045-15473",
+    "api_abv": "04515473",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579947"
+  },
+  {
+    "api": "05-045-15473",
+    "api_abv": "04515473",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579948"
+  },
+  {
+    "api": "05-045-15473",
+    "api_abv": "04515473",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579949"
+  },
+  {
+    "api": "05-045-15474",
+    "api_abv": "04515474",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550151"
+  },
+  {
+    "api": "05-045-15474",
+    "api_abv": "04515474",
+    "doc_type": "Acoustic CBL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550157"
+  },
+  {
+    "api": "05-045-15474",
+    "api_abv": "04515474",
+    "doc_type": "Hi Res Induction, Spectral Density, Dual Spaced Neutron",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550263"
+  },
+  {
+    "api": "05-045-15474",
+    "api_abv": "04515474",
+    "doc_type": "Array Comp Resistivity, Spect Dens, Dual Spaced Neut",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563109"
+  },
+  {
+    "api": "05-045-15474",
+    "api_abv": "04515474",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579950"
+  },
+  {
+    "api": "05-045-15474",
+    "api_abv": "04515474",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579951"
+  },
+  {
+    "api": "05-045-15474",
+    "api_abv": "04515474",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579952"
+  },
+  {
+    "api": "05-045-15475",
+    "api_abv": "04515475",
+    "doc_type": "CEMENT BOND LOG CBL/VDL GR-CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2564349"
+  },
+  {
+    "api": "05-045-15475",
+    "api_abv": "04515475",
+    "doc_type": "LITHODENSITY/COMPENSATED NEUTRON ARRAY INDUCTION TOOL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2564350"
+  },
+  {
+    "api": "05-045-15475",
+    "api_abv": "04515475",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2587052"
+  },
+  {
+    "api": "05-045-15475",
+    "api_abv": "04515475",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2587053"
+  },
+  {
+    "api": "05-045-15476",
+    "api_abv": "04515476",
+    "doc_type": "RESERVOIR SATURATION TOOL SIGMA MODE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2564347"
+  },
+  {
+    "api": "05-045-15476",
+    "api_abv": "04515476",
+    "doc_type": "CEMENT BOND LOG CBL/VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2564348"
+  },
+  {
+    "api": "05-045-15476",
+    "api_abv": "04515476",
+    "doc_type": "LAS-COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2587054"
+  },
+  {
+    "api": "05-045-15477",
+    "api_abv": "04515477",
+    "doc_type": "LAS-PLATFORM EXPRESS",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2765522"
+  },
+  {
+    "api": "05-045-15477",
+    "api_abv": "04515477",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2765523"
+  },
+  {
+    "api": "05-045-15477",
+    "api_abv": "04515477",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2819702"
+  },
+  {
+    "api": "05-045-15477",
+    "api_abv": "04515477",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2819703"
+  },
+  {
+    "api": "05-123-25445",
+    "api_abv": "12325445",
+    "doc_type": "CBL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561537"
+  },
+  {
+    "api": "05-123-25445",
+    "api_abv": "12325445",
+    "doc_type": "DUAL INDUCTION GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2571283"
+  },
+  {
+    "api": "05-123-25445",
+    "api_abv": "12325445",
+    "doc_type": "COMPENSATED DENSITY/NEUTRON MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2571284"
+  },
+  {
+    "api": "05-123-25445",
+    "api_abv": "12325445",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589522"
+  },
+  {
+    "api": "05-123-25445",
+    "api_abv": "12325445",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589523"
+  },
+  {
+    "api": "05-067-09494",
+    "api_abv": "06709494",
+    "doc_type": "PLATFORM EXPRESS HIGH RESOLUTION INDUCTION LOG TVD PRINT",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2552259"
+  },
+  {
+    "api": "05-067-09494",
+    "api_abv": "06709494",
+    "doc_type": "PLATFORM EXPRESS CALIPER PRINT FIELD PRINT",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2552260"
+  },
+  {
+    "api": "05-067-09494",
+    "api_abv": "06709494",
+    "doc_type": "ACOUSTIC CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2570614"
+  },
+  {
+    "api": "05-067-09494",
+    "api_abv": "06709494",
+    "doc_type": "PLATFORM EXPRESS SPECTRAL DENSITY DUAL SPACED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2573428"
+  },
+  {
+    "api": "05-067-09494",
+    "api_abv": "06709494",
+    "doc_type": "PLATFORM EXPRESS BULK DENSITY TVD PRINT",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2573429"
+  },
+  {
+    "api": "05-067-09494",
+    "api_abv": "06709494",
+    "doc_type": "PLATFORM EXPRESS HIGH RESOLUTION INDUCTION LOG FIELD PRINT",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2573430"
+  },
+  {
+    "api": "05-067-09494",
+    "api_abv": "06709494",
+    "doc_type": "PLOTFORM EXPRESS SPECTRAL DENSITY DUAL SPACED NEUTRON FIELD PRINT",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2573431"
+  },
+  {
+    "api": "05-067-09494",
+    "api_abv": "06709494",
+    "doc_type": "PLATFORM EXPRESS BULD DENSITY FIELD PRINT",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2573432"
+  },
+  {
+    "api": "05-067-09494",
+    "api_abv": "06709494",
+    "doc_type": "PLATFORM EXPRESS CALIPER TVD PRINT",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2573433"
+  },
+  {
+    "api": "05-067-09494",
+    "api_abv": "06709494",
+    "doc_type": "LAS-CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2593079"
+  },
+  {
+    "api": "05-067-09494",
+    "api_abv": "06709494",
+    "doc_type": "LAS-PLATFORM EXPRESS",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2593080"
+  },
+  {
+    "api": "05-067-09494",
+    "api_abv": "06709494",
+    "doc_type": "LAS-DENSITY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2593081"
+  },
+  {
+    "api": "05-103-11176",
+    "api_abv": "10311176",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-103-11177",
+    "api_abv": "10311177",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-103-11178",
+    "api_abv": "10311178",
+    "doc_type": "Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563558"
+  },
+  {
+    "api": "05-103-11178",
+    "api_abv": "10311178",
+    "doc_type": "LAS-PLATFORM EXPRESS",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589502"
+  },
+  {
+    "api": "05-103-11178",
+    "api_abv": "10311178",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589503"
+  },
+  {
+    "api": "05-103-11178",
+    "api_abv": "10311178",
+    "doc_type": "COMPENSATED PHOTO DENSITY COMPENSATED DUAL NEUTRON LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2799901"
+  },
+  {
+    "api": "05-103-11178",
+    "api_abv": "10311178",
+    "doc_type": "COMPENSATED DENSITY COMPENSATED NEUTRON GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2800124"
+  },
+  {
+    "api": "05-103-11178",
+    "api_abv": "10311178",
+    "doc_type": "COMPENSATED DENSITY COMPENSATED NEUTRON GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2800125"
+  },
+  {
+    "api": "05-103-11178",
+    "api_abv": "10311178",
+    "doc_type": "DIGITAL SPECTRALOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2800129"
+  },
+  {
+    "api": "05-103-11178",
+    "api_abv": "10311178",
+    "doc_type": "MULTIPOLE ARRAY ACOUSTILOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2800141"
+  },
+  {
+    "api": "05-103-11178",
+    "api_abv": "10311178",
+    "doc_type": "ARRAY INDUCITON SHALLOW FOCUSED ELECTRIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2834772"
+  },
+  {
+    "api": "05-103-11178",
+    "api_abv": "10311178",
+    "doc_type": "HOLE VOLUME LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2834785"
+  },
+  {
+    "api": "05-103-11178",
+    "api_abv": "10311178",
+    "doc_type": "HIGH DEFINITION INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2835388"
+  },
+  {
+    "api": "05-103-11178",
+    "api_abv": "10311178",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2841079"
+  },
+  {
+    "api": "05-103-11179",
+    "api_abv": "10311179",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561170"
+  },
+  {
+    "api": "05-103-11179",
+    "api_abv": "10311179",
+    "doc_type": "Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563102"
+  },
+  {
+    "api": "05-103-11179",
+    "api_abv": "10311179",
+    "doc_type": "LAS-PLATFORM EXPRESS",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589500"
+  },
+  {
+    "api": "05-103-11179",
+    "api_abv": "10311179",
+    "doc_type": "LAS-PLATFORM EXPRESS",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589501"
+  },
+  {
+    "api": "05-103-11179",
+    "api_abv": "10311179",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589504"
+  },
+  {
+    "api": "05-103-11179",
+    "api_abv": "10311179",
+    "doc_type": "COMPENSATED PHOTO DENSITY COMPENSATED DUAL NEUTRON LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2799887"
+  },
+  {
+    "api": "05-103-11179",
+    "api_abv": "10311179",
+    "doc_type": "HOLE VOLUME CALIPER LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2799888"
+  },
+  {
+    "api": "05-103-11179",
+    "api_abv": "10311179",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2799900"
+  },
+  {
+    "api": "05-103-11179",
+    "api_abv": "10311179",
+    "doc_type": "HOLE VOLUME CALIPER LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2799902"
+  },
+  {
+    "api": "05-103-11179",
+    "api_abv": "10311179",
+    "doc_type": "COMPENSATED PHOTO DENSITY COMPENSATED DUAL NEUTRON LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2799904"
+  },
+  {
+    "api": "05-103-11179",
+    "api_abv": "10311179",
+    "doc_type": "ARRAY INDUCTION SHALLOW FOCUSED ELECTRIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2834787"
+  },
+  {
+    "api": "05-071-09491",
+    "api_abv": "07109491",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-045-15479",
+    "api_abv": "04515479",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2752842"
+  },
+  {
+    "api": "05-045-15479",
+    "api_abv": "04515479",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2752843"
+  },
+  {
+    "api": "05-045-15479",
+    "api_abv": "04515479",
+    "doc_type": "RADIAL CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2758914"
+  },
+  {
+    "api": "05-045-15479",
+    "api_abv": "04515479",
+    "doc_type": "RMTE LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2759118"
+  },
+  {
+    "api": "05-045-15478",
+    "api_abv": "04515478",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2753663"
+  },
+  {
+    "api": "05-045-15478",
+    "api_abv": "04515478",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2753664"
+  },
+  {
+    "api": "05-045-15478",
+    "api_abv": "04515478",
+    "doc_type": "RESERVOIR MONITOR TOOL ELITE LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2754954"
+  },
+  {
+    "api": "05-045-15478",
+    "api_abv": "04515478",
+    "doc_type": "RADIAL CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2755285"
+  },
+  {
+    "api": "05-045-15480",
+    "api_abv": "04515480",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2753720"
+  },
+  {
+    "api": "05-045-15480",
+    "api_abv": "04515480",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2753721"
+  },
+  {
+    "api": "05-045-15480",
+    "api_abv": "04515480",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2753722"
+  },
+  {
+    "api": "05-045-15480",
+    "api_abv": "04515480",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2753729"
+  },
+  {
+    "api": "05-045-15480",
+    "api_abv": "04515480",
+    "doc_type": "RESERVOIR MONITOR TOOL ELITE LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2754955"
+  },
+  {
+    "api": "05-045-15480",
+    "api_abv": "04515480",
+    "doc_type": "DUAL SPACED NEUTRON SPECTRAL DENSITY ARRAY COMPENSATED LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2755288"
+  },
+  {
+    "api": "05-045-15480",
+    "api_abv": "04515480",
+    "doc_type": "RADIAL CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2755289"
+  },
+  {
+    "api": "05-045-15480",
+    "api_abv": "04515480",
+    "doc_type": "DUAL SPACED NEUTRON SPECTRAL DENSITY ARRAY COMPENSATED LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2755290"
+  },
+  {
+    "api": "05-045-15481",
+    "api_abv": "04515481",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2753747"
+  },
+  {
+    "api": "05-045-15481",
+    "api_abv": "04515481",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2753754"
+  },
+  {
+    "api": "05-045-15481",
+    "api_abv": "04515481",
+    "doc_type": "RADIAL CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2758913"
+  },
+  {
+    "api": "05-045-15481",
+    "api_abv": "04515481",
+    "doc_type": "RMTE LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2759117"
+  },
+  {
+    "api": "05-045-15482",
+    "api_abv": "04515482",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2753426"
+  },
+  {
+    "api": "05-045-15482",
+    "api_abv": "04515482",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2753427"
+  },
+  {
+    "api": "05-045-15482",
+    "api_abv": "04515482",
+    "doc_type": "RESERVOIR MONITOR TOOL ELITE LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2756368"
+  },
+  {
+    "api": "05-045-15482",
+    "api_abv": "04515482",
+    "doc_type": "RADIAL CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2758886"
+  },
+  {
+    "api": "05-045-15483",
+    "api_abv": "04515483",
+    "doc_type": "RESERVOIR MONITOR TOOL ELITE LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2754952"
+  },
+  {
+    "api": "05-045-15483",
+    "api_abv": "04515483",
+    "doc_type": "RADIAL CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2755284"
+  },
+  {
+    "api": "05-045-15485",
+    "api_abv": "04515485",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2752791"
+  },
+  {
+    "api": "05-045-15485",
+    "api_abv": "04515485",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2752792"
+  },
+  {
+    "api": "05-045-15485",
+    "api_abv": "04515485",
+    "doc_type": "RESERVOIR MONITOR TOOL ELITE LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2754953"
+  },
+  {
+    "api": "05-045-15485",
+    "api_abv": "04515485",
+    "doc_type": "RADIAL CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2758887"
+  },
+  {
+    "api": "05-045-15484",
+    "api_abv": "04515484",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2752946"
+  },
+  {
+    "api": "05-045-15484",
+    "api_abv": "04515484",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2752947"
+  },
+  {
+    "api": "05-045-15484",
+    "api_abv": "04515484",
+    "doc_type": "RADIAL CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2758915"
+  },
+  {
+    "api": "05-045-15484",
+    "api_abv": "04515484",
+    "doc_type": "RMTE LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2759119"
+  },
+  {
+    "api": "05-123-25446",
+    "api_abv": "12325446",
+    "doc_type": "GAMMA RAY CCL CEMENT BOND VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2570557"
+  },
+  {
+    "api": "05-123-25446",
+    "api_abv": "12325446",
+    "doc_type": "LAS-COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2594688"
+  },
+  {
+    "api": "05-123-25446",
+    "api_abv": "12325446",
+    "doc_type": "PDF-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2594689"
+  },
+  {
+    "api": "05-123-25446",
+    "api_abv": "12325446",
+    "doc_type": "PDF-DUAL INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2594690"
+  },
+  {
+    "api": "05-123-25446",
+    "api_abv": "12325446",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2594740"
+  },
+  {
+    "api": "05-123-25446",
+    "api_abv": "12325446",
+    "doc_type": "COMPENSATED DENSITY COMPENSATED NEUTRON GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2600661"
+  },
+  {
+    "api": "05-123-25446",
+    "api_abv": "12325446",
+    "doc_type": "DUAL INDUCTION GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2600662"
+  },
+  {
+    "api": "05-123-25447",
+    "api_abv": "12325447",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2237820"
+  },
+  {
+    "api": "05-123-25447",
+    "api_abv": "12325447",
+    "doc_type": "LAS-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2283225"
+  },
+  {
+    "api": "05-123-25447",
+    "api_abv": "12325447",
+    "doc_type": "PDF-DUAL INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2326228"
+  },
+  {
+    "api": "05-123-25447",
+    "api_abv": "12325447",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553899"
+  },
+  {
+    "api": "05-123-25447",
+    "api_abv": "12325447",
+    "doc_type": "Compensated Density Compensated Neutron GR Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553900"
+  },
+  {
+    "api": "05-123-25447",
+    "api_abv": "12325447",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553901"
+  },
+  {
+    "api": "05-007-06245",
+    "api_abv": "00706245",
+    "doc_type": "LAS-CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2260319"
+  },
+  {
+    "api": "05-007-06245",
+    "api_abv": "00706245",
+    "doc_type": "PDF-CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2301179"
+  },
+  {
+    "api": "05-007-06245",
+    "api_abv": "00706245",
+    "doc_type": "Platform Express Lithology Density/SP/GR, MD print",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548268"
+  },
+  {
+    "api": "05-007-06245",
+    "api_abv": "00706245",
+    "doc_type": "Platform Express Lithology Density/SP/GR, TVD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548269"
+  },
+  {
+    "api": "05-007-06245",
+    "api_abv": "00706245",
+    "doc_type": "Cement Bond Log w/ GR, VDL, & Casing Collars",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560714"
+  },
+  {
+    "api": "05-007-06245",
+    "api_abv": "00706245",
+    "doc_type": "Platform Express Lithology Density/SP/GR, MD print",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560715"
+  },
+  {
+    "api": "05-123-25448",
+    "api_abv": "12325448",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-007-06244",
+    "api_abv": "00706244",
+    "doc_type": "LAS-CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2277768"
+  },
+  {
+    "api": "05-007-06244",
+    "api_abv": "00706244",
+    "doc_type": "PDF-CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2409944"
+  },
+  {
+    "api": "05-007-06244",
+    "api_abv": "00706244",
+    "doc_type": "Platform Express Triple Lithology Density GR/SP",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548267"
+  },
+  {
+    "api": "05-007-06244",
+    "api_abv": "00706244",
+    "doc_type": "Platform Express Triple Lithology Density GR / SP",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556494"
+  },
+  {
+    "api": "05-007-06244",
+    "api_abv": "00706244",
+    "doc_type": "Platform Express Triple Lithology Density GR / SP, TVD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556495"
+  },
+  {
+    "api": "05-007-06244",
+    "api_abv": "00706244",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556501"
+  },
+  {
+    "api": "05-007-06244",
+    "api_abv": "00706244",
+    "doc_type": "Platform Express Triple Lithology Density GR/SP, TVD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560716"
+  },
+  {
+    "api": "05-007-06244",
+    "api_abv": "00706244",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3552751"
+  },
+  {
+    "api": "05-123-25449",
+    "api_abv": "12325449",
+    "doc_type": "Sonic Bond Log GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549566"
+  },
+  {
+    "api": "05-123-25449",
+    "api_abv": "12325449",
+    "doc_type": "PEX Array Ind. Linear Correlation",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549893"
+  },
+  {
+    "api": "05-123-25449",
+    "api_abv": "12325449",
+    "doc_type": "PEX Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549894"
+  },
+  {
+    "api": "05-123-25449",
+    "api_abv": "12325449",
+    "doc_type": "PEX Comp.Neutron Lithodensity",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549895"
+  },
+  {
+    "api": "05-123-25449",
+    "api_abv": "12325449",
+    "doc_type": "COMP DENS COMP NEUTRON MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557220"
+  },
+  {
+    "api": "05-123-25449",
+    "api_abv": "12325449",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583423"
+  },
+  {
+    "api": "05-123-25449",
+    "api_abv": "12325449",
+    "doc_type": "LAS-SONIC",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583491"
+  },
+  {
+    "api": "05-071-09492",
+    "api_abv": "07109492",
+    "doc_type": "CBL GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2555191"
+  },
+  {
+    "api": "05-071-09492",
+    "api_abv": "07109492",
+    "doc_type": "Compensated Density Neutron Log ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2555192"
+  },
+  {
+    "api": "05-071-09492",
+    "api_abv": "07109492",
+    "doc_type": "Single Induction Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2555193"
+  },
+  {
+    "api": "05-071-09492",
+    "api_abv": "07109492",
+    "doc_type": "LAS-DENSITY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2762930"
+  },
+  {
+    "api": "05-071-09492",
+    "api_abv": "07109492",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2762931"
+  },
+  {
+    "api": "05-071-09492",
+    "api_abv": "07109492",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2762932"
+  },
+  {
+    "api": "05-071-09492",
+    "api_abv": "07109492",
+    "doc_type": "LAS-INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2762933"
+  },
+  {
+    "api": "05-071-09492",
+    "api_abv": "07109492",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2762934"
+  },
+  {
+    "api": "05-014-20650",
+    "api_abv": "01420650",
+    "doc_type": "Compensated Density Compensated Neutron Dual Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560571"
+  },
+  {
+    "api": "05-014-20650",
+    "api_abv": "01420650",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560572"
+  },
+  {
+    "api": "05-014-20650",
+    "api_abv": "01420650",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578908"
+  },
+  {
+    "api": "05-014-20650",
+    "api_abv": "01420650",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578909"
+  },
+  {
+    "api": "05-014-20650",
+    "api_abv": "01420650",
+    "doc_type": "PDF-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578910"
+  },
+  {
+    "api": "05-014-20650",
+    "api_abv": "01420650",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578911"
+  },
+  {
+    "api": "05-014-20650",
+    "api_abv": "01420650",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578923"
+  },
+  {
+    "api": "05-014-20651",
+    "api_abv": "01420651",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578900"
+  },
+  {
+    "api": "05-014-20651",
+    "api_abv": "01420651",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578901"
+  },
+  {
+    "api": "05-014-20651",
+    "api_abv": "01420651",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578902"
+  },
+  {
+    "api": "05-014-20651",
+    "api_abv": "01420651",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578903"
+  },
+  {
+    "api": "05-014-20651",
+    "api_abv": "01420651",
+    "doc_type": "GAMMA RAY CCL CEMENT BOND VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2623131"
+  },
+  {
+    "api": "05-014-20651",
+    "api_abv": "01420651",
+    "doc_type": "LAS-ELECTRONIC",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2654882"
+  },
+  {
+    "api": "05-123-25451",
+    "api_abv": "12325451",
+    "doc_type": "LAS-COMBINATION OPEN HOLE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2101929"
+  },
+  {
+    "api": "05-123-25451",
+    "api_abv": "12325451",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2101930"
+  },
+  {
+    "api": "05-123-25451",
+    "api_abv": "12325451",
+    "doc_type": "COMPENSATED DENSITY COMPENSATED NEUTRON DUAL INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566314"
+  },
+  {
+    "api": "05-123-25451",
+    "api_abv": "12325451",
+    "doc_type": "GR/CCL, Cement Bond, VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566315"
+  },
+  {
+    "api": "05-033-06139",
+    "api_abv": "03306139",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548969"
+  },
+  {
+    "api": "05-033-06139",
+    "api_abv": "03306139",
+    "doc_type": "PLATFORM EXPRESS TRIPLE COMBO",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549024"
+  },
+  {
+    "api": "05-033-06139",
+    "api_abv": "03306139",
+    "doc_type": "SONIC SCANNER INCLINOMETRY GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549025"
+  },
+  {
+    "api": "05-033-06139",
+    "api_abv": "03306139",
+    "doc_type": "Gamma Ray Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562712"
+  },
+  {
+    "api": "05-033-06139",
+    "api_abv": "03306139",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2596288"
+  },
+  {
+    "api": "05-033-06139",
+    "api_abv": "03306139",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2766001"
+  },
+  {
+    "api": "05-033-06139",
+    "api_abv": "03306139",
+    "doc_type": "LAS-SONIC",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2766002"
+  },
+  {
+    "api": "05-033-06139",
+    "api_abv": "03306139",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2766003"
+  },
+  {
+    "api": "05-123-25452",
+    "api_abv": "12325452",
+    "doc_type": "PDF-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2225069"
+  },
+  {
+    "api": "05-123-25452",
+    "api_abv": "12325452",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2279833"
+  },
+  {
+    "api": "05-123-25452",
+    "api_abv": "12325452",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2337414"
+  },
+  {
+    "api": "05-123-25452",
+    "api_abv": "12325452",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2347639"
+  },
+  {
+    "api": "05-123-25452",
+    "api_abv": "12325452",
+    "doc_type": "CEMENT BOND GAMMA RAY CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553889"
+  },
+  {
+    "api": "05-123-25452",
+    "api_abv": "12325452",
+    "doc_type": "Compensated Density Compensated Neutron Dual Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2555084"
+  },
+  {
+    "api": "05-123-25452",
+    "api_abv": "12325452",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3426435"
+  },
+  {
+    "api": "05-123-25452",
+    "api_abv": "12325452",
+    "doc_type": "CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3458706"
+  },
+  {
+    "api": "05-013-06574",
+    "api_abv": "01306574",
+    "doc_type": "COMP DENSITY COMP NEUTRON DUAL INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556224"
+  },
+  {
+    "api": "05-013-06574",
+    "api_abv": "01306574",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556225"
+  },
+  {
+    "api": "05-013-06574",
+    "api_abv": "01306574",
+    "doc_type": "PDF-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576881"
+  },
+  {
+    "api": "05-013-06574",
+    "api_abv": "01306574",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576882"
+  },
+  {
+    "api": "05-013-06574",
+    "api_abv": "01306574",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576883"
+  },
+  {
+    "api": "05-013-06574",
+    "api_abv": "01306574",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576884"
+  },
+  {
+    "api": "05-123-25453",
+    "api_abv": "12325453",
+    "doc_type": "Compensated Density Compensated Neutron GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2555530"
+  },
+  {
+    "api": "05-123-25453",
+    "api_abv": "12325453",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2555531"
+  },
+  {
+    "api": "05-123-25453",
+    "api_abv": "12325453",
+    "doc_type": "Cement Bond GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2555532"
+  },
+  {
+    "api": "05-123-25453",
+    "api_abv": "12325453",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576039"
+  },
+  {
+    "api": "05-123-25453",
+    "api_abv": "12325453",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576040"
+  },
+  {
+    "api": "05-123-25453",
+    "api_abv": "12325453",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576448"
+  },
+  {
+    "api": "05-013-06572",
+    "api_abv": "01306572",
+    "doc_type": "GR CCL CBL VDL SECTOR MAP",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2275540"
+  },
+  {
+    "api": "05-013-06572",
+    "api_abv": "01306572",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556939"
+  },
+  {
+    "api": "05-013-06572",
+    "api_abv": "01306572",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576889"
+  },
+  {
+    "api": "05-013-06572",
+    "api_abv": "01306572",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576890"
+  },
+  {
+    "api": "05-013-06573",
+    "api_abv": "01306573",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556999"
+  },
+  {
+    "api": "05-013-06573",
+    "api_abv": "01306573",
+    "doc_type": "Compensated Density Compensated Neutron Dual Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557000"
+  },
+  {
+    "api": "05-013-06573",
+    "api_abv": "01306573",
+    "doc_type": "PDF-ELECTRONIC",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2764349"
+  },
+  {
+    "api": "05-013-06573",
+    "api_abv": "01306573",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2764350"
+  },
+  {
+    "api": "05-013-06573",
+    "api_abv": "01306573",
+    "doc_type": "LAS-ELECTRONIC",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2764358"
+  },
+  {
+    "api": "05-013-06573",
+    "api_abv": "01306573",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2764359"
+  },
+  {
+    "api": "05-013-06575",
+    "api_abv": "01306575",
+    "doc_type": "Compensated Density Compensated Neutron Dual Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557191"
+  },
+  {
+    "api": "05-013-06575",
+    "api_abv": "01306575",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557192"
+  },
+  {
+    "api": "05-013-06575",
+    "api_abv": "01306575",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576877"
+  },
+  {
+    "api": "05-013-06575",
+    "api_abv": "01306575",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576878"
+  },
+  {
+    "api": "05-013-06575",
+    "api_abv": "01306575",
+    "doc_type": "PDF-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576879"
+  },
+  {
+    "api": "05-013-06575",
+    "api_abv": "01306575",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576880"
+  },
+  {
+    "api": "05-001-09670",
+    "api_abv": "00109670",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-013-06576",
+    "api_abv": "01306576",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556938"
+  },
+  {
+    "api": "05-013-06576",
+    "api_abv": "01306576",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576891"
+  },
+  {
+    "api": "05-013-06576",
+    "api_abv": "01306576",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576892"
+  },
+  {
+    "api": "05-123-25450",
+    "api_abv": "12325450",
+    "doc_type": "Compensated Density Compensated Neutron GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557334"
+  },
+  {
+    "api": "05-123-25450",
+    "api_abv": "12325450",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557335"
+  },
+  {
+    "api": "05-123-25450",
+    "api_abv": "12325450",
+    "doc_type": "Sonic Bond Log GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557336"
+  },
+  {
+    "api": "05-123-25450",
+    "api_abv": "12325450",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577683"
+  },
+  {
+    "api": "05-123-25450",
+    "api_abv": "12325450",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578092"
+  },
+  {
+    "api": "05-123-25450",
+    "api_abv": "12325450",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578093"
+  },
+  {
+    "api": "05-014-20654",
+    "api_abv": "01420654",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560568"
+  },
+  {
+    "api": "05-014-20654",
+    "api_abv": "01420654",
+    "doc_type": "Compensated Density Compensated Neutron Dual Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560732"
+  },
+  {
+    "api": "05-014-20654",
+    "api_abv": "01420654",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578897"
+  },
+  {
+    "api": "05-014-20654",
+    "api_abv": "01420654",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578898"
+  },
+  {
+    "api": "05-014-20654",
+    "api_abv": "01420654",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578899"
+  },
+  {
+    "api": "05-014-20654",
+    "api_abv": "01420654",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578920"
+  },
+  {
+    "api": "05-014-20654",
+    "api_abv": "01420654",
+    "doc_type": "PDF-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578921"
+  },
+  {
+    "api": "05-071-09493",
+    "api_abv": "07109493",
+    "doc_type": "LAS-INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2234166"
+  },
+  {
+    "api": "05-071-09493",
+    "api_abv": "07109493",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2238873"
+  },
+  {
+    "api": "05-071-09493",
+    "api_abv": "07109493",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2255726"
+  },
+  {
+    "api": "05-071-09493",
+    "api_abv": "07109493",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2285955"
+  },
+  {
+    "api": "05-071-09493",
+    "api_abv": "07109493",
+    "doc_type": "LAS-DENSITY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2361413"
+  },
+  {
+    "api": "05-071-09493",
+    "api_abv": "07109493",
+    "doc_type": "COMP. DENSITY NEUTRON LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557634"
+  },
+  {
+    "api": "05-071-09493",
+    "api_abv": "07109493",
+    "doc_type": "SINGLE INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557635"
+  },
+  {
+    "api": "05-071-09493",
+    "api_abv": "07109493",
+    "doc_type": "Sector Cement Bond GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557952"
+  },
+  {
+    "api": "05-071-09493",
+    "api_abv": "07109493",
+    "doc_type": "Cement Bond GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557953"
+  },
+  {
+    "api": "05-014-20653",
+    "api_abv": "01420653",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560570"
+  },
+  {
+    "api": "05-014-20653",
+    "api_abv": "01420653",
+    "doc_type": "Compensated Density Compensated Neutron Dual Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560734"
+  },
+  {
+    "api": "05-014-20653",
+    "api_abv": "01420653",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578912"
+  },
+  {
+    "api": "05-014-20653",
+    "api_abv": "01420653",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578913"
+  },
+  {
+    "api": "05-014-20653",
+    "api_abv": "01420653",
+    "doc_type": "PDF-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578915"
+  },
+  {
+    "api": "05-014-20653",
+    "api_abv": "01420653",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578916"
+  },
+  {
+    "api": "05-014-20653",
+    "api_abv": "01420653",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578922"
+  },
+  {
+    "api": "05-123-25458",
+    "api_abv": "12325458",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-014-20655",
+    "api_abv": "01420655",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560569"
+  },
+  {
+    "api": "05-014-20655",
+    "api_abv": "01420655",
+    "doc_type": "Compensated Density Compensated Neutron Dual Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560733"
+  },
+  {
+    "api": "05-071-09494",
+    "api_abv": "07109494",
+    "doc_type": "Dual Induction Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2571491"
+  },
+  {
+    "api": "05-071-09494",
+    "api_abv": "07109494",
+    "doc_type": "Cement Bond GR Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2571492"
+  },
+  {
+    "api": "05-071-09494",
+    "api_abv": "07109494",
+    "doc_type": "comp. density neutron log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2571666"
+  },
+  {
+    "api": "05-071-09494",
+    "api_abv": "07109494",
+    "doc_type": "LAS-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580981"
+  },
+  {
+    "api": "05-071-09494",
+    "api_abv": "07109494",
+    "doc_type": "PDF-DENSITY/NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580982"
+  },
+  {
+    "api": "05-071-09494",
+    "api_abv": "07109494",
+    "doc_type": "LAS-DUAL INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580983"
+  },
+  {
+    "api": "05-071-09494",
+    "api_abv": "07109494",
+    "doc_type": "PDF-DUAL INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580984"
+  },
+  {
+    "api": "05-071-09494",
+    "api_abv": "07109494",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580990"
+  },
+  {
+    "api": "05-071-09494",
+    "api_abv": "07109494",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580991"
+  },
+  {
+    "api": "05-013-06577",
+    "api_abv": "01306577",
+    "doc_type": "GR CCL Cement Bond VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2555601"
+  },
+  {
+    "api": "05-013-06577",
+    "api_abv": "01306577",
+    "doc_type": "Compensated Density Compensated Neutron Dual Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2555602"
+  },
+  {
+    "api": "05-013-06577",
+    "api_abv": "01306577",
+    "doc_type": "PDF-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576885"
+  },
+  {
+    "api": "05-013-06577",
+    "api_abv": "01306577",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576886"
+  },
+  {
+    "api": "05-013-06577",
+    "api_abv": "01306577",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576887"
+  },
+  {
+    "api": "05-013-06577",
+    "api_abv": "01306577",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576888"
+  },
+  {
+    "api": "05-123-25457",
+    "api_abv": "12325457",
+    "doc_type": "Sonic Bond Log GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2547991"
+  },
+  {
+    "api": "05-123-25457",
+    "api_abv": "12325457",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2547992"
+  },
+  {
+    "api": "05-123-25457",
+    "api_abv": "12325457",
+    "doc_type": "Compensated Density Compensated Neutron GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2547993"
+  },
+  {
+    "api": "05-123-25457",
+    "api_abv": "12325457",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577710"
+  },
+  {
+    "api": "05-123-25457",
+    "api_abv": "12325457",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577926"
+  },
+  {
+    "api": "05-123-25457",
+    "api_abv": "12325457",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577927"
+  },
+  {
+    "api": "05-123-25457",
+    "api_abv": "12325457",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577937"
+  },
+  {
+    "api": "05-123-25457",
+    "api_abv": "12325457",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577938"
+  },
+  {
+    "api": "05-123-25457",
+    "api_abv": "12325457",
+    "doc_type": "GYRO SURVEY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3892320"
+  },
+  {
+    "api": "05-123-25459",
+    "api_abv": "12325459",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-123-25460",
+    "api_abv": "12325460",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-123-25461",
+    "api_abv": "12325461",
+    "doc_type": "Cement Bond Log, scale 1:240",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584419"
+  },
+  {
+    "api": "05-123-25461",
+    "api_abv": "12325461",
+    "doc_type": "Compensated Density Compensated Neutron GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584990"
+  },
+  {
+    "api": "05-123-25461",
+    "api_abv": "12325461",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584991"
+  },
+  {
+    "api": "05-123-25461",
+    "api_abv": "12325461",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590310"
+  },
+  {
+    "api": "05-123-25461",
+    "api_abv": "12325461",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590357"
+  },
+  {
+    "api": "05-123-25464",
+    "api_abv": "12325464",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554949"
+  },
+  {
+    "api": "05-123-25464",
+    "api_abv": "12325464",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554950"
+  },
+  {
+    "api": "05-123-25464",
+    "api_abv": "12325464",
+    "doc_type": "Cement Bond GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554951"
+  },
+  {
+    "api": "05-123-25464",
+    "api_abv": "12325464",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580602"
+  },
+  {
+    "api": "05-123-25464",
+    "api_abv": "12325464",
+    "doc_type": "GYRO SURVEY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3478622"
+  },
+  {
+    "api": "05-113-06247",
+    "api_abv": "11306247",
+    "doc_type": "PDF-INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2808878"
+  },
+  {
+    "api": "05-113-06247",
+    "api_abv": "11306247",
+    "doc_type": "PDF-ELECTRONIC",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2808879"
+  },
+  {
+    "api": "05-113-06247",
+    "api_abv": "11306247",
+    "doc_type": "PDF-SONIC",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2808880"
+  },
+  {
+    "api": "05-113-06247",
+    "api_abv": "11306247",
+    "doc_type": "PDF-SONIC",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2808881"
+  },
+  {
+    "api": "05-113-06247",
+    "api_abv": "11306247",
+    "doc_type": "PDF-DENSITY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2808882"
+  },
+  {
+    "api": "05-113-06247",
+    "api_abv": "11306247",
+    "doc_type": "PDF-REPEAT FORMATION TEST",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2808883"
+  },
+  {
+    "api": "05-113-06247",
+    "api_abv": "11306247",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2826971"
+  },
+  {
+    "api": "05-113-06247",
+    "api_abv": "11306247",
+    "doc_type": "CALIPER HOLE VOLUME LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2828094"
+  },
+  {
+    "api": "05-113-06247",
+    "api_abv": "11306247",
+    "doc_type": "COMPENSATED PHOTO DENSITY COMPENSATED DUAL NEUTRON LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2828096"
+  },
+  {
+    "api": "05-113-06247",
+    "api_abv": "11306247",
+    "doc_type": "MEASURED DEPTH FORMATION TESTER  LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2828098"
+  },
+  {
+    "api": "05-113-06247",
+    "api_abv": "11306247",
+    "doc_type": "COMPACT S-QUAD QUICKLOOK LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2828103"
+  },
+  {
+    "api": "05-113-06247",
+    "api_abv": "11306247",
+    "doc_type": "ARRAY INDUCTION SHALLOW FOCUSED/ELECTRIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2828104"
+  },
+  {
+    "api": "05-113-06247",
+    "api_abv": "11306247",
+    "doc_type": "COMPENSATED SONIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2828129"
+  },
+  {
+    "api": "05-045-15491",
+    "api_abv": "04515491",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563865"
+  },
+  {
+    "api": "05-045-15491",
+    "api_abv": "04515491",
+    "doc_type": "CEMENT BOND LOG CBL-VDL GAMMA RAY-CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563866"
+  },
+  {
+    "api": "05-045-15491",
+    "api_abv": "04515491",
+    "doc_type": "RESERVOIR SATURATION TOOL SIGMA MODE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2563867"
+  },
+  {
+    "api": "05-045-15491",
+    "api_abv": "04515491",
+    "doc_type": "LOG-POROSITY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2591711"
+  },
+  {
+    "api": "05-045-15491",
+    "api_abv": "04515491",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2591712"
+  },
+  {
+    "api": "05-045-15493",
+    "api_abv": "04515493",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567605"
+  },
+  {
+    "api": "05-045-15493",
+    "api_abv": "04515493",
+    "doc_type": "Cement Bond Log, CBL-VDL, GR-CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567606"
+  },
+  {
+    "api": "05-045-15493",
+    "api_abv": "04515493",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590878"
+  },
+  {
+    "api": "05-045-15493",
+    "api_abv": "04515493",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590879"
+  },
+  {
+    "api": "05-045-15490",
+    "api_abv": "04515490",
+    "doc_type": "RESERVOIR SATURATION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572687"
+  },
+  {
+    "api": "05-045-15490",
+    "api_abv": "04515490",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572688"
+  },
+  {
+    "api": "05-045-15490",
+    "api_abv": "04515490",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572689"
+  },
+  {
+    "api": "05-045-15490",
+    "api_abv": "04515490",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590993"
+  },
+  {
+    "api": "05-045-15490",
+    "api_abv": "04515490",
+    "doc_type": "LAS-POROSITY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590994"
+  },
+  {
+    "api": "05-045-15490",
+    "api_abv": "04515490",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590995"
+  },
+  {
+    "api": "05-123-25463",
+    "api_abv": "12325463",
+    "doc_type": "Cement Bond GR Collar Correlation Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557472"
+  },
+  {
+    "api": "05-123-25463",
+    "api_abv": "12325463",
+    "doc_type": "Compensated Density Comepnsated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557473"
+  },
+  {
+    "api": "05-123-25463",
+    "api_abv": "12325463",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557474"
+  },
+  {
+    "api": "05-123-25463",
+    "api_abv": "12325463",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577872"
+  },
+  {
+    "api": "05-123-25463",
+    "api_abv": "12325463",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577873"
+  },
+  {
+    "api": "05-045-15494",
+    "api_abv": "04515494",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-123-25462",
+    "api_abv": "12325462",
+    "doc_type": "Cement Bond Log, scale 1:240",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584417"
+  },
+  {
+    "api": "05-123-25462",
+    "api_abv": "12325462",
+    "doc_type": "Compensated Density Compensated Neutron GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584986"
+  },
+  {
+    "api": "05-123-25462",
+    "api_abv": "12325462",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584987"
+  },
+  {
+    "api": "05-123-25462",
+    "api_abv": "12325462",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590311"
+  },
+  {
+    "api": "05-123-25462",
+    "api_abv": "12325462",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590355"
+  },
+  {
+    "api": "05-045-15492",
+    "api_abv": "04515492",
+    "doc_type": "RESERVOIR SATURATION TOOL SIGMA MODE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2547672"
+  },
+  {
+    "api": "05-045-15492",
+    "api_abv": "04515492",
+    "doc_type": "CEMENT BOND LOG GAMMA RAY-CCL MAP IMAGE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2547673"
+  },
+  {
+    "api": "05-045-15492",
+    "api_abv": "04515492",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2598171"
+  },
+  {
+    "api": "05-045-15492",
+    "api_abv": "04515492",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2622294"
+  },
+  {
+    "api": "05-045-15492",
+    "api_abv": "04515492",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2622295"
+  },
+  {
+    "api": "05-045-15492",
+    "api_abv": "04515492",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2622296"
+  },
+  {
+    "api": "05-045-15492",
+    "api_abv": "04515492",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2628554"
+  },
+  {
+    "api": "05-045-15492",
+    "api_abv": "04515492",
+    "doc_type": "PDF-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2628591"
+  },
+  {
+    "api": "05-045-15492",
+    "api_abv": "04515492",
+    "doc_type": "COMPACT WELL SHUTTLE TRIPLE COMBO QUICKLOOK LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2636933"
+  },
+  {
+    "api": "05-045-15492",
+    "api_abv": "04515492",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2769983"
+  },
+  {
+    "api": "05-045-15492",
+    "api_abv": "04515492",
+    "doc_type": "TRIPLE COMBO LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2819064"
+  },
+  {
+    "api": "05-045-15487",
+    "api_abv": "04515487",
+    "doc_type": "ROP vs Gas",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549818"
+  },
+  {
+    "api": "05-045-15487",
+    "api_abv": "04515487",
+    "doc_type": "Cement Bond Log, CBL - VDL - Map, GR - CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549819"
+  },
+  {
+    "api": "05-045-15487",
+    "api_abv": "04515487",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580188"
+  },
+  {
+    "api": "05-045-15487",
+    "api_abv": "04515487",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580189"
+  },
+  {
+    "api": "05-013-06578",
+    "api_abv": "01306578",
+    "doc_type": "CEMENT BOND LOG GAMMA RAY -CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2570555"
+  },
+  {
+    "api": "05-013-06578",
+    "api_abv": "01306578",
+    "doc_type": "PDF-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2594787"
+  },
+  {
+    "api": "05-013-06578",
+    "api_abv": "01306578",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2594788"
+  },
+  {
+    "api": "05-013-06578",
+    "api_abv": "01306578",
+    "doc_type": "LAS-ELECTRONIC",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2769725"
+  },
+  {
+    "api": "05-045-15486",
+    "api_abv": "04515486",
+    "doc_type": "Cement Bond Log, CBL - VDL - Map, GR - CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2562724"
+  },
+  {
+    "api": "05-045-15486",
+    "api_abv": "04515486",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580115"
+  },
+  {
+    "api": "05-045-15486",
+    "api_abv": "04515486",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580116"
+  },
+  {
+    "api": "05-067-09496",
+    "api_abv": "06709496",
+    "doc_type": "Acoustic Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557705"
+  },
+  {
+    "api": "05-067-09496",
+    "api_abv": "06709496",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576779"
+  },
+  {
+    "api": "05-123-25465",
+    "api_abv": "12325465",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557234"
+  },
+  {
+    "api": "05-123-25465",
+    "api_abv": "12325465",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557235"
+  },
+  {
+    "api": "05-123-25465",
+    "api_abv": "12325465",
+    "doc_type": "Cement Bond GR Collar Correlation Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2557236"
+  },
+  {
+    "api": "05-123-25465",
+    "api_abv": "12325465",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578164"
+  },
+  {
+    "api": "05-123-25465",
+    "api_abv": "12325465",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578165"
+  },
+  {
+    "api": "05-067-09495",
+    "api_abv": "06709495",
+    "doc_type": "ACOUSTIC CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558169"
+  },
+  {
+    "api": "05-067-09495",
+    "api_abv": "06709495",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576780"
+  },
+  {
+    "api": "05-081-07426",
+    "api_abv": "08107426",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-045-15488",
+    "api_abv": "04515488",
+    "doc_type": "RESERVOIR SATURATION TOOL GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2605096"
+  },
+  {
+    "api": "05-045-15488",
+    "api_abv": "04515488",
+    "doc_type": "PLATFORM EXPRESS TRIPLE COMBO GAMMA RAY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2606269"
+  },
+  {
+    "api": "05-045-15488",
+    "api_abv": "04515488",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2606270"
+  },
+  {
+    "api": "05-045-15488",
+    "api_abv": "04515488",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2874246"
+  },
+  {
+    "api": "05-045-15488",
+    "api_abv": "04515488",
+    "doc_type": "LAS-NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2874247"
+  },
+  {
+    "api": "05-045-15488",
+    "api_abv": "04515488",
+    "doc_type": "LAS-INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2874248"
+  },
+  {
+    "api": "05-045-15488",
+    "api_abv": "04515488",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2874249"
+  },
+  {
+    "api": "05-045-15488",
+    "api_abv": "04515488",
+    "doc_type": "LAS-COMPOSITE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2874250"
+  },
+  {
+    "api": "05-123-25466",
+    "api_abv": "12325466",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561335"
+  },
+  {
+    "api": "05-123-25466",
+    "api_abv": "12325466",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561336"
+  },
+  {
+    "api": "05-123-25466",
+    "api_abv": "12325466",
+    "doc_type": "Cement Bond Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561337"
+  },
+  {
+    "api": "05-123-25466",
+    "api_abv": "12325466",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579491"
+  },
+  {
+    "api": "05-045-15489",
+    "api_abv": "04515489",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-069-40010",
+    "api_abv": "06940010",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-077-09484",
+    "api_abv": "07709484",
+    "doc_type": "Sector Bond Log GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560844"
+  },
+  {
+    "api": "05-077-09484",
+    "api_abv": "07709484",
+    "doc_type": "Spectral Density Dual Spaced Neutron Hi Res Induction",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560845"
+  },
+  {
+    "api": "05-077-09484",
+    "api_abv": "07709484",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590275"
+  },
+  {
+    "api": "05-077-09484",
+    "api_abv": "07709484",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590276"
+  },
+  {
+    "api": "05-077-09483",
+    "api_abv": "07709483",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590272"
+  },
+  {
+    "api": "05-077-09483",
+    "api_abv": "07709483",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590273"
+  },
+  {
+    "api": "05-077-09483",
+    "api_abv": "07709483",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590274"
+  },
+  {
+    "api": "05-077-09485",
+    "api_abv": "07709485",
+    "doc_type": "SECTOR BOND LOG GAMMA RAY/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572441"
+  },
+  {
+    "api": "05-077-09485",
+    "api_abv": "07709485",
+    "doc_type": "Dual Spaced Neutron, Spectral Density, Array Comp Resistivity Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572499"
+  },
+  {
+    "api": "05-077-09485",
+    "api_abv": "07709485",
+    "doc_type": "PDF-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584179"
+  },
+  {
+    "api": "05-077-09485",
+    "api_abv": "07709485",
+    "doc_type": "PDF-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584180"
+  },
+  {
+    "api": "05-077-09485",
+    "api_abv": "07709485",
+    "doc_type": "PDF-ELECTRONIC",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584181"
+  },
+  {
+    "api": "05-077-09485",
+    "api_abv": "07709485",
+    "doc_type": "LAS-CEMENT BOND                                             ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590413"
+  },
+  {
+    "api": "05-077-09485",
+    "api_abv": "07709485",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590414"
+  },
+  {
+    "api": "05-123-25467",
+    "api_abv": "12325467",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561311"
+  },
+  {
+    "api": "05-123-25467",
+    "api_abv": "12325467",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561312"
+  },
+  {
+    "api": "05-123-25467",
+    "api_abv": "12325467",
+    "doc_type": "Cement Bond GAMMA RAY CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561313"
+  },
+  {
+    "api": "05-123-25467",
+    "api_abv": "12325467",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579487"
+  },
+  {
+    "api": "05-123-25467",
+    "api_abv": "12325467",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589380"
+  },
+  {
+    "api": "05-123-25467",
+    "api_abv": "12325467",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589381"
+  },
+  {
+    "api": "05-123-25467",
+    "api_abv": "12325467",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589382"
+  },
+  {
+    "api": "05-123-25468",
+    "api_abv": "12325468",
+    "doc_type": "Cement Bond, GR, Collar Correlation Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548716"
+  },
+  {
+    "api": "05-123-25468",
+    "api_abv": "12325468",
+    "doc_type": "PULSED NEUTRON NEUTRON GAMMA RAY CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549192"
+  },
+  {
+    "api": "05-123-25468",
+    "api_abv": "12325468",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2582123"
+  },
+  {
+    "api": "05-123-25468",
+    "api_abv": "12325468",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2683859"
+  },
+  {
+    "api": "05-123-25468",
+    "api_abv": "12325468",
+    "doc_type": "LAS-CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2770850"
+  },
+  {
+    "api": "05-005-07133",
+    "api_abv": "00507133",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-123-25469",
+    "api_abv": "12325469",
+    "doc_type": "CEMENT BOND GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561383"
+  },
+  {
+    "api": "05-123-25469",
+    "api_abv": "12325469",
+    "doc_type": "Dual Induction Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561881"
+  },
+  {
+    "api": "05-123-25469",
+    "api_abv": "12325469",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561882"
+  },
+  {
+    "api": "05-123-25469",
+    "api_abv": "12325469",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579489"
+  },
+  {
+    "api": "05-123-25469",
+    "api_abv": "12325469",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589383"
+  },
+  {
+    "api": "05-123-25469",
+    "api_abv": "12325469",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2589384"
+  },
+  {
+    "api": "05-005-07134",
+    "api_abv": "00507134",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-005-07135",
+    "api_abv": "00507135",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-077-09488",
+    "api_abv": "07709488",
+    "doc_type": "SECTOR BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572692"
+  },
+  {
+    "api": "05-077-09488",
+    "api_abv": "07709488",
+    "doc_type": "Spectral Density, Dual Spaced Neutron, Hi Res Induction Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572932"
+  },
+  {
+    "api": "05-077-09488",
+    "api_abv": "07709488",
+    "doc_type": "LAS-CEMENT BOND                                             ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590410"
+  },
+  {
+    "api": "05-077-09488",
+    "api_abv": "07709488",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590411"
+  },
+  {
+    "api": "05-077-09488",
+    "api_abv": "07709488",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590412"
+  },
+  {
+    "api": "05-077-09486",
+    "api_abv": "07709486",
+    "doc_type": "Hi Res Induction, Spectral Density, Dual Spaced Neutron",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558538"
+  },
+  {
+    "api": "05-077-09486",
+    "api_abv": "07709486",
+    "doc_type": "Sector Bond Log, GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561161"
+  },
+  {
+    "api": "05-077-09486",
+    "api_abv": "07709486",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2768915"
+  },
+  {
+    "api": "05-077-09487",
+    "api_abv": "07709487",
+    "doc_type": "Array Comp. Resistivity Spectral Density Dual Spaced Neutron",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558537"
+  },
+  {
+    "api": "05-077-09487",
+    "api_abv": "07709487",
+    "doc_type": "Sector Bond Log GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561504"
+  },
+  {
+    "api": "05-077-09487",
+    "api_abv": "07709487",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2768916"
+  },
+  {
+    "api": "05-077-09491",
+    "api_abv": "07709491",
+    "doc_type": "Sector Bond Log GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572436"
+  },
+  {
+    "api": "05-077-09491",
+    "api_abv": "07709491",
+    "doc_type": "Dual Spaced Neutron, Spectral Density, Hi Res Induction Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572512"
+  },
+  {
+    "api": "05-077-09491",
+    "api_abv": "07709491",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2771040"
+  },
+  {
+    "api": "05-077-09491",
+    "api_abv": "07709491",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2771044"
+  },
+  {
+    "api": "05-077-09491",
+    "api_abv": "07709491",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2771045"
+  },
+  {
+    "api": "05-077-09490",
+    "api_abv": "07709490",
+    "doc_type": "HIGH RESOLUTION IND. SPECTGRAL DENSITY DUAL SPACED NEUTRON T",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558547"
+  },
+  {
+    "api": "05-077-09490",
+    "api_abv": "07709490",
+    "doc_type": "Sector Bond Log, GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2561503"
+  },
+  {
+    "api": "05-077-09490",
+    "api_abv": "07709490",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590265"
+  },
+  {
+    "api": "05-077-09490",
+    "api_abv": "07709490",
+    "doc_type": "LAS-CEMENT BOND                                             ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590266"
+  },
+  {
+    "api": "05-077-09489",
+    "api_abv": "07709489",
+    "doc_type": "Hi Res Induction, Spectral Density, Dual Spaced Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567578"
+  },
+  {
+    "api": "05-077-09489",
+    "api_abv": "07709489",
+    "doc_type": "SECTOR BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572691"
+  },
+  {
+    "api": "05-077-09489",
+    "api_abv": "07709489",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590206"
+  },
+  {
+    "api": "05-077-09489",
+    "api_abv": "07709489",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590207"
+  },
+  {
+    "api": "05-077-09489",
+    "api_abv": "07709489",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590208"
+  },
+  {
+    "api": "05-077-09489",
+    "api_abv": "07709489",
+    "doc_type": "LAS-GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590209"
+  },
+  {
+    "api": "05-077-09494",
+    "api_abv": "07709494",
+    "doc_type": "SECTOR BOND LOG GAMMA RAY/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572433"
+  },
+  {
+    "api": "05-077-09494",
+    "api_abv": "07709494",
+    "doc_type": "Hi Res Induction, Spectral Density, Dual Spaced Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572494"
+  },
+  {
+    "api": "05-077-09494",
+    "api_abv": "07709494",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590415"
+  },
+  {
+    "api": "05-077-09494",
+    "api_abv": "07709494",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590416"
+  },
+  {
+    "api": "05-077-09494",
+    "api_abv": "07709494",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590417"
+  },
+  {
+    "api": "05-077-09492",
+    "api_abv": "07709492",
+    "doc_type": "HIGH RESOLUTION IND. SPECTRAL DENSITY DUAL SPACED NEUT. COMP",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558546"
+  },
+  {
+    "api": "05-077-09492",
+    "api_abv": "07709492",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590262"
+  },
+  {
+    "api": "05-077-09492",
+    "api_abv": "07709492",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590263"
+  },
+  {
+    "api": "05-077-09492",
+    "api_abv": "07709492",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590264"
+  },
+  {
+    "api": "05-077-09493",
+    "api_abv": "07709493",
+    "doc_type": "Sector Bond Log GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572438"
+  },
+  {
+    "api": "05-077-09493",
+    "api_abv": "07709493",
+    "doc_type": "Hi Res Induction, Spectral Density, Dual Spaced Neutron Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2572501"
+  },
+  {
+    "api": "05-077-09493",
+    "api_abv": "07709493",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590277"
+  },
+  {
+    "api": "05-077-09493",
+    "api_abv": "07709493",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590278"
+  },
+  {
+    "api": "05-077-09493",
+    "api_abv": "07709493",
+    "doc_type": "LAS-CEMENT BOND                                             ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590279"
+  },
+  {
+    "api": "05-095-06186",
+    "api_abv": "09506186",
+    "doc_type": "Cement Bond Log GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2555310"
+  },
+  {
+    "api": "05-095-06186",
+    "api_abv": "09506186",
+    "doc_type": "Platform Express Triple Combo",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2556517"
+  },
+  {
+    "api": "05-095-06186",
+    "api_abv": "09506186",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2575943"
+  },
+  {
+    "api": "05-095-06186",
+    "api_abv": "09506186",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576305"
+  },
+  {
+    "api": "05-095-06185",
+    "api_abv": "09506185",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-077-09495",
+    "api_abv": "07709495",
+    "doc_type": "HIGH RES. INDUCTION SPECTRAL DENSITY DUAL SPACED NEUTRON",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2550797"
+  },
+  {
+    "api": "05-077-09495",
+    "api_abv": "07709495",
+    "doc_type": "SECTOR BOND LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2551962"
+  },
+  {
+    "api": "05-077-09495",
+    "api_abv": "07709495",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590267"
+  },
+  {
+    "api": "05-077-09495",
+    "api_abv": "07709495",
+    "doc_type": "LAS-CEMENT BOND                                             ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2590268"
+  },
+  {
+    "api": "05-123-25470",
+    "api_abv": "12325470",
+    "doc_type": "COMP DENSITY COMP NEUTRON DUAL INDUCTION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2268603"
+  },
+  {
+    "api": "05-123-25470",
+    "api_abv": "12325470",
+    "doc_type": "Cement Bond GR Collar Correlation Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548694"
+  },
+  {
+    "api": "05-123-25470",
+    "api_abv": "12325470",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548974"
+  },
+  {
+    "api": "05-123-25470",
+    "api_abv": "12325470",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548975"
+  },
+  {
+    "api": "05-123-25470",
+    "api_abv": "12325470",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580816"
+  },
+  {
+    "api": "05-123-25470",
+    "api_abv": "12325470",
+    "doc_type": "LAS-CEMENT BOND                                             ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580817"
+  },
+  {
+    "api": "05-123-25471",
+    "api_abv": "12325471",
+    "doc_type": "GR CCL/CB VDL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2549871"
+  },
+  {
+    "api": "05-123-25471",
+    "api_abv": "12325471",
+    "doc_type": "DUAL INDUCTION GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566259"
+  },
+  {
+    "api": "05-123-25471",
+    "api_abv": "12325471",
+    "doc_type": "COMPENSATED DENSITY COMPENSATED NEUTRON GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2566260"
+  },
+  {
+    "api": "05-123-25471",
+    "api_abv": "12325471",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583647"
+  },
+  {
+    "api": "05-123-25471",
+    "api_abv": "12325471",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2583648"
+  },
+  {
+    "api": "05-123-25471",
+    "api_abv": "12325471",
+    "doc_type": "GYRO SURVEY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=3413694"
+  },
+  {
+    "api": "05-123-25472",
+    "api_abv": "12325472",
+    "doc_type": "DUAL IND. GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548439"
+  },
+  {
+    "api": "05-123-25472",
+    "api_abv": "12325472",
+    "doc_type": "COMP. DENSITY COMP. NEUTRON MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548440"
+  },
+  {
+    "api": "05-123-25472",
+    "api_abv": "12325472",
+    "doc_type": "CEMENT BOND LOG GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548441"
+  },
+  {
+    "api": "05-123-25472",
+    "api_abv": "12325472",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580838"
+  },
+  {
+    "api": "05-123-25472",
+    "api_abv": "12325472",
+    "doc_type": "LAS-TRIPLE COMBINATION                                      ",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2580839"
+  },
+  {
+    "api": "05-005-07136",
+    "api_abv": "00507136",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-123-25473",
+    "api_abv": "12325473",
+    "doc_type": "Cement Bond GR Collar Correlation Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548384"
+  },
+  {
+    "api": "05-123-25473",
+    "api_abv": "12325473",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548671"
+  },
+  {
+    "api": "05-123-25473",
+    "api_abv": "12325473",
+    "doc_type": "Compensated Density Compensated Neutron Microlog",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2548672"
+  },
+  {
+    "api": "05-123-25473",
+    "api_abv": "12325473",
+    "doc_type": "LAS-TRIPLE COMBINATION",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2579957"
+  },
+  {
+    "api": "05-045-15495",
+    "api_abv": "04515495",
+    "doc_type": "Cement Bond Log, CBL-VDL-Map, GR-CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2567621"
+  },
+  {
+    "api": "05-045-15495",
+    "api_abv": "04515495",
+    "doc_type": "LAS-CBL 1ST RUN",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584947"
+  },
+  {
+    "api": "05-045-15495",
+    "api_abv": "04515495",
+    "doc_type": "LAS-MUD",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2584948"
+  },
+  {
+    "api": "05-045-15495",
+    "api_abv": "04515495",
+    "doc_type": "Mud Log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586440"
+  },
+  {
+    "api": "05-045-15495",
+    "api_abv": "04515495",
+    "doc_type": "GR/Collars, Temperature/Temperature Plot, Pressure",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586441"
+  },
+  {
+    "api": "05-083-40030",
+    "api_abv": "08340030",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-045-15496",
+    "api_abv": "04515496",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-045-15497",
+    "api_abv": "04515497",
+    "doc_type": "GR/COLLARS TEMPERATURE/TEMPERATURE PLOT",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2668525"
+  },
+  {
+    "api": "05-045-15497",
+    "api_abv": "04515497",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2668792"
+  },
+  {
+    "api": "05-045-15497",
+    "api_abv": "04515497",
+    "doc_type": "MUD LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2668793"
+  },
+  {
+    "api": "05-045-15497",
+    "api_abv": "04515497",
+    "doc_type": "MUD LOG ST2",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2668794"
+  },
+  {
+    "api": "05-045-15497",
+    "api_abv": "04515497",
+    "doc_type": "ISOLATION SCANNER CEMENT EVALUATION GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2669062"
+  },
+  {
+    "api": "05-045-15497",
+    "api_abv": "04515497",
+    "doc_type": "PLATFORM EXPRESS ARRAY INDUCTION TOOL GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2669070"
+  },
+  {
+    "api": "05-045-15497",
+    "api_abv": "04515497",
+    "doc_type": "CORRELATION LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2669071"
+  },
+  {
+    "api": "05-045-15497",
+    "api_abv": "04515497",
+    "doc_type": "CEMENT BOND LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2669455"
+  },
+  {
+    "api": "05-045-15499",
+    "api_abv": "04515499",
+    "doc_type": "Cement Bond Log, Map Image, GR/CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558433"
+  },
+  {
+    "api": "05-045-15499",
+    "api_abv": "04515499",
+    "doc_type": "RESERVOIR SATURATION TOOL SIGMA MODE",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2558567"
+  },
+  {
+    "api": "05-045-15499",
+    "api_abv": "04515499",
+    "doc_type": "PROCESSED DATA SSLT-B",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2568309"
+  },
+  {
+    "api": "05-045-15499",
+    "api_abv": "04515499",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2577559"
+  },
+  {
+    "api": "05-045-15498",
+    "api_abv": "04515498",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-095-06189",
+    "api_abv": "09506189",
+    "doc_type": "Cement Bond Log GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2553959"
+  },
+  {
+    "api": "05-095-06189",
+    "api_abv": "09506189",
+    "doc_type": "PLATFORM EXPRESS TRIPLE COMBO",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2554461"
+  },
+  {
+    "api": "05-095-06189",
+    "api_abv": "09506189",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2575942"
+  },
+  {
+    "api": "05-095-06189",
+    "api_abv": "09506189",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2576304"
+  },
+  {
+    "api": "05-095-06190",
+    "api_abv": "09506190",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-095-06187",
+    "api_abv": "09506187",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-095-06188",
+    "api_abv": "09506188",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-123-25474",
+    "api_abv": "12325474",
+    "doc_type": "COMPENSATED DENSITY COMPENSATED NEUTRON GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2551082"
+  },
+  {
+    "api": "05-123-25474",
+    "api_abv": "12325474",
+    "doc_type": "SONIC BOND GAMMA RAY CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2551083"
+  },
+  {
+    "api": "05-123-25474",
+    "api_abv": "12325474",
+    "doc_type": "DUAL INDUCTION GUARD LOG GAMMA RAY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2551084"
+  },
+  {
+    "api": "05-123-25474",
+    "api_abv": "12325474",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586755"
+  },
+  {
+    "api": "05-123-25474",
+    "api_abv": "12325474",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2586794"
+  },
+  {
+    "api": "05-123-25475",
+    "api_abv": "12325475",
+    "doc_type": "Compensated Density Compensated Neutron GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560630"
+  },
+  {
+    "api": "05-123-25475",
+    "api_abv": "12325475",
+    "doc_type": "Dual Induction Guard Log GR",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560631"
+  },
+  {
+    "api": "05-123-25475",
+    "api_abv": "12325475",
+    "doc_type": "Sonic Bond GR CCL",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2560632"
+  },
+  {
+    "api": "05-123-25475",
+    "api_abv": "12325475",
+    "doc_type": "LAS-IND-DENS-NEU",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578513"
+  },
+  {
+    "api": "05-123-25475",
+    "api_abv": "12325475",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578712"
+  },
+  {
+    "api": "05-123-25475",
+    "api_abv": "12325475",
+    "doc_type": "LAS-CEMENT BOND",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2578713"
+  },
+  {
+    "api": "05-123-14072",
+    "api_abv": "12314072",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2324094"
+  },
+  {
+    "api": "05-123-14072",
+    "api_abv": "12314072",
+    "doc_type": "well log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2331747"
+  },
+  {
+    "api": "05-123-14072",
+    "api_abv": "12314072",
+    "doc_type": "well log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2348356"
+  },
+  {
+    "api": "05-123-14072",
+    "api_abv": "12314072",
+    "doc_type": "OTHER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2387472"
+  },
+  {
+    "api": "05-001-07437",
+    "api_abv": "00107437",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-001-09392",
+    "api_abv": "00109392",
+    "doc_type": "log",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2389983"
   }
 ]
