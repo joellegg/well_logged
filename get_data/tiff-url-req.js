@@ -85,7 +85,7 @@ function readExistingData() {
 
 // to do: swap 10 for api.length
 function setRequests() {
-  for (let i = 0; i < 40000; i++) {
+  for (let i = 0; i < 60000; i++) {
     makeUrlReq(i)
   }
 }
@@ -96,7 +96,7 @@ console.log('file number', fileNumber)
 // make the request for new data, passing in the 111k apis
 function makeUrlReq(i) {
   setTimeout(function() {
-    console.log(`api request #${i} with ${apis[i].api_abv}`)
+    // console.log(`api request #${i} with ${apis[i].api_abv}`)
 
     var options = {
       hostname: 'cogcc.state.co.us',
@@ -138,7 +138,8 @@ function makeUrlReq(i) {
               }
 
               dataArray.push(dataObj)
-              // console.log('# of files', dataArray.length)
+
+              console.log('# of files', dataArray.length, apis[i].api_abv)
             }
 
             // if well log exists
@@ -164,7 +165,7 @@ function makeUrlReq(i) {
               }
             }
 
-            if (dataArray.length > 5000 || (i === 39999 && j === ($trArray.length - 1))) {
+            if (dataArray.length > 5000 || (i === 59999 && j === ($trArray.length - 1))) {
               console.log('new # of files', dataArray.length)
               writeFileSync(`db/seeds/log_data_${fileNumber}.json`, JSON.stringify(dataArray))
               dataArray = []
