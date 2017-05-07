@@ -65,7 +65,7 @@ function readExistingData() {
   console.log('about to check if data already exists')
   // if api present in db - remove so you don't scrape for the same data
   // loop through reverse b/c array get's reindexed when you remove an item,
-  for (let i = apisToScape.length - 1; i >= 0; i--) {
+  for (let i = apisToScrape.length - 1; i >= 0; i--) {
     // apiPos returns the position of the api in the api data files
     let apiPos = existingApiData.map(function(res) {
       return res.api
@@ -77,7 +77,7 @@ function readExistingData() {
   }
 
   // write apis left to scrape to file, then read in that file (should make process faster)
-  writeFileSync(`get_data/temp_files/api-scrape.json`, JSON.stringify(apisToScrape))
+  writeFileSync(`get_data/temp_files/apis-scrape.json`, JSON.stringify(apisToScrape))
   console.log('# of files:', fileCount)
   console.log(`# of wells to scrape: ${apisToScrape.length}`)
   console.log('total # of well logs:', existingApiData.length)
