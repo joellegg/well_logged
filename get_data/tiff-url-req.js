@@ -10,6 +10,7 @@ const cheerio = require('cheerio');
 let apis = []
 let existingApiData = []
 let existingApis = []
+let apisAlreadyScraped = []
 let dataArray = []
 let apisToScrape = []
 let fileCount = 0
@@ -67,11 +68,16 @@ function readExistingData() {
   console.log('about to check if data already exists')
     // if api present in db - remove so you don't scrape for the same data
     // loop through reverse b/c array get's reindexed when you remove an item,
+  let scrapeFileNum = 0
+  let doneScrapedFileNum = 0
+
   for (let i = apis.length - 1; i >= 0; i--) {
     // apiPos returns the position of the api in the api data files
     let apiPos = existingApiData.map(function(res) {
       return res.api
     }).indexOf(apis[i].api)
+
+    console.log(i)
 
     if (apiPos !== -1) {
       // apis.splice(i, 1)
@@ -79,25 +85,20 @@ function readExistingData() {
     } else {
       apisAlreadyScraped.push(apis[i].api)
     }
-  }
-
-  console.log('about to write apisToScrape to file')
-    // write apis left to scrape to file, then read in that file (should make process faster)
-  let scrapeFileNum = 0
-  for (let i = 0; i < apisToScrape.length; i++) {
-    if ((i % 10000 === 0 && i !== 0) || (i === (apisToScrape.length - 1))) {
-      console.log('write new api to scrape file')
-      writeFileSync(`get_data/temp_files/apis-scrape_${scrapeFileNum}.json`, JSON.stringify(apisToScrape))
-      scrapeFileNum++
+    for (let i = 0; i < apisToScrape.length; i++) {
+      if ((i % 10000 === 0 && i !== 0) || (i === (apisToScrape.length - 1))) {
+        console.log('write new api to scrape file')
+        writeFileSync(`get_data/temp_files/apis-scrape_${scrapeFileNum}.json`, JSON.stringify(apisToScrape))
+        scrapeFileNum++
+      }
     }
-  }
 
-  let doneScrapedFileNum = 0
-  for (let i = 0; i < apisAlreadyScraped.length; i++) {
-    if ((i % 10000 === 0 && i !== 0) || (i === (apisAlreadyScraped.length - 1))) {
-      console.log('write new api DONE scraped file')
-      writeFileSync(`get_data/temp_files/apis-completed_${doneScrapedFileNum}.json`, JSON.stringify(apisAlreadyScraped))
-      doneScrapedFileNum++
+    for (let i = 0; i < apisAlreadyScraped.length; i++) {
+      if ((i % 10000 === 0 && i !== 0) || (i === (apisAlreadyScraped.length - 1))) {
+        console.log('write new api DONE scraped file')
+        writeFileSync(`get_data/temp_files/apis-completed_${doneScrapedFileNum}.json`, JSON.stringify(apisAlreadyScraped))
+        doneScrapedFileNum++
+      }
     }
   }
 
