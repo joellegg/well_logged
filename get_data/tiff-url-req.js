@@ -2,7 +2,7 @@
 // to run: 'node req_forms/tiff-url-req'
 
 var http = require("http")
-http.globalAgent.maxSockets = 5;
+http.globalAgent.maxSockets = 10;
 var path = require('path')
 const { readFileSync, writeFileSync, appendFile } = require('fs')
 const cheerio = require('cheerio');
@@ -44,7 +44,7 @@ function readExistingData() {
           // concat the different data files
         let dataLength = (JSON.parse(data).length)
         if (dataLength < 5000) {
-          console.log(`file length is only ${dataLength} in file # ${fileCount}`)
+          console.log(`file length is only ${dataLength} in log_data_${fileCount}.json`)
             // push to array to add data to
           dataArray = JSON.parse(data)
         }
@@ -79,13 +79,13 @@ function readExistingData() {
   }
   console.log('# of data files', fileCount)
   console.log(`# of wells to scrape for ${apis.length}`)
-  console.log('total # of data entries', existingApiData.length)
+  console.log('total # of data files', existingApiData.length)
   setRequests()
 }
 
 // to do: swap 10 for api.length
 function setRequests() {
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 40000; i++) {
     makeUrlReq(i)
   }
 }
@@ -129,7 +129,7 @@ function makeUrlReq(i) {
 
             // if no logs exist
             if ($trArray.length < 3 && $wellLogs.text().toLowerCase() !== 'well logs' && j === 1) {
-              console.log('no logs exist for this well', apis[i].api_abv)
+              // console.log('no logs exist for this well', apis[i].api_abv)
               let dataObj = {
                 api: apis[i].api,
                 api_abv: apis[i].api_abv,
@@ -138,6 +138,7 @@ function makeUrlReq(i) {
               }
 
               dataArray.push(dataObj)
+              // console.log('# of files', dataArray.length)
             }
 
             // if well log exists
@@ -163,11 +164,12 @@ function makeUrlReq(i) {
               }
             }
 
-            if (dataArray.length > 5000 || (i === 99 && j === ($trArray.length - 1))) {
+            if (dataArray.length > 5000 || (i === 39999 && j === ($trArray.length - 1))) {
               console.log('new # of files', dataArray.length)
               writeFileSync(`db/seeds/log_data_${fileNumber}.json`, JSON.stringify(dataArray))
               dataArray = []
               fileNumber++
+              console.log('next file', fileNumber)
             }
           })
         } catch (e) {
