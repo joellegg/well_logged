@@ -9,15 +9,16 @@ const cheerio = require('cheerio');
 
 let apis = []
 let existingApiData = []
+let existingApis = []
 let dataArray = []
-let apisToScrape = [];
-let fileCount = 0;
-let runTimes = 10000;
+let apisToScrape = []
+let fileCount = 0
+let runTimes = 10000
 
 // this only needs to run once
 // read in the APIs from local files and merge into one Array
 function readApiFiles() {
-  for (let j = 0; j < 13; j++) {
+  for (let j = 0; j < 14; j++) {
     try {
       let data = readFileSync(path.join(__dirname, `temp_files/apis_${j}.json`))
       apis.push.apply(apis, JSON.parse(data))
@@ -32,7 +33,7 @@ function readApiFiles() {
 readApiFiles()
 
 function readApisToScrape() {
-  apisToScrape = readFileSync(path.join(__dirname, `temp_files/apis-scrape.json`))
+  // apisToScrape = readFileSync(path.join(__dirname, `temp_files/apis-scrape.json`))
   readExistingData()
 }
 
@@ -42,7 +43,7 @@ function readExistingData() {
     if (i % 5000 === 0) {
       try {
         let data = readFileSync(path.join(__dirname, `../db/seeds/log_data_${fileCount}.json`))
-
+        console.log('reading data files');
         // concat the separate data files
         let dataLength = (JSON.parse(data).length)
         if (dataLength < 5000) {
@@ -62,26 +63,48 @@ function readExistingData() {
       fileCount++
     }
   }
+
   console.log('about to check if data already exists')
-  // if api present in db - remove so you don't scrape for the same data
-  // loop through reverse b/c array get's reindexed when you remove an item,
-  for (let i = apisToScrape.length - 1; i >= 0; i--) {
+    // if api present in db - remove so you don't scrape for the same data
+    // loop through reverse b/c array get's reindexed when you remove an item,
+  for (let i = apis.length - 1; i >= 0; i--) {
     // apiPos returns the position of the api in the api data files
     let apiPos = existingApiData.map(function(res) {
       return res.api
-    }).indexOf(apisToScrape[i].api)
+    }).indexOf(apis[i].api)
 
     if (apiPos !== -1) {
-      apisToScrape.splice(i, 1)
+      // apis.splice(i, 1)
+      apisToScrape.push(apis[i].api)
+    } else {
+      apisAlreadyScraped.push(apis[i].api)
     }
   }
 
-  // write apis left to scrape to file, then read in that file (should make process faster)
-  writeFileSync(`get_data/temp_files/apis-scrape.json`, JSON.stringify(apisToScrape))
+  console.log('about to write apisToScrape to file')
+    // write apis left to scrape to file, then read in that file (should make process faster)
+  let scrapeFileNum = 0
+  for (let i = 0; i < apisToScrape.length; i++) {
+    if ((i % 10000 === 0 && i !== 0) || (i === (apisToScrape.length - 1))) {
+      console.log('write new api to scrape file')
+      writeFileSync(`get_data/temp_files/apis-scrape_${scrapeFileNum}.json`, JSON.stringify(apisToScrape))
+      scrapeFileNum++
+    }
+  }
+
+  let doneScrapedFileNum = 0
+  for (let i = 0; i < apisAlreadyScraped.length; i++) {
+    if ((i % 10000 === 0 && i !== 0) || (i === (apisAlreadyScraped.length - 1))) {
+      console.log('write new api DONE scraped file')
+      writeFileSync(`get_data/temp_files/apis-completed_${doneScrapedFileNum}.json`, JSON.stringify(apisAlreadyScraped))
+      doneScrapedFileNum++
+    }
+  }
+
   console.log('# of files:', fileCount)
   console.log(`# of wells to scrape: ${apisToScrape.length}`)
   console.log('total # of well logs:', existingApiData.length)
-  setRequests();
+    // setRequests();
 }
 
 // to change # of wells to scrape for change runTimes value @ TOF
