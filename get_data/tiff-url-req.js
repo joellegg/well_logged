@@ -10,49 +10,51 @@ const cheerio = require('cheerio');
 let apis = []
 let existingApiData = []
 let dataArray = []
+let apisToScrape = [];
 let fileCount = 0;
+let runTimes = 10000;
 
-// to do: remove apis that have already been scraped
+// this only needs to run once
 // read in the APIs from local files and merge into one Array
 function readApiFiles() {
   for (let j = 0; j < 13; j++) {
     try {
       let data = readFileSync(path.join(__dirname, `temp_files/apis_${j}.json`))
-        // concat the different api files
       apis.push.apply(apis, JSON.parse(data))
     } catch (err) {
-      if (err.code === 'ENOENT') {
-        // return console.log('File not found, but moving on!');
-      } else {
-        throw err;
+      if (err.code !== 'ENOENT') {
+        throw err
       }
     }
   }
-
-  // console.log('total # of wells', apis.length)
-  readExistingData()
+  readApisToScrape()
 }
 readApiFiles()
+
+function readApisToScrape() {
+  apisToScrape = readFileSync(path.join(__dirname, `temp_files/apis-scrape.json`))
+  readExistingData()
+}
 
 // read in the log_data that already exists locally
 function readExistingData() {
   for (let i = 0; i < apis.length; i++) {
     if (i % 5000 === 0) {
-      // console.log('file #s', fileCount)
       try {
         let data = readFileSync(path.join(__dirname, `../db/seeds/log_data_${fileCount}.json`))
-          // concat the different data files
+
+        // concat the separate data files
         let dataLength = (JSON.parse(data).length)
         if (dataLength < 5000) {
-          console.log(`file length is only ${dataLength} in log_data_${fileCount}.json`)
-            // push to array to add data to
+          console.log(`only ${dataLength} well logs in log_data_${fileCount}.json`)
+
+          // push to array (this array of data will be added to when you scrape for more data)
           dataArray = JSON.parse(data)
         }
         existingApiData.push.apply(existingApiData, JSON.parse(data))
       } catch (err) {
         if (err.code === 'ENOENT') {
           fileCount--
-          // return console.log('File not found, but moving on!');
         } else {
           throw err;
         }
@@ -60,32 +62,32 @@ function readExistingData() {
       fileCount++
     }
   }
-  // see if the api is already in the database
-  // if present - remove so you don't scrape for the same data
-  // loop through backwards b/c array get's reindexed when you remove an item,
-  // thus consecutive items will be skipped going forward
-  for (let i = apis.length - 1; i >= 0; i--) {
+  console.log('about to check if data already exists')
+  // if api present in db - remove so you don't scrape for the same data
+  // loop through reverse b/c array get's reindexed when you remove an item,
+  for (let i = apisToScape.length - 1; i >= 0; i--) {
     // apiPos returns the position of the api in the api data files
     let apiPos = existingApiData.map(function(res) {
-        return res.api
-      }).indexOf(apis[i].api)
-      // -1 means it's not there, any other number means the api# has already been scraped so remove from array
-    if (apiPos !== -1) {
-      // console.log('api already scraped', apiPos, apis[i].api)
+      return res.api
+    }).indexOf(apisToScrape[i].api)
 
-      // splice to move existing well id from array
-      apis.splice(i, 1)
+    if (apiPos !== -1) {
+      apisToScrape.splice(i, 1)
     }
   }
-  console.log('# of data files', fileCount)
-  console.log(`# of wells to scrape for ${apis.length}`)
-  console.log('total # of data files', existingApiData.length)
-  setRequests()
+
+  // write apis left to scrape to file, then read in that file (should make process faster)
+  writeFileSync(`get_data/temp_files/api-scrape.json`, JSON.stringify(apisToScrape))
+  console.log('# of files:', fileCount)
+  console.log(`# of wells to scrape: ${apisToScrape.length}`)
+  console.log('total # of well logs:', existingApiData.length)
+  setRequests();
 }
 
-// to do: swap 10 for api.length
+// to change # of wells to scrape for change runTimes value @ TOF
 function setRequests() {
-  for (let i = 0; i < 60000; i++) {
+  console.log('let the requests begin')
+  for (let i = 0; i < runTimes; i++) {
     makeUrlReq(i)
   }
 }
@@ -165,7 +167,7 @@ function makeUrlReq(i) {
               }
             }
 
-            if (dataArray.length > 5000 || (i === 59999 && j === ($trArray.length - 1))) {
+            if (dataArray.length > 5000 || (i === (runTimes - 1) && j === ($trArray.length - 1))) {
               console.log('new # of files', dataArray.length)
               writeFileSync(`db/seeds/log_data_${fileNumber}.json`, JSON.stringify(dataArray))
               dataArray = []
