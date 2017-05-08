@@ -15,7 +15,7 @@ let apisAlreadyScraped = []
 let apisToScrape = []
 
 let fileCount = 0
-let runTimes = 1000
+let runTimes = 5000
 
 // this only needs to run once
 // read in the APIs from local files and merge into one Array
