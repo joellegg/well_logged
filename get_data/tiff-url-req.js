@@ -4,7 +4,7 @@
 var http = require("http")
 http.globalAgent.maxSockets = 10;
 var path = require('path')
-const { readFileSync, writeFileSync, appendFile } = require('fs')
+const { readFileSync, writeFileSync, appendFile, unlinkSync } = require('fs')
 const cheerio = require('cheerio');
 
 let apis = []
@@ -13,7 +13,11 @@ let existingApis = []
 let apisAlreadyScraped = []
 let dataArray = []
 let apisToScrape = []
+
 let fileCount = 0
+let scrapeFileNum = 0
+let scrapedFileNum = 0
+
 let runTimes = 10000
 
 // this only needs to run once
@@ -34,8 +38,19 @@ function readApiFiles() {
 readApiFiles()
 
 function readApisToScrape() {
-  // apisToScrape = readFileSync(path.join(__dirname, `temp_files/apis-scrape.json`))
-  readExistingData()
+  for (let i = 0; i < 4; i++) {
+    let data = readFileSync(path.join(__dirname, `temp_files/apis-scrape_${scrapeFileNum}.json`))
+    scrapeFileNum++
+    apisToScrape.push.apply(apisToScrape, JSON.parse(data))
+  }
+  for (let i = 0; i < 2; i++) {
+    let data = readFileSync(path.join(__dirname, `temp_files/apis-completed_${scrapedFileNum}.json`))
+    scrapedFileNum++
+    apisAlreadyScraped.push.apply(apisAlreadyScraped, JSON.parse(data))
+  }
+  console.log(`${scrapeFileNum} files with wells to scrape`)
+  console.log(`${scrapedFileNum} files with wells already scraped`)
+  // readExistingData()
 }
 
 // read in the log_data that already exists locally
@@ -44,12 +59,9 @@ function readExistingData() {
     if (i % 5000 === 0) {
       try {
         let data = readFileSync(path.join(__dirname, `../db/seeds/log_data_${fileCount}.json`))
-        console.log('reading data files');
-        // concat the separate data files
         let dataLength = (JSON.parse(data).length)
         if (dataLength < 5000) {
           console.log(`only ${dataLength} well logs in log_data_${fileCount}.json`)
-
           // push to array (this array of data will be added to when you scrape for more data)
           dataArray = JSON.parse(data)
         }
@@ -62,43 +74,6 @@ function readExistingData() {
         }
       }
       fileCount++
-    }
-  }
-
-  console.log('about to check if data already exists')
-    // if api present in db - remove so you don't scrape for the same data
-    // loop through reverse b/c array get's reindexed when you remove an item,
-  let scrapeFileNum = 0
-  let doneScrapedFileNum = 0
-
-  for (let i = apis.length - 1; i >= 0; i--) {
-    // apiPos returns the position of the api in the api data files
-    let apiPos = existingApiData.map(function(res) {
-      return res.api
-    }).indexOf(apis[i].api)
-
-    console.log(i)
-
-    if (apiPos !== -1) {
-      // apis.splice(i, 1)
-      apisToScrape.push(apis[i].api)
-    } else {
-      apisAlreadyScraped.push(apis[i].api)
-    }
-    for (let i = 0; i < apisToScrape.length; i++) {
-      if ((i % 10000 === 0 && i !== 0) || (i === (apisToScrape.length - 1))) {
-        console.log('write new api to scrape file')
-        writeFileSync(`get_data/temp_files/apis-scrape_${scrapeFileNum}.json`, JSON.stringify(apisToScrape))
-        scrapeFileNum++
-      }
-    }
-
-    for (let i = 0; i < apisAlreadyScraped.length; i++) {
-      if ((i % 10000 === 0 && i !== 0) || (i === (apisAlreadyScraped.length - 1))) {
-        console.log('write new api DONE scraped file')
-        writeFileSync(`get_data/temp_files/apis-completed_${doneScrapedFileNum}.json`, JSON.stringify(apisAlreadyScraped))
-        doneScrapedFileNum++
-      }
     }
   }
 
@@ -115,9 +90,6 @@ function setRequests() {
     makeUrlReq(i)
   }
 }
-
-let fileNumber = (fileCount - 1);
-console.log('file number', fileNumber)
 
 // make the request for new data, passing in the 111k apis
 function makeUrlReq(i) {
