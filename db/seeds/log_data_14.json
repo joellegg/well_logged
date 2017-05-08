@@ -154,5 +154,185 @@
     "api_abv": "09906003",
     "doc_type": "n/a",
     "doc_link": "n/a"
+  },
+  {
+    "api": "05-099-06013",
+    "api_abv": "09906013",
+    "doc_type": "MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2314606"
+  },
+  {
+    "api": "05-099-06009",
+    "api_abv": "09906009",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2325715"
+  },
+  {
+    "api": "05-099-06009",
+    "api_abv": "09906009",
+    "doc_type": "OTHER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2333181"
+  },
+  {
+    "api": "05-099-06009",
+    "api_abv": "09906009",
+    "doc_type": "SONIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2402430"
+  },
+  {
+    "api": "05-099-06012",
+    "api_abv": "09906012",
+    "doc_type": "DENSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2377516"
+  },
+  {
+    "api": "05-099-06012",
+    "api_abv": "09906012",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2386871"
+  },
+  {
+    "api": "05-099-06006",
+    "api_abv": "09906006",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-099-06011",
+    "api_abv": "09906011",
+    "doc_type": "GAMMA RAY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2339024"
+  },
+  {
+    "api": "05-099-06011",
+    "api_abv": "09906011",
+    "doc_type": "GAMMA RAY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2373797"
+  },
+  {
+    "api": "05-099-06015",
+    "api_abv": "09906015",
+    "doc_type": "SONIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2292684"
+  },
+  {
+    "api": "05-099-06015",
+    "api_abv": "09906015",
+    "doc_type": "POROSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2305893"
+  },
+  {
+    "api": "05-099-06015",
+    "api_abv": "09906015",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2364286"
+  },
+  {
+    "api": "05-099-06007",
+    "api_abv": "09906007",
+    "doc_type": "ACOUSTILOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2303568"
+  },
+  {
+    "api": "05-099-06007",
+    "api_abv": "09906007",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2315587"
+  },
+  {
+    "api": "05-099-06007",
+    "api_abv": "09906007",
+    "doc_type": "PERFORATING DEPTH CONTROL LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2372750"
+  },
+  {
+    "api": "05-099-06014",
+    "api_abv": "09906014",
+    "doc_type": "POROSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2222319"
+  },
+  {
+    "api": "05-099-06014",
+    "api_abv": "09906014",
+    "doc_type": "POROSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2236858"
+  },
+  {
+    "api": "05-099-06014",
+    "api_abv": "09906014",
+    "doc_type": "SHEAR AMPLITUDE LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2248144"
+  },
+  {
+    "api": "05-099-06014",
+    "api_abv": "09906014",
+    "doc_type": "LATEROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2279370"
+  },
+  {
+    "api": "05-099-06014",
+    "api_abv": "09906014",
+    "doc_type": "SONIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2287309"
+  },
+  {
+    "api": "05-099-06014",
+    "api_abv": "09906014",
+    "doc_type": "COMPRESSIONAL AMPLITUDE VARIABLE DENSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2320060"
+  },
+  {
+    "api": "05-099-06014",
+    "api_abv": "09906014",
+    "doc_type": "DENSITY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2322708"
+  },
+  {
+    "api": "05-099-06008",
+    "api_abv": "09906008",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  },
+  {
+    "api": "05-099-06010",
+    "api_abv": "09906010",
+    "doc_type": "GAMMA RAY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2256469"
+  },
+  {
+    "api": "05-099-06010",
+    "api_abv": "09906010",
+    "doc_type": "ACOUSTILOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2299450"
+  },
+  {
+    "api": "05-099-06010",
+    "api_abv": "09906010",
+    "doc_type": "MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2365243"
+  },
+  {
+    "api": "05-099-06010",
+    "api_abv": "09906010",
+    "doc_type": "OTHER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2377313"
+  },
+  {
+    "api": "05-099-06005",
+    "api_abv": "09906005",
+    "doc_type": "MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2237779"
+  },
+  {
+    "api": "05-099-06005",
+    "api_abv": "09906005",
+    "doc_type": "ACOUSTILOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2237979"
+  },
+  {
+    "api": "05-099-06005",
+    "api_abv": "09906005",
+    "doc_type": "NEUTRON LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2336167"
   }
 ]

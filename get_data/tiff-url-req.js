@@ -15,7 +15,7 @@ let apisAlreadyScraped = []
 let apisToScrape = []
 
 let fileCount = 0
-let runTimes = 10
+let runTimes = 1000
 
 // this only needs to run once
 // read in the APIs from local files and merge into one Array
@@ -46,13 +46,13 @@ function readApisToScrape() {
     apiPos = apisToScrape.indexOf(apisAlreadyScraped[i])
     console.log(i, apisAlreadyScraped.length)
     if (apiPos !== -1) {
-      console.log('already scraped this one', apisAlreadyScraped[i])
-      alreadyScrapedArray.push(apisAlreadyScraped[i])
-      apisToScape.splice(apiPos, 1)
+      apisToScrape.splice(apiPos, 1)
     }
   }
-  console.log('already exists', alreadyScrapedArray)
-  // readExistingData()
+  writeFileSync(`get_data/temp_files/apisToScrape.json`, JSON.stringify(apisToScrape))
+  console.log(`# of wells to scrape ${apisToScrape.length}`)
+  console.log(`# of wells already scraped ${apisAlreadyScraped.length}`)
+  readExistingData()
 }
 
 // read in the log_data that already exists locally
@@ -83,9 +83,6 @@ function readExistingData() {
   console.log('# of logs in last file', dataArray.length)
   console.log('file # to write to:', fileCount)
     // console.log('total # of well logs:', existingApiData.length)
-  console.log(`# of wells to scrape ${apisToScrape.length}`)
-  console.log(`# of wells already scraped ${apisAlreadyScraped.length}`)
-
   setRequests();
 }
 
@@ -159,7 +156,7 @@ function makeUrlReq(i) {
 
           if (dataArray.length > 5000 || (i === 0 && j === ($trArray.length - 1))) {
             writeFileSync(`db/seeds/log_data_${fileCount}.json`, JSON.stringify(dataArray))
-            writeFileSync(`get_data/temp_files/apisToScrape.json`, JSON.stringify(apisToScrape))
+            writeFileSync(`get_data/temp_files/apisAlreadyScraped.json`, JSON.stringify(apisAlreadyScraped))
             dataArray = []
             fileCount++
             console.log('next file', fileCount)
