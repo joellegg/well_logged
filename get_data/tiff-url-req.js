@@ -15,7 +15,7 @@ let apisAlreadyScraped = []
 let apisToScrape = []
 
 let fileCount = 0
-let runTimes = 5000
+let runTimes = 0
 
 // this only needs to run once
 // read in the APIs from local files and merge into one Array
@@ -79,6 +79,9 @@ function readExistingData() {
       fileCount++
     }
   }
+
+  runTimes = apisToScrape.length
+  console.log('going to run', runTimes)
   // console.log('# of apis:', apis.length);
   console.log('# of logs in last file', dataArray.length)
   console.log('file # to write to:', fileCount)
