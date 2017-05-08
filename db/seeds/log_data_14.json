@@ -1,0 +1,158 @@
+[
+  {
+    "api": "05-099-05118",
+    "api_abv": "09905118",
+    "doc_type": "SONIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2300136"
+  },
+  {
+    "api": "05-099-05118",
+    "api_abv": "09905118",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2339476"
+  },
+  {
+    "api": "05-099-05117",
+    "api_abv": "09905117",
+    "doc_type": "SONIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2232527"
+  },
+  {
+    "api": "05-099-05117",
+    "api_abv": "09905117",
+    "doc_type": "LATEROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2273912"
+  },
+  {
+    "api": "05-099-05117",
+    "api_abv": "09905117",
+    "doc_type": "RESISTIVITY",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2417114"
+  },
+  {
+    "api": "05-099-05116",
+    "api_abv": "09905116",
+    "doc_type": "LATEROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2268871"
+  },
+  {
+    "api": "05-099-05116",
+    "api_abv": "09905116",
+    "doc_type": "SONIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2413052"
+  },
+  {
+    "api": "05-099-05119",
+    "api_abv": "09905119",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2323562"
+  },
+  {
+    "api": "05-099-05120",
+    "api_abv": "09905120",
+    "doc_type": "SONIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2256827"
+  },
+  {
+    "api": "05-099-05120",
+    "api_abv": "09905120",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2288649"
+  },
+  {
+    "api": "05-099-06002",
+    "api_abv": "09906002",
+    "doc_type": "GAMMA RAY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2263338"
+  },
+  {
+    "api": "05-099-06002",
+    "api_abv": "09906002",
+    "doc_type": "ACOUSTILOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2264903"
+  },
+  {
+    "api": "05-099-06002",
+    "api_abv": "09906002",
+    "doc_type": "OTHER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2376869"
+  },
+  {
+    "api": "05-099-06002",
+    "api_abv": "09906002",
+    "doc_type": "GAMMA RAY LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2263338"
+  },
+  {
+    "api": "05-099-06002",
+    "api_abv": "09906002",
+    "doc_type": "ACOUSTILOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2264903"
+  },
+  {
+    "api": "05-099-06002",
+    "api_abv": "09906002",
+    "doc_type": "OTHER",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2376869"
+  },
+  {
+    "api": "05-099-05121",
+    "api_abv": "09905121",
+    "doc_type": "SONIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2231126"
+  },
+  {
+    "api": "05-099-05121",
+    "api_abv": "09905121",
+    "doc_type": "LATEROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2361904"
+  },
+  {
+    "api": "05-099-05121",
+    "api_abv": "09905121",
+    "doc_type": "SONIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2373558"
+  },
+  {
+    "api": "05-099-06001",
+    "api_abv": "09906001",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2296485"
+  },
+  {
+    "api": "05-099-06001",
+    "api_abv": "09906001",
+    "doc_type": "ACOUSTILOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2369134"
+  },
+  {
+    "api": "05-099-06001",
+    "api_abv": "09906001",
+    "doc_type": "ELECTRIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2374312"
+  },
+  {
+    "api": "05-099-06001",
+    "api_abv": "09906001",
+    "doc_type": "SONIC LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2379436"
+  },
+  {
+    "api": "05-099-06001",
+    "api_abv": "09906001",
+    "doc_type": "MICROLOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2386540"
+  },
+  {
+    "api": "05-099-06001",
+    "api_abv": "09906001",
+    "doc_type": "INDUCTION LOG",
+    "doc_link": "DownloadDocument1.aspx?DocumentId=2393247"
+  },
+  {
+    "api": "05-099-06003",
+    "api_abv": "09906003",
+    "doc_type": "n/a",
+    "doc_link": "n/a"
+  }
+]

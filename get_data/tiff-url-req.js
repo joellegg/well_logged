@@ -39,7 +39,20 @@ function readApisToScrape() {
   apisToScrape = JSON.parse(data1)
   let data2 = readFileSync(path.join(__dirname, `temp_files/apisAlreadyScraped.json`))
   apisAlreadyScraped = JSON.parse(data2)
-  readExistingData()
+
+  let apiPos = -1
+  let alreadyScrapedArray = []
+  for (let i = (apisAlreadyScraped.length - 1); i >= 0; i--) {
+    apiPos = apisToScrape.indexOf(apisAlreadyScraped[i])
+    console.log(i, apisAlreadyScraped.length)
+    if (apiPos !== -1) {
+      console.log('already scraped this one', apisAlreadyScraped[i])
+      alreadyScrapedArray.push(apisAlreadyScraped[i])
+      apisToScape.splice(apiPos, 1)
+    }
+  }
+  console.log('already exists', alreadyScrapedArray)
+  // readExistingData()
 }
 
 // read in the log_data that already exists locally
@@ -50,9 +63,10 @@ function readExistingData() {
         let data = readFileSync(path.join(__dirname, `../db/seeds/log_data_${fileCount}.json`))
         let dataLength = (JSON.parse(data).length)
         if (dataLength < 5000) {
-          console.log(`only ${dataLength} well logs in log_data_${fileCount}.json`)
-            // push to array (this array of data will be added to when you scrape for more data)
+          // console.log(`only ${dataLength} well logs in log_data_${fileCount}.json`)
+          // push to array (this array of data will be added to when you scrape for more data)
           dataArray = JSON.parse(data)
+          fileCount--
         }
         existingApiData.push.apply(existingApiData, JSON.parse(data))
       } catch (err) {
@@ -65,9 +79,12 @@ function readExistingData() {
       fileCount++
     }
   }
-
-  console.log('# of files:', fileCount)
-  console.log('total # of well logs:', existingApiData.length)
+  // console.log('# of apis:', apis.length);
+  console.log('# of logs in last file', dataArray.length)
+  console.log('file # to write to:', fileCount)
+    // console.log('total # of well logs:', existingApiData.length)
+  console.log(`# of wells to scrape ${apisToScrape.length}`)
+  console.log(`# of wells already scraped ${apisAlreadyScraped.length}`)
 
   setRequests();
 }
@@ -98,13 +115,15 @@ function makeUrlReq(i) {
     let rawData = '';
     // combine data chunks
     res.on('data', (chunk) => { rawData += chunk; });
-    // when the chunks stop coming in parse the html and pull out the data
+    // when the chunks stop coming in parse the html and pull extract the data
     res.on('end', () => {
       try {
         rawData.replace(/(?:\n|\t|\r)/g, "")
+        console.log('req for', apisToScrape[i])
 
         // $ parse html with cheerio
         var $ = cheerio.load(rawData)
+        apisAlreadyScraped.push(apisToScrape[i])
 
         // this gets an array of <span>...</span>
         let $trArray = $('tr')
@@ -120,10 +139,7 @@ function makeUrlReq(i) {
               doc_link: "n/a"
             }
             dataArray.push(dataObj)
-            console.log('# of files', dataArray.length, apisToScrape[i])
-
-            apisAlreadyScraped.push(apisToScrape[i])
-            apisToScrape.splice(i, 1)
+            console.log(i, 'no logs', apisToScrape[i])
           }
 
           // if well log exists
@@ -137,28 +153,16 @@ function makeUrlReq(i) {
               doc_type: log_description,
               doc_link: log_href
             }
-
-            // see if the doc_link is already in the database
-            // extra check - remove for speed
-            let linkPos = existingApiData.map(function(res) {
-              return res.doc_link
-            }).indexOf(log_href)
-
-            if (linkPos === -1) {
-              dataArray.push(dataObj)
-            }
-
-            apisAlreadyScraped.push(apisToScrape[i])
-            apisToScrape.splice(i, 1)
+            dataArray.push(dataObj)
+            console.log(i, '# of well logs', dataArray.length, apisToScrape[i])
           }
 
           if (dataArray.length > 5000 || (i === 0 && j === ($trArray.length - 1))) {
-            writeFileSync(`db/seeds/log_data_${fileNumber}.json`, JSON.stringify(dataArray))
+            writeFileSync(`db/seeds/log_data_${fileCount}.json`, JSON.stringify(dataArray))
             writeFileSync(`get_data/temp_files/apisToScrape.json`, JSON.stringify(apisToScrape))
-            writeFileSync(`get_data/temp_files/apisAlreadyScraped.json`, JSON.stringify(apisAlreadyScraped))
             dataArray = []
-            fileNumber++
-            console.log('next file', fileNumber)
+            fileCount++
+            console.log('next file', fileCount)
           }
         })
       } catch (e) {
