@@ -15,9 +15,6 @@ let apisAlreadyScraped = []
 let apisToScrape = []
 
 let fileCount = 0
-let scrapeFileNum = 0
-let scrapedFileNum = 0
-
 let runTimes = 10
 
 // this only needs to run once
@@ -117,13 +114,13 @@ function makeUrlReq(i) {
           // if no logs exist
           if ($trArray.length < 3 && $wellLogs.text().toLowerCase() !== 'well logs' && j === 1) {
             let dataObj = {
-              api: apisToScrape[i].api,
-              api_abv: apisToScrape[i].api.replace(/(^.{2})*(-)/g, ''),
+              api: apisToScrape[i],
+              api_abv: apisToScrape[i].replace(/(^.{2})*(-)/g, ''),
               doc_type: "n/a",
               doc_link: "n/a"
             }
             dataArray.push(dataObj)
-            console.log('# of files', dataArray.length, apisToScrape[i].api)
+            console.log('# of files', dataArray.length, apisToScrape[i])
 
             apisAlreadyScraped.push(apisToScrape[i])
             apisToScrape.splice(i, 1)
@@ -135,7 +132,7 @@ function makeUrlReq(i) {
             let log_href = $wellLogs.parent().parent().next().next().next().next().next().children().children().attr('href')
 
             let dataObj = {
-              api: apisToScrape[i].api,
+              api: apisToScrape[i],
               api_abv: apisToScrape[i].replace(/(^.{2})*(-)/g, ''),
               doc_type: log_description,
               doc_link: log_href
