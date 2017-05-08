@@ -18,7 +18,7 @@ let fileCount = 0
 let scrapeFileNum = 0
 let scrapedFileNum = 0
 
-let runTimes = 10000
+let runTimes = 10
 
 // this only needs to run once
 // read in the APIs from local files and merge into one Array
@@ -33,18 +33,17 @@ function readApiFiles() {
       }
     }
   }
-  readExistingData()
+  readApisToScrape()
 }
 readApiFiles()
 
-// function readApisToScrape() {
-//   apisToScrape = readFileSync(path.join(__dirname, `temp_files/apis-scrape.json`))
-//   apisAlreadyScraped = readFileSync(path.join(__dirname, `temp_files/apis-completed.json`))
-//   console.log(`${apis.length} total wells`)
-//   console.log(`${apisToScrape.length} files with wells to scrape`)
-//   console.log(`${apisAlreadyScraped.length} files with wells already scraped`)
-//   // readExistingData()
-// }
+function readApisToScrape() {
+  let data1 = readFileSync(path.join(__dirname, `temp_files/apisToScrape.json`))
+  apisToScrape = JSON.parse(data1)
+  let data2 = readFileSync(path.join(__dirname, `temp_files/apisAlreadyScraped.json`))
+  apisAlreadyScraped = JSON.parse(data2)
+  readExistingData()
+}
 
 // read in the log_data that already exists locally
 function readExistingData() {
@@ -70,34 +69,16 @@ function readExistingData() {
     }
   }
 
-  for (let i = 0; i < apis.length; i++) {
-    let linkPos = existingApiData.map(function(res) {
-      return res.api
-    }).indexOf(apis[i].api)
-
-    // well not scraped
-    if (linkPos === -1) {
-      apisToScrape.push(apis[i].api)
-      console.log(i, 'to scrape')
-    } else {
-      apisAlreadyScraped.push(apis[i].api)
-      console.log(i, 'already scraped')
-    }
-  }
-
   console.log('# of files:', fileCount)
-  console.log(`# of wells to scrape: ${apisToScrape.length}`)
-  console.log(`# of wells already scraped: ${apisAlreadyScraped.length}`)
   console.log('total # of well logs:', existingApiData.length)
-  writeFileSync(`get_data/temp_files/apisToScrape.json`, JSON.stringify(apisToScrape))
-  writeFileSync(`get_data/temp_files/apisAlreadyScraped.json`, JSON.stringify(apisAlreadyScraped))
-    // setRequests();
+
+  setRequests();
 }
 
 // to change # of wells to scrape for change runTimes value @ TOF
 function setRequests() {
   console.log('let the requests begin')
-  for (let i = 0; i < runTimes; i++) {
+  for (let i = runTimes; i >= 0; i--) {
     makeUrlReq(i)
   }
 }
@@ -137,12 +118,15 @@ function makeUrlReq(i) {
           if ($trArray.length < 3 && $wellLogs.text().toLowerCase() !== 'well logs' && j === 1) {
             let dataObj = {
               api: apisToScrape[i].api,
-              api_abv: apisToScrape[i].api_abv.replace(/(^.{2})*(-)/g, ''),
+              api_abv: apisToScrape[i].api.replace(/(^.{2})*(-)/g, ''),
               doc_type: "n/a",
               doc_link: "n/a"
             }
             dataArray.push(dataObj)
-            console.log('# of files', dataArray.length, apis[i].api_abv)
+            console.log('# of files', dataArray.length, apisToScrape[i].api)
+
+            apisAlreadyScraped.push(apisToScrape[i])
+            apisToScrape.splice(i, 1)
           }
 
           // if well log exists
@@ -166,11 +150,15 @@ function makeUrlReq(i) {
             if (linkPos === -1) {
               dataArray.push(dataObj)
             }
+
+            apisAlreadyScraped.push(apisToScrape[i])
+            apisToScrape.splice(i, 1)
           }
 
-          if (dataArray.length > 5000 || (i === (runTimes - 1) && j === ($trArray.length - 1))) {
-            console.log('new # of files', dataArray.length)
+          if (dataArray.length > 5000 || (i === 0 && j === ($trArray.length - 1))) {
             writeFileSync(`db/seeds/log_data_${fileNumber}.json`, JSON.stringify(dataArray))
+            writeFileSync(`get_data/temp_files/apisToScrape.json`, JSON.stringify(apisToScrape))
+            writeFileSync(`get_data/temp_files/apisAlreadyScraped.json`, JSON.stringify(apisAlreadyScraped))
             dataArray = []
             fileNumber++
             console.log('next file', fileNumber)
