@@ -14,6 +14,7 @@ let dataArray = []
 let apisAlreadyScraped = []
 let apisToScrape = []
 
+let logFileCount = 55
 let fileCount = 0
 let runTimes = 0
 
@@ -40,11 +41,12 @@ function readApisToScrape() {
   let data2 = readFileSync(path.join(__dirname, `temp_files/apisAlreadyScraped.json`))
   apisAlreadyScraped = JSON.parse(data2)
 
+  // remove apis that have already been scraped from the apisToScrape file
   let apiPos = -1
   let alreadyScrapedArray = []
   for (let i = (apisAlreadyScraped.length - 1); i >= 0; i--) {
     apiPos = apisToScrape.indexOf(apisAlreadyScraped[i])
-    console.log(i, apisAlreadyScraped.length)
+    console.log(i)
     if (apiPos !== -1) {
       apisToScrape.splice(apiPos, 1)
     }
@@ -57,36 +59,34 @@ function readApisToScrape() {
 
 // read in the log_data that already exists locally
 function readExistingData() {
-  for (let i = 0; i < apis.length; i++) {
-    if (i % 5000 === 0) {
-      try {
-        let data = readFileSync(path.join(__dirname, `../db/seeds/log_data_${fileCount}.json`))
-        let dataLength = (JSON.parse(data).length)
-        if (dataLength < 5000) {
-          // console.log(`only ${dataLength} well logs in log_data_${fileCount}.json`)
-          // push to array (this array of data will be added to when you scrape for more data)
-          dataArray = JSON.parse(data)
-          fileCount--
-        }
-        existingApiData.push.apply(existingApiData, JSON.parse(data))
-      } catch (err) {
-        if (err.code === 'ENOENT') {
-          fileCount--
-        } else {
-          throw err;
-        }
+  for (let i = 0; i < logFileCount; i++) {
+    console.log('file count', fileCount)
+    try {
+      let data = readFileSync(path.join(__dirname, `../db/seeds/log_data_${fileCount}.json`))
+      existingApiData.push.apply(existingApiData, JSON.parse(data))
+      let dataLength = (JSON.parse(data).length)
+      if (dataLength < 5000) {
+        // console.log(`only ${dataLength} well logs in log_data_${fileCount}.json`)
+        // push to array (this array of data will be added to when you scrape for more data)
+        dataArray = JSON.parse(data)
+        fileCount--
       }
-      fileCount++
+    } catch (err) {
+      if (err.code === 'ENOENT') {
+        fileCount--
+      } else {
+        throw err;
+      }
     }
+    fileCount++
   }
 
   runTimes = (apisToScrape.length - 1)
-  console.log('going to run', runTimes)
-  // console.log('# of apis:', apis.length);
-  console.log('# of logs in last file', dataArray.length)
+  console.log('# of wells:', apis.length);
+  console.log('# of logs in last file:', dataArray.length)
   console.log('file # to write to:', fileCount)
-    // console.log('total # of well logs:', existingApiData.length)
-  setRequests();
+  console.log('total # of well logs:', existingApiData.length)
+    // setRequests();
 }
 
 // to change # of wells to scrape for change runTimes value @ TOF
