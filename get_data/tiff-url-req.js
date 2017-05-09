@@ -80,7 +80,7 @@ function readExistingData() {
     }
   }
 
-  runTimes = apisToScrape.length
+  runTimes = (apisToScrape.length - 1)
   console.log('going to run', runTimes)
   // console.log('# of apis:', apis.length);
   console.log('# of logs in last file', dataArray.length)
