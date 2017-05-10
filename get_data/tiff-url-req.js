@@ -14,7 +14,8 @@ let dataArray = []
 let apisAlreadyScraped = []
 let apisToScrape = []
 
-let logFileCount = 55
+// enter the # + 1 on the last log_data_#.json
+let logFileCount = 71
 let fileCount = 0
 let runTimes = 0
 
@@ -34,6 +35,7 @@ function readApiFiles() {
   readApisToScrape()
 }
 readApiFiles()
+// Change the number of logFileCount before running
 
 function readApisToScrape() {
   let data1 = readFileSync(path.join(__dirname, `temp_files/apisToScrape.json`))
@@ -54,13 +56,12 @@ function readApisToScrape() {
   writeFileSync(`get_data/temp_files/apisToScrape.json`, JSON.stringify(apisToScrape))
   console.log(`# of wells to scrape ${apisToScrape.length}`)
   console.log(`# of wells already scraped ${apisAlreadyScraped.length}`)
-  readExistingData()
+  // readExistingData()
 }
 
 // read in the log_data that already exists locally
 function readExistingData() {
   for (let i = 0; i < logFileCount; i++) {
-    console.log('file count', fileCount)
     try {
       let data = readFileSync(path.join(__dirname, `../db/seeds/log_data_${fileCount}.json`))
       existingApiData.push.apply(existingApiData, JSON.parse(data))
@@ -82,11 +83,11 @@ function readExistingData() {
   }
 
   runTimes = (apisToScrape.length - 1)
-  console.log('# of wells:', apis.length);
+  console.log('total # of wells:', apis.length);
   console.log('# of logs in last file:', dataArray.length)
   console.log('file # to write to:', fileCount)
   console.log('total # of well logs:', existingApiData.length)
-    // setRequests();
+  setRequests();
 }
 
 // to change # of wells to scrape for change runTimes value @ TOF
