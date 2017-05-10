@@ -63,7 +63,7 @@ function readApisToScrape() {
 function readExistingData() {
   for (let i = 0; i < logFileCount; i++) {
     try {
-      let data = readFileSync(path.join(__dirname, `../db/seeds/log_data_${fileCount}.json`))
+      let data = readFileSync(path.join(__dirname, `../db/seeds/log_data_${i}.json`))
       existingApiData.push.apply(existingApiData, JSON.parse(data))
       let dataLength = (JSON.parse(data).length)
       if (dataLength < 5000) {
