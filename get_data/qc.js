@@ -26,6 +26,7 @@ function readApiFiles() {
     }
   }
 
+  console.log('total no. of files:', logFileCount)
   console.log('total no. of wells', apis.length)
   readExistingData()
 }
