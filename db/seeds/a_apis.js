@@ -7,7 +7,7 @@ const path = require('path')
 const dir = (path.join(__dirname, '../log-data'))
 readdir(dir, (err, files) => {
   let logFileCount = files.length
-  console.log('# o files', logFileCount)
+  console.log('# o\' files', logFileCount)
 })
 
 const apiData = require('../log-data/log_data_0')

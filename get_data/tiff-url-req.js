@@ -14,31 +14,46 @@ let dataArray = []
 let apisAlreadyScraped = []
 let apisToScrape = []
 
-let logFileCount = 0
 let fileCount = 0
 let runTimes = 0
+let logFileCount = 0;
 
+
+function getFileCount() {
+  return new Promise(function(res, rej) {
+    const dir = (path.join(__dirname, '../db/log-data'))
+    readdir(dir, (err, files) => {
+      console.log('file count', files.length)
+      logFileCount = files.length
+      res(logFileCount)
+    })
+  })
+}
 
 // read in the APIs from local files and merge into one Array
 function readApiFiles() {
-  const dir = (path.join(__dirname, '../db/log-data'))
-  readdir(dir, (err, files) => {
-    logFileCount = files.length
-  });
-
-  for (let j = 0; j < 14; j++) {
-    try {
-      let data = readFileSync(path.join(__dirname, `temp_files/apis_${j}.json`))
-      apis.push.apply(apis, JSON.parse(data))
-    } catch (err) {
-      if (err.code !== 'ENOENT') {
-        throw err
+  return new Promise(function(res, rej) {
+    for (let j = 0; j < 14; j++) {
+      try {
+        let data = readFileSync(path.join(__dirname, `temp_files/apis_${j}.json`))
+        apis.push.apply(apis, JSON.parse(data))
+      } catch (err) {
+        if (err.code !== 'ENOENT') {
+          throw err
+        }
       }
     }
-  }
-  readApisToScrape()
+    res(apis)
+  })
 }
-readApiFiles()
+
+getFileCount()
+  .then(() => {
+    readApiFiles()
+  })
+  .then(() => {
+    readApisToScrape()
+  })
 
 function readApisToScrape() {
   let data1 = readFileSync(path.join(__dirname, `temp_files/apisToScrape.json`))
@@ -51,7 +66,7 @@ function readApisToScrape() {
   let alreadyScrapedArray = []
   for (let i = (apisAlreadyScraped.length - 1); i >= 0; i--) {
     apiPos = apisToScrape.indexOf(apisAlreadyScraped[i])
-    console.log(i)
+    // console.log(i)
     if (apiPos !== -1) {
       apisToScrape.splice(apiPos, 1)
     }
@@ -59,7 +74,8 @@ function readApisToScrape() {
   writeFileSync(`get_data/temp_files/apisToScrape.json`, JSON.stringify(apisToScrape))
   console.log(`# of wells to scrape ${apisToScrape.length}`)
   console.log(`# of wells already scraped ${apisAlreadyScraped.length}`)
-    // readExistingData()
+  console.log(`file count: ${logFileCount}`)
+  // readExistingData()
 }
 
 // read in the log_data that already exists locally
@@ -90,7 +106,7 @@ function readExistingData() {
   console.log('# of logs in last file:', dataArray.length)
   console.log('file # to write to:', fileCount)
   console.log('total # of well logs:', existingApiData.length)
-  setRequests();
+  // setRequests();
 }
 
 // to change # of wells to scrape for change runTimes value @ TOF
