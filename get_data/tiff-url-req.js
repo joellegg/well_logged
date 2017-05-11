@@ -4,7 +4,7 @@
 var http = require("http")
 http.globalAgent.maxSockets = 10;
 var path = require('path')
-const { readFileSync, writeFileSync, appendFile, unlinkSync } = require('fs')
+const { readFileSync, writeFileSync, readdir } = require('fs')
 const cheerio = require('cheerio');
 
 let apis = []
@@ -14,14 +14,18 @@ let dataArray = []
 let apisAlreadyScraped = []
 let apisToScrape = []
 
-// enter the # + 1 on the last log_data_#.json
-let logFileCount = 71
+let logFileCount = 0
 let fileCount = 0
 let runTimes = 0
 
-// this only needs to run once
+
 // read in the APIs from local files and merge into one Array
 function readApiFiles() {
+  const dir = (path.join(__dirname, '../db/log-data'))
+  readdir(dir, (err, files) => {
+    logFileCount = files.length
+  });
+
   for (let j = 0; j < 14; j++) {
     try {
       let data = readFileSync(path.join(__dirname, `temp_files/apis_${j}.json`))
@@ -35,7 +39,6 @@ function readApiFiles() {
   readApisToScrape()
 }
 readApiFiles()
-// Change the number of logFileCount before running
 
 function readApisToScrape() {
   let data1 = readFileSync(path.join(__dirname, `temp_files/apisToScrape.json`))
@@ -56,14 +59,14 @@ function readApisToScrape() {
   writeFileSync(`get_data/temp_files/apisToScrape.json`, JSON.stringify(apisToScrape))
   console.log(`# of wells to scrape ${apisToScrape.length}`)
   console.log(`# of wells already scraped ${apisAlreadyScraped.length}`)
-  // readExistingData()
+    // readExistingData()
 }
 
 // read in the log_data that already exists locally
 function readExistingData() {
   for (let i = 0; i < logFileCount; i++) {
     try {
-      let data = readFileSync(path.join(__dirname, `../db/seeds/log_data_${i}.json`))
+      let data = readFileSync(path.join(__dirname, `../db/log-data/log_data_${i}.json`))
       existingApiData.push.apply(existingApiData, JSON.parse(data))
       let dataLength = (JSON.parse(data).length)
       if (dataLength < 5000) {
@@ -159,7 +162,7 @@ function makeUrlReq(i) {
           }
 
           if (dataArray.length > 5000 || (i === 0 && j === ($trArray.length - 1))) {
-            writeFileSync(`db/seeds/log_data_${fileCount}.json`, JSON.stringify(dataArray))
+            writeFileSync(`db/log-data/log_data_${fileCount}.json`, JSON.stringify(dataArray))
             writeFileSync(`get_data/temp_files/apisAlreadyScraped.json`, JSON.stringify(apisAlreadyScraped))
             dataArray = []
             fileCount++

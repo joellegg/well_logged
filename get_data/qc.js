@@ -5,11 +5,16 @@ var http = require("http")
 const { readFileSync, writeFileSync, appendFile } = require('fs')
 var path = require('path')
 
-let logFileCount = 55
+let logFileCount = 0
 let apis = []
 let existingApiData = []
 
 function readApiFiles() {
+  const dir = (path.join(__dirname, '../db/log-data'))
+  readdir(dir, (err, files) => {
+    logFileCount = files.length
+  })
+
   for (let j = 0; j < 13; j++) {
     try {
       let data = readFileSync(path.join(__dirname, `temp_files/apis_${j}.json`))
@@ -20,11 +25,8 @@ function readApiFiles() {
       }
     }
   }
-  // let data1 = readFileSync(path.join(__dirname, `temp_files/apisToScrape.json`))
-  // let apisToScrape = JSON.parse(data1)
 
   console.log('total no. of wells', apis.length)
-  // console.log('apis to scrape', apisToScrape.length)
   readExistingData()
 }
 readApiFiles()
@@ -33,7 +35,7 @@ readApiFiles()
 function readExistingData() {
   for (let i = 0; i < logFileCount; i++) {
     try {
-      let data = readFileSync(path.join(__dirname, `../db/seeds/log_data_${i}.json`))
+      let data = readFileSync(path.join(__dirname, `../db/log-data/log_data_${i}.json`))
       existingApiData.push.apply(existingApiData, JSON.parse(data))
     } catch (err) {
       if (err.code !== 'ENOENT') {
