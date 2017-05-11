@@ -10,6 +10,5 @@ exports.up = function(knex, Promise) {
 };
 
 exports.down = function(knex, Promise) {
-  knex.schema
-  .dropTable('api_docs')
+  return knex.schema.dropTable('api_docs')
 };
