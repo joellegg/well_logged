@@ -8,8 +8,9 @@ module.exports.getAllApi = (req, res, next) => {
     .catch(err => next(err))
 }
 
-module.exports.getSingleApi = ({ params: { id } }, res, next) => {
-  Api.getSingleApi({ id })
-    .then(api => res.status(200).json(api))
+module.exports.getSingleApi = ({ params: { api } }, res, next) => {
+  console.log('api is...', api)
+  Api.getSingleApi(api)
+    .then(apiRes => res.status(200).json(apiRes))
     .catch(err => next(err))
 }

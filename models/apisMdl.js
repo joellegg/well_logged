@@ -14,7 +14,7 @@ const Api = bookshelf.Model.extend({
   },
   getSingleApi: function(api) {
     console.log("Get single api called from Api model")
-    return this.forge({ api })
+    return this.where({ api })
       .fetchAll()
       .then(rows => rows)
       .catch(err => err)
