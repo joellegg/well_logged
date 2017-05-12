@@ -1,13 +1,13 @@
 var express = require('express');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
-// var cors = require('cors');
+var cors = require('cors');
 
 var routes = require('./routes/');
 
 var app = express();
 
-// app.use(cors()) // enables cross-origin sharing
+app.use(cors()) // enables cross-origin sharing
 
 // This 'if' statement prevents application log messages from displaying in the stdout when the tests are run
 if (process.env.NODE_ENV !== 'test') {
@@ -44,7 +44,7 @@ app.use((err, req, res, next) => {
   })
 })
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log(`Listening on port ${port} in this env: ${process.env.NODE_ENV}`);
 });
