@@ -2,16 +2,6 @@
 
 module.exports = {
 
-  test: {
-    client: 'pg',
-    connection: 'api-test',
-    migrations: {
-      directory: __dirname + '/db/migrations'
-    },
-    seeds: {
-      directory: __dirname + '/db/seeds/test'
-    }
-  },
   development: {
     client: 'pg',
     debug: false,
@@ -22,7 +12,7 @@ module.exports = {
       directory: __dirname + '/db/migrations'
     },
     seeds: {
-      directory: __dirname + '/db/seeds/'
+      directory: __dirname + '/db/seeds'
     }
   },
   production: {

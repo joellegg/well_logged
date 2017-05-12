@@ -75,7 +75,7 @@ function readApisToScrape() {
   console.log(`# of wells to scrape ${apisToScrape.length}`)
   console.log(`# of wells already scraped ${apisAlreadyScraped.length}`)
   console.log(`file count: ${logFileCount}`)
-  // readExistingData()
+  readExistingData()
 }
 
 // read in the log_data that already exists locally

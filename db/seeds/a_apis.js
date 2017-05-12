@@ -6,21 +6,23 @@ const path = require('path')
 
 function getFiles() {
   return new Promise(function(resolve, reject) {
-    console.log('getting file count')
+    console.log('getting files...')
     const dir = (path.join(__dirname, '../log-data'))
     readdir(dir, (err, files) => {
       let logFileCount = files.length
-      console.log('# o files', logFileCount)
+      console.log('you have', logFileCount, 'files...')
       resolve(logFileCount)
     })
   })
 }
 
+
 // read in API data
 function readApis(logFileCount) {
   return new Promise(function(resolve, reject) {
+    console.log('creating data array...')
     let apiData = []
-    for (let i = 0; i < logFileCount; i++) {
+    for (let i = 60; i < logFileCount; i++) {
       try {
         let data = readFileSync(path.join(__dirname, `../log-data/log_data_${i}.json`))
         apiData.push.apply(apiData, JSON.parse(data))
@@ -33,9 +35,9 @@ function readApis(logFileCount) {
 }
 
 
-exports.seed = function(knex, Promise) {
+// exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
-  return knex('api_docs').del()
+  return knex('api_docs')
     .then(() => {
       return getFiles()
     })
