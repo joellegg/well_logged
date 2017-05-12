@@ -2,14 +2,14 @@
 
 const Api = require('../models/apisMdl')
 
-module.exports.getAllApi = ({ params: { api } }, res, next) => {
-  Api.getAllApi({ api })
-    .then(res => res.status(200).json(res))
+module.exports.getAllApi = (req, res, next) => {
+  Api.getAllApi()
+    .then(apis => res.status(200).json(apis))
     .catch(err => next(err))
 }
 
-module.exports.getSingleApi = (req, res, next) => {
-  Animal.getAllAnimals()
-    .then(animals => res.status(200).json(animals))
+module.exports.getSingleApi = ({ params: { id } }, res, next) => {
+  Api.getSingleApi({ id })
+    .then(api => res.status(200).json(api))
     .catch(err => next(err))
 }

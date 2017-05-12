@@ -6,7 +6,7 @@ module.exports = {
     client: 'pg',
     debug: false,
     connection: {
-      database: 'api_data'
+      database: 'postgres://localhost/api_data'
     },
     migrations: {
       directory: __dirname + '/db/migrations'
