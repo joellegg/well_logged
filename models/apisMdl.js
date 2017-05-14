@@ -7,18 +7,29 @@ const Api = bookshelf.Model.extend({
 }, {
   getAllApi: function() {
     console.log("Get all called from Api model")
-    return this.forge()
+    return this
+      .forge()
       .fetchAll()
       .then(rows => rows)
       .catch(error => error)
   },
   getSingleApi: function(api) {
     console.log("Get single api called from Api model")
-    return this.where({ api })
+    return this
+      .where({ api })
       .fetchAll()
       .then(rows => rows)
       .catch(err => err)
-  }
+  },
+  getDistinctApis: function(api) {
+    console.log("Get distinct api called from Api model")
+    return this
+      .where('api', 'like', `${api}%`)
+      .orderBy('api', 'desc')
+      .fetchAll()
+      .then(rows => rows)
+      .catch(err => err)
+  },
 })
 
 module.exports = Api
