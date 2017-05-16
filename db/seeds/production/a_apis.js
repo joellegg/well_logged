@@ -34,9 +34,6 @@ function readApis(start, stop) {
   })
 }
 
-    // .then(() => {
-    //   return getFiles()
-    // })
 
 // comment out to prevent accidents
 exports.seed = function(knex, Promise) {
@@ -54,6 +51,129 @@ exports.seed = function(knex, Promise) {
     })
     .then(() => {
       return readApis(5, 10)
+    })
+    .then((response) => {
+      let apiPromises = response.map(({ api, api_abv, doc_type, doc_link }) => {
+        return knex('api_docs').insert({ api, api_abv, doc_type, doc_link })
+      })
+      // console.log('apiPromises', apiPromises)
+      return Promise.all(apiPromises)
+    })
+    .then(() => {
+      return readApis(10, 15)
+    })
+    .then((response) => {
+      let apiPromises = response.map(({ api, api_abv, doc_type, doc_link }) => {
+        return knex('api_docs').insert({ api, api_abv, doc_type, doc_link })
+      })
+      // console.log('apiPromises', apiPromises)
+      return Promise.all(apiPromises)
+    })
+    .then(() => {
+      return readApis(15, 20)
+    })
+    .then((response) => {
+      let apiPromises = response.map(({ api, api_abv, doc_type, doc_link }) => {
+        return knex('api_docs').insert({ api, api_abv, doc_type, doc_link })
+      })
+      // console.log('apiPromises', apiPromises)
+      return Promise.all(apiPromises)
+    })
+    .then(() => {
+      return readApis(20, 25)
+    })
+    .then((response) => {
+      let apiPromises = response.map(({ api, api_abv, doc_type, doc_link }) => {
+        return knex('api_docs').insert({ api, api_abv, doc_type, doc_link })
+      })
+      // console.log('apiPromises', apiPromises)
+      return Promise.all(apiPromises)
+    })
+    .then(() => {
+      return readApis(25, 30)
+    })
+    .then((response) => {
+      let apiPromises = response.map(({ api, api_abv, doc_type, doc_link }) => {
+        return knex('api_docs').insert({ api, api_abv, doc_type, doc_link })
+      })
+      // console.log('apiPromises', apiPromises)
+      return Promise.all(apiPromises)
+    })
+    .then(() => {
+      return readApis(30, 35)
+    })
+    .then((response) => {
+      let apiPromises = response.map(({ api, api_abv, doc_type, doc_link }) => {
+        return knex('api_docs').insert({ api, api_abv, doc_type, doc_link })
+      })
+      // console.log('apiPromises', apiPromises)
+      return Promise.all(apiPromises)
+    })
+    .then(() => {
+      return readApis(35, 40)
+    })
+    .then((response) => {
+      let apiPromises = response.map(({ api, api_abv, doc_type, doc_link }) => {
+        return knex('api_docs').insert({ api, api_abv, doc_type, doc_link })
+      })
+      // console.log('apiPromises', apiPromises)
+      return Promise.all(apiPromises)
+    })
+    .then(() => {
+      return readApis(40, 45)
+    })
+    .then((response) => {
+      let apiPromises = response.map(({ api, api_abv, doc_type, doc_link }) => {
+        return knex('api_docs').insert({ api, api_abv, doc_type, doc_link })
+      })
+      // console.log('apiPromises', apiPromises)
+      return Promise.all(apiPromises)
+    })
+    .then(() => {
+      return readApis(45, 50)
+    })
+    .then((response) => {
+      let apiPromises = response.map(({ api, api_abv, doc_type, doc_link }) => {
+        return knex('api_docs').insert({ api, api_abv, doc_type, doc_link })
+      })
+      // console.log('apiPromises', apiPromises)
+      return Promise.all(apiPromises)
+    })
+    .then(() => {
+      return readApis(50, 55)
+    })
+    .then((response) => {
+      let apiPromises = response.map(({ api, api_abv, doc_type, doc_link }) => {
+        return knex('api_docs').insert({ api, api_abv, doc_type, doc_link })
+      })
+      // console.log('apiPromises', apiPromises)
+      return Promise.all(apiPromises)
+    })
+    .then(() => {
+      return readApis(55, 60)
+    })
+    .then((response) => {
+      let apiPromises = response.map(({ api, api_abv, doc_type, doc_link }) => {
+        return knex('api_docs').insert({ api, api_abv, doc_type, doc_link })
+      })
+      // console.log('apiPromises', apiPromises)
+      return Promise.all(apiPromises)
+    })
+    .then(() => {
+      return readApis(60, 65)
+    })
+    .then((response) => {
+      let apiPromises = response.map(({ api, api_abv, doc_type, doc_link }) => {
+        return knex('api_docs').insert({ api, api_abv, doc_type, doc_link })
+      })
+      // console.log('apiPromises', apiPromises)
+      return Promise.all(apiPromises)
+    })
+    .then(() => {
+      return getFiles()
+    })
+    .then((logFileCount) => {
+      return readApis(65, logFileCount)
     })
     .then((response) => {
       let apiPromises = response.map(({ api, api_abv, doc_type, doc_link }) => {
