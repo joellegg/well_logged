@@ -15,6 +15,7 @@ module.exports.getSingleApi = ({ params: { api } }, res, next) => {
     .catch(err => next(err))
 }
 
+// select distinct on (api) * from api_docs where api like '05-123-234%' limit 10;
 module.exports.getDistinctApis = ({ params: { distinct } }, res, next) => {
   console.log('api starts with', distinct)
   Api.getDistinctApis(distinct)
