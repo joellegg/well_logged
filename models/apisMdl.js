@@ -1,7 +1,7 @@
 'use strict'
 
 const { bookshelf } = require('../db/database')
-bookshelf.plugin(‘pagination’)
+bookshelf.plugin('pagination')
 
 const Api = bookshelf.Model.extend({
   tableName: 'api_docs'
@@ -27,8 +27,8 @@ const Api = bookshelf.Model.extend({
     return this
       .where('api', 'like', `${api}%`)
       .orderBy('api', 'desc')
-      .fetchPage({pageSize: 50});
-      .fetchAll()
+      .fetchPage({pageSize: 50})
+      // .fetchAll()
       .then(rows => rows)
       .catch(err => err)
   },
