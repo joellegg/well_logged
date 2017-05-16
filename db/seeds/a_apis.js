@@ -22,7 +22,7 @@ function readApis(logFileCount) {
   return new Promise(function(resolve, reject) {
     console.log('creating data array...')
     let apiData = []
-    for (let i = 10; i < 20; i++) {
+    for (let i = 0; i < 10; i++) {
       try {
         let data = readFileSync(path.join(__dirname, `../log-data/log_data_${i}.json`))
         apiData.push.apply(apiData, JSON.parse(data))
@@ -37,7 +37,7 @@ function readApis(logFileCount) {
 // comment out to prevent accidents
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
-  return knex('api_docs').del()
+  return knex('api_docs')
     .then(() => {
       return getFiles()
     })
