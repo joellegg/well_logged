@@ -8,8 +8,6 @@ Well Logged organizes well logs that are collected during the drilling for oil a
 
 
 # Tech used
-<img src="images/postgres.png" alt="postgres" width="200px">
-<img src="images/bookshelf-icon.png" alt="bookshelf" width="200px">
-<img src="images/knex.png" alt="knex" width="200px">
-<img src="images/express.png" alt="express" width="200px">
+<img src="images/postgres.png" alt="postgres" width="200px"><img src="images/bookshelf-icon.png" alt="bookshelf" width="200px">
+<img src="images/knex.png" alt="knex" width="200px"><img src="images/express.png" alt="express" width="200px">
 <img src="images/heroku.png" alt="heroku" width="200px">
