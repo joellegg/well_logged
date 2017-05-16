@@ -34,8 +34,8 @@ function readApis(logFileCount) {
   })
 }
 
-
-// exports.seed = function(knex, Promise) {
+// comment out to prevent accidents
+exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
   return knex('api_docs')
     .then(() => {
