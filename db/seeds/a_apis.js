@@ -22,7 +22,7 @@ function readApis(logFileCount) {
   return new Promise(function(resolve, reject) {
     console.log('creating data array...')
     let apiData = []
-    for (let i = 0; i < 10; i++) {
+    for (let i = 20; i < 30; i++) {
       try {
         let data = readFileSync(path.join(__dirname, `../log-data/log_data_${i}.json`))
         apiData.push.apply(apiData, JSON.parse(data))
