@@ -27,7 +27,16 @@ module.exports.getDistinctApis = ({ params: { distinct } }, res, next) => {
 // select doc_type, count(doc_type) from api_docs group by doc_type having count(doc_type) > 1500 order by count(doc_type) desc;
 module.exports.countLogs = (req, res, next) => {
   console.log('count the logs by type')
-  knex.raw('select doc_type, count(doc_type) from api_docs group by doc_type having count(doc_type) > 1500 order by count(doc_type) desc;')
+  knex.raw('select doc_type, count(doc_type) from api_docs group by doc_type having count(doc_type) > 5000 order by count(doc_type) desc;')
+    .then(rows => rows)
+    .then(countRes => res.status(200).json(countRes))
+    .catch(err => next(err))
+}
+
+// select substr(api, 1, 6) as startsWith, count(api) from api_docs group by substr(api, 1, 6) having count(api) > 5000 order by count(api) desc;
+module.exports.countCounties = (req, res, next) => {
+  console.log('count the logs by county')
+  knex.raw('select substr(api, 1, 6) as startsWith, count(api) from api_docs group by substr(api, 1, 6) having count(api) > 5000 order by count(api) desc;')
     .then(rows => rows)
     .then(countRes => res.status(200).json(countRes))
     .catch(err => next(err))
