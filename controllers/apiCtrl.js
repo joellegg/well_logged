@@ -1,6 +1,7 @@
 'use strict'
 
 const Api = require('../models/apisMdl')
+const { knex } = require('../db/database')
 
 module.exports.getAllApi = (req, res, next) => {
   Api.getAllApi()
@@ -20,5 +21,14 @@ module.exports.getDistinctApis = ({ params: { distinct } }, res, next) => {
   console.log('api starts with', distinct)
   Api.getDistinctApis(distinct)
     .then(apiRes => res.status(200).json(apiRes))
+    .catch(err => next(err))
+}
+
+// select doc_type, count(doc_type) from api_docs group by doc_type having count(doc_type) > 1500 order by count(doc_type) desc;
+module.exports.countLogs = (req, res, next) => {
+  console.log('count the logs by type')
+  knex.raw('select doc_type, count(doc_type) from api_docs group by doc_type having count(doc_type) > 1500 order by count(doc_type) desc;')
+    .then(rows => rows)
+    .then(countRes => res.status(200).json(countRes))
     .catch(err => next(err))
 }

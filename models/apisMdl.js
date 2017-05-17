@@ -31,7 +31,7 @@ const Api = bookshelf.Model.extend({
       // .fetchAll()
       .then(rows => rows)
       .catch(err => err)
-  },
+  }
 })
 
 module.exports = Api
