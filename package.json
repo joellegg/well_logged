@@ -19,7 +19,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon bin/well-logged",
+    "start": "node bin/well-logged",
     "db:reset": "knex migrate:rollback && knex migrate:latest && knex seed:run"
   },
   "repository": {
