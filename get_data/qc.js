@@ -1,52 +1,84 @@
+// qc to make sure all the wells are accounted for *** long run time
+// to run: 'node get_data/qc'
+
 'use strict'
-// to run: 'node req_forms/qc'
 
 var http = require("http")
-const { readFileSync, writeFileSync, appendFile } = require('fs')
+const { readFileSync, writeFileSync, appendFile, readdir } = require('fs')
 var path = require('path')
 
 let logFileCount = 0
 let apis = []
 let existingApiData = []
+let uniqueArray = []
 
-function readApiFiles() {
-  const dir = (path.join(__dirname, '../db/log-data'))
-  readdir(dir, (err, files) => {
-    logFileCount = files.length
+// PROMISE CHAIN
+getFileCount()
+  .then(() => {
+    readApiFiles()
+  })
+  .then(() => {
+    console.log('total no. of files:', logFileCount)
+    console.log('total no. of wells:', apis.length)
+    readExistingData()
+  })
+  .then(() => {
+    console.log('total no. of well logs:', existingApiData.length)
+    uniqueArray = removeDuplicates(existingApiData, "api")
+  })
+  .then(() => {
+    runQC()
   })
 
-  for (let j = 0; j < 13; j++) {
-    try {
-      let data = readFileSync(path.join(__dirname, `temp_files/apis_${j}.json`))
-      apis.push.apply(apis, JSON.parse(data))
-    } catch (err) {
-      if (err.code !== 'ENOENT') {
-        throw err
-      }
-    }
-  }
-
-  console.log('total no. of files:', logFileCount)
-  console.log('total no. of wells', apis.length)
-  readExistingData()
+// FUNCTIONS
+function getFileCount() {
+  return new Promise(function(res, rej) {
+    const dir = (path.join(__dirname, '../db/log-data'))
+    readdir(dir, (err, files) => {
+      logFileCount = files.length
+      res(logFileCount)
+    })
+  })
 }
-readApiFiles()
+
+function readApiFiles() {
+  return new Promise(function(res, rej) {
+    let data = readFileSync(path.join(__dirname, `raw_data/CO_apis.json`))
+    apis = JSON.parse(data)
+    res(apis)
+  })
+}
 
 // read in the log_data that already exists locally
 function readExistingData() {
-  for (let i = 0; i < logFileCount; i++) {
-    try {
-      let data = readFileSync(path.join(__dirname, `../db/log-data/log_data_${i}.json`))
-      existingApiData.push.apply(existingApiData, JSON.parse(data))
-    } catch (err) {
-      if (err.code !== 'ENOENT') {
-        throw err;
+  return new Promise(function(res, rej) {
+    for (let i = 0; i < logFileCount; i++) {
+      try {
+        let data = readFileSync(path.join(__dirname, `../db/log-data/log_data_${i}.json`))
+        existingApiData.push.apply(existingApiData, JSON.parse(data))
+      } catch (err) {
+        if (err.code !== 'ENOENT') {
+          throw err;
+        }
       }
     }
+    res(existingApiData)
+  })
+}
+
+function removeDuplicates(arr, prop) {
+  var new_arr = [];
+  var lookup = {};
+
+  for (var i in arr) {
+    lookup[arr[i][prop]] = arr[i];
   }
 
-  console.log('total # of well logs:', existingApiData.length)
-  runQC()
+  for (i in lookup) {
+    new_arr.push(lookup[i].api);
+  }
+
+  return new_arr
 }
 
 function runQC() {
@@ -57,17 +89,17 @@ function runQC() {
   let apisAlreadyScraped = []
 
   for (let i = 0; i < apis.length; i++) {
-    apiPos = existingApiData.map(function(res) {
-      return res.api
-    }).indexOf(apis[i].api)
+    apiPos = uniqueArray.indexOf(apis[i])
 
+    if (i % 100 === 0) {
+      console.log(i)
+    }
 
-    console.log(i)
     if (apiPos === -1) {
-      console.log('missing', apis[i].api)
-      apisToScrape.push(apis[i].api)
+      console.log('missing', apis[i])
+      apisToScrape.push(apis[i])
     } else {
-      apisAlreadyScraped.push(apis[i].api)
+      apisAlreadyScraped.push(apis[i])
     }
   }
 
