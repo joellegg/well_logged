@@ -4,7 +4,7 @@
 
 # About
 
-Well Logged is a web app that provides oil and gas data to geologists in a streamlined fashion. 351,091 well records were scraped from the CO state website and added to a PostgreSQL database using Node.js and Cheerio, while the api was set up with Express. The front-end was built with React, axios, and React Select. A future goal is to use machine learning to convert the tiff data to txt files.
+Well Logged is a web app that provides oil and gas data to geologists in a streamlined fashion. 353,000 well records were scraped from the CO state website and added to a PostgreSQL database using Node.js and Cheerio, while the api was set up with Express. The front-end was built with React, axios, and React Select. A future goal is to use machine learning to convert the tiff data to txt files.
 
 
 # Tech used

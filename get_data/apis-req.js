@@ -9,8 +9,8 @@ var path = require('path')
 // TODO if you want more counties, change the i and j iteration for the T&Rs of interest
 // and change req.write to remove or change the county
 // http://stackoverflow.com/questions/6158933/how-to-make-an-http-post-request-in-node-js
-for (let i = 0; i < countyArray.length; i++) {
-  console.log(countyArray[i])
+for (let i = 0; i < TR.length; i++) {
+  console.log(TR[i])
   // An object of options to indicate where to POST
   var options = {
     hostname: 'cogcc.state.co.us',
@@ -24,7 +24,7 @@ for (let i = 0; i < countyArray.length; i++) {
 
   let apiArray = [];
   // read in the apis from temp_files/apis.json
-  readFile(path.join(__dirname, 'temp_files/apis.json'), 'utf8', (err, data) => {
+  readFile(path.join(__dirname, 'raw_data/CO_apis.json'), 'utf8', (err, data) => {
     if (err) throw err
     apiArray = JSON.parse(data);
     reqFunction();
