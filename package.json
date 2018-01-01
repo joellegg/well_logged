@@ -4,7 +4,7 @@
   "description": "<a href=\"https://github.com/joellegg/well-logged-front\">Front end</a>",
   "main": "knexfile.js",
   "engines": {
-    "node": "7.4.0"
+    "node": "7.10.1"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
